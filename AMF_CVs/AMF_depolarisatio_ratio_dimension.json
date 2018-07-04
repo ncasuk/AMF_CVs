@@ -1,0 +1,12 @@
+{
+    "depolarisatio_ratio_dimension": {
+        "index_angle": {
+            "length": "<i>",
+            "units": "1"
+        },
+        "index_range": {
+            "length": "<r>",
+            "units": "1"
+        }
+    }
+}

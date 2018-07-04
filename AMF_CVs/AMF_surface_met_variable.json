@@ -1,0 +1,175 @@
+{
+    "surface_met_variable": {
+        "air_pressure": {
+            "name": "air_pressure",
+            "type": "float32",
+            "dimension": "time",
+            "units": "hPa",
+            "standard_name": "air_pressure",
+            "long_name": "Pressure",
+            "_FillValue": "-1.00E+20",
+            "valid_min": "<derived from file>",
+            "valid_max": "<derived from file>",
+            "cell_methods": "time: mean",
+            "coordinates": "latitude longitude"
+        },
+        "air_temperature": {
+            "name": "air_temperature",
+            "type": "float32",
+            "dimension": "time",
+            "units": "K",
+            "standard_name": "air_temperature",
+            "long_name": "Temperature",
+            "_FillValue": "-1.00E+20",
+            "valid_min": "<derived from file>",
+            "valid_max": "<derived from file>",
+            "cell_methods": "time: mean",
+            "coordinates": "latitude longitude"
+        },
+        "relative_humidity": {
+            "name": "relative_humidity",
+            "type": "float32",
+            "dimension": "time",
+            "units": "%",
+            "standard_name": "relative_humidity",
+            "long_name": "Relative Humidity",
+            "_FillValue": "-1.00E+20",
+            "valid_min": "<derived from file>",
+            "valid_max": "<derived from file>",
+            "cell_methods": "time: mean",
+            "coordinates": "latitude longitude"
+        },
+        "wind_speed": {
+            "name": "wind_speed",
+            "type": "float32",
+            "dimension": "time",
+            "units": "m s-1",
+            "standard_name": "wind_speed",
+            "long_name": "Wind Speed",
+            "_FillValue": "-1.00E+20",
+            "valid_min": "<derived from file>",
+            "valid_max": "<derived from file>",
+            "cell_methods": "time: mean",
+            "coordinates": "latitude longitude"
+        },
+        "wind_from_direction": {
+            "name": "wind_from_direction",
+            "type": "float32",
+            "dimension": "time",
+            "units": "degree",
+            "standard_name": "wind_from_direction",
+            "long_name": "Wind From Direction",
+            "_FillValue": "-1.00E+20",
+            "valid_min": "<derived from file>",
+            "valid_max": "<derived from file>",
+            "cell_methods": "time: mean",
+            "coordinates": "latitude longitude"
+        },
+        "thickness_of_rainfall_amount": {
+            "name": "thickness_of_rainfall_amount",
+            "type": "float32",
+            "dimension": "time",
+            "units": "mm",
+            "standard_name": "thickness_of_rainfall_amount",
+            "long_name": "Rain Accumulated in Averaging Period",
+            "_FillValue": "-1.00E+20",
+            "valid_min": "<derived from file>",
+            "valid_max": "<derived from file>",
+            "cell_methods": "time: sum",
+            "coordinates": "latitude longitude"
+        },
+        "rainfall_rate": {
+            "name": "rainfall_rate",
+            "type": "float32",
+            "dimension": "time",
+            "units": "mm hr-1",
+            "standard_name": "rainfall_rate",
+            "long_name": "Rainfall Rate",
+            "_FillValue": "-1.00E+20",
+            "valid_min": "<derived from file>",
+            "valid_max": "<derived from file>",
+            "cell_methods": "time: mean",
+            "coordinates": "latitude longitude"
+        },
+        "downwelling_longwave_flux_in_air": {
+            "name": "downwelling_longwave_flux_in_air",
+            "type": "float32",
+            "dimension": "time",
+            "units": "W m-2",
+            "standard_name": "downwelling_longwave_flux_in_air",
+            "long_name": "Downwelling Longwave Radiation",
+            "_FillValue": "-1.00E+20",
+            "valid_min": "<derived from file>",
+            "valid_max": "<derived from file>",
+            "cell_methods": "time: mean",
+            "coordinates": "latitude longitude"
+        },
+        "downwelling_shortwave_flux_in_air": {
+            "name": "downwelling_shortwave_flux_in_air",
+            "type": "float32",
+            "dimension": "time",
+            "units": "W m-2",
+            "standard_name": "downwelling_shortwave_flux_in_air",
+            "long_name": "Downwelling Shortwave Radiation",
+            "_FillValue": "-1.00E+20",
+            "valid_min": "<derived from file>",
+            "valid_max": "<derived from file>",
+            "cell_methods": "time: mean",
+            "coordinates": "latitude longitude"
+        },
+        "qc_flag_temperature": {
+            "name": "qc_flag_temperature",
+            "type": "byte",
+            "dimension": "time",
+            "units": "1",
+            "long_name": "Data Quality flag: Temperature",
+            "flag_values": "0b,1b, 2b, 3b",
+            "flag_meanings": "not_used good_data  bad_data_temperature_outside_sensor_operational_range suspect_data_time_stamp_error"
+        },
+        "qc_flag_relative_humidity": {
+            "name": "qc_flag_relative_humidity",
+            "type": "byte",
+            "dimension": "time",
+            "units": "1",
+            "long_name": "Data Quality flag:Relative Humidity",
+            "flag_values": "0b,1b, 2b, 3b",
+            "flag_meanings": "not_used good_data  bad_data_relative_humidity_outside_sensor_operational_range suspect_data_time_stamp_error"
+        },
+        "qc_flag_pressure": {
+            "name": "qc_flag_pressure",
+            "type": "byte",
+            "dimension": "time",
+            "units": "1",
+            "long_name": "Data Quality flag: Pressure",
+            "flag_values": "0b,1b, 2b, 3b",
+            "flag_meanings": "not_used good_data  bad_data_pressure_outside_sensor_operational_range suspect_data_time_stamp_error"
+        },
+        "qc_flag_wind": {
+            "name": "qc_flag_wind",
+            "type": "byte",
+            "dimension": "time",
+            "units": "1",
+            "long_name": "Data Quality flag: Winds",
+            "flag_values": "0b,1b, 2b, 3b, 4b, 5b",
+            "flag_meanings": "not_used good_data  suspect_data_measured_wind_speed_==_0_m_s-1 bad_data_wind_speed_outside_sensor_operational_range bad_data_wind_direction_outside_sensor_operational_range suspect_data_time_stamp_error"
+        },
+        "qc_flag_radiation": {
+            "name": "qc_flag_radiation",
+            "type": "byte",
+            "dimension": "time",
+            "units": "1",
+            "long_name": "Data Quality flag: Radiation",
+            "flag_values": "0b,1b, 2b, 3b, 4b",
+            "flag_meanings": "not_used good_data  bad_data_longwave_radiation_outside_sensor_operational_range bad_data_shortwave_radiation_outside_sensor_operational_range suspect_data_time_stamp_error"
+        },
+        "qc_flag_precipitation": {
+            "name": "qc_flag_precipitation",
+            "type": "byte",
+            "dimension": "time",
+            "units": "1",
+            "long_name": "Data Quality flag: Precipitation",
+            "flag_values": "0b,1b, 2b, 3b, 4b",
+            "flag_meanings": "not_used good_data  bad_data_rainfall_rate_outside_sensor_operational_range bad_data_accumulated_rain_outside_sensor_operational_range suspect_data_time_stamp_error"
+        }
+    }
+}

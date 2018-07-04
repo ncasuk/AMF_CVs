@@ -1,0 +1,12 @@
+{
+    "size_concentration_spectra_dimension": {
+        "index_range": {
+            "length": "<i>",
+            "units": "1"
+        },
+        "index_bin": {
+            "length": "<j>",
+            "units": "1"
+        }
+    }
+}
