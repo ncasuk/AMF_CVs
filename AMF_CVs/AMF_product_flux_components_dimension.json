@@ -1,0 +1,8 @@
+{
+    "product_flux_components_dimension": {
+        "index": {
+            "units": "1", 
+            "length": "<i>"
+        }
+    }
+}

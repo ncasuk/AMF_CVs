@@ -1,0 +1,8 @@
+{
+    "product_aerosol_extinction_dimension": {
+        "index": {
+            "units": "1", 
+            "length": "<i>"
+        }
+    }
+}

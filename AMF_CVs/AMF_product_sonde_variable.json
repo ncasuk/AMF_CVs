@@ -1,0 +1,140 @@
+{
+    "product_sonde_variable": {
+        "altitude": {
+            "name": "altitude", 
+            "type": "float32", 
+            "dimension": "time", 
+            "units": "m", 
+            "standard_name": "altitude", 
+            "long_name": "Geometric height above geoid (WGS 84).", 
+            "_FillValue": "-1.00E+20", 
+            "axis": "Z", 
+            "valid_min": "<derived from file>", 
+            "valid_max": "<derived from file>", 
+            "cell_methods": "time: point"
+        }, 
+        "latitude": {
+            "name": "latitude", 
+            "type": "float32", 
+            "dimension": "time", 
+            "units": "degrees_north", 
+            "standard_name": "latitude", 
+            "long_name": "Latitude", 
+            "_FillValue": "-1.00E+20", 
+            "axis": "Y", 
+            "valid_min": "<derived from file>", 
+            "valid_max": "<derived from file>", 
+            "cell_methods": "time: point"
+        }, 
+        "longitude": {
+            "name": "longitude", 
+            "type": "float32", 
+            "dimension": "time", 
+            "units": "degrees_east", 
+            "standard_name": "longitude", 
+            "long_name": "Longitude", 
+            "_FillValue": "-1.00E+20", 
+            "axis": "X", 
+            "valid_min": "<derived from file>", 
+            "valid_max": "<derived from file>", 
+            "cell_methods": "time: point"
+        }, 
+        "air_pressure": {
+            "name": "air_pressure", 
+            "type": "float32", 
+            "dimension": "time", 
+            "units": "hPa", 
+            "standard_name": "air_pressure", 
+            "long_name": "Air Pressure", 
+            "_FillValue": "-1.00E+20", 
+            "valid_min": "<derived from file>", 
+            "valid_max": "<derived from file>", 
+            "cell_methods": "time: mean", 
+            "coordinates": "latitude longitude"
+        }, 
+        "air_temperature": {
+            "name": "air_temperature", 
+            "type": "float32", 
+            "dimension": "time", 
+            "units": "K", 
+            "standard_name": "air_temperature", 
+            "long_name": "AirTemperature", 
+            "_FillValue": "-1.00E+20", 
+            "valid_min": "<derived from file>", 
+            "valid_max": "<derived from file>", 
+            "cell_methods": "time: point", 
+            "coordinates": "latitude longitude"
+        }, 
+        "relative_humidity": {
+            "name": "relative_humidity", 
+            "type": "float32", 
+            "dimension": "time", 
+            "units": "%", 
+            "standard_name": "relative_humidity", 
+            "long_name": "Relative Humidity", 
+            "_FillValue": "-1.00E+20", 
+            "valid_min": "<derived from file>", 
+            "valid_max": "<derived from file>", 
+            "cell_methods": "time: point", 
+            "coordinates": "latitude longitude"
+        }, 
+        "wind_speed": {
+            "name": "wind_speed", 
+            "type": "float32", 
+            "dimension": "time", 
+            "units": "m s-1", 
+            "standard_name": "wind_speed", 
+            "long_name": "Wind Speed", 
+            "_FillValue": "-1.00E+20", 
+            "valid_min": "<derived from file>", 
+            "valid_max": "<derived from file>", 
+            "cell_methods": "time: point", 
+            "coordinates": "latitude longitude"
+        }, 
+        "wind_from_direction": {
+            "name": "wind_from_direction", 
+            "type": "float32", 
+            "dimension": "time", 
+            "units": "degree", 
+            "standard_name": "wind_from_direction", 
+            "long_name": "Wind From Direction", 
+            "_FillValue": "-1.00E+20", 
+            "valid_min": "<derived from file>", 
+            "valid_max": "<derived from file>", 
+            "cell_methods": "time: point", 
+            "coordinates": "latitude longitude"
+        }, 
+        "upward_balloon_velocity": {
+            "name": "upward_balloon_velocity", 
+            "type": "float32", 
+            "dimension": "time", 
+            "units": "m s-1", 
+            "long_name": "Balloon Ascent Rate", 
+            "_FillValue": "-1.00E+20", 
+            "valid_min": "<derived from file>", 
+            "valid_max": "<derived from file>", 
+            "cell_methods": "time: point", 
+            "coordinates": "latitude longitude"
+        }, 
+        "elapsed_time": {
+            "name": "elapsed_time", 
+            "type": "float32", 
+            "dimension": "time", 
+            "units": "s", 
+            "long_name": "Elapsed Time", 
+            "_FillValue": "-1.00E+20", 
+            "valid_min": "<derived from file>", 
+            "valid_max": "<derived from file>", 
+            "cell_methods": "time: point"
+        }, 
+        "qc_flag": {
+            "name": "qc_flag", 
+            "type": "byte", 
+            "dimension": "time", 
+            "units": "1", 
+            "long_name": "Data Quality flag", 
+            "flag_values": "0b,1b, 2b, 3b", 
+            "flag_meanings": "not_used good_data  suspect_data_no_measurable_ascent_rate suspect_data_horizontal_wind_speed_==_0_m_s-1"
+        }
+    }
+}
