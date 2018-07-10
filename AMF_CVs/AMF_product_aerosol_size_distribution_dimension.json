@@ -1,0 +1,8 @@
+{
+    "product_aerosol_size_distribution_dimension": {
+        "index": {
+            "units": "1", 
+            "length": "<m>"
+        }
+    }
+}
