@@ -1,8 +1,0 @@
-{
-    "product_boundary_layer_temperature_profiles_dimension": {
-        "index": {
-            "units": "1", 
-            "length": "<i>"
-        }
-    }
-}

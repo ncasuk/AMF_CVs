@@ -1,8 +1,0 @@
-{
-    "product_acoustic_backscatter_winds_dimension": {
-        "index": {
-            "units": "1", 
-            "length": "<i>"
-        }
-    }
-}
