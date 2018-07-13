@@ -1,0 +1,25 @@
+Variable	Attribute	Value	Proposed name	example value	notes
+mole_fraction_of_peroxyacetyl_nitrate_in_air
+	name	mole_fraction_of_peroxyacetyl_nitrate_in_air
+	type	float32
+	dimension	time
+	units	? 		1 1e-3 1e-6 1e-9 1e-12	Units must be given
+	practical_units	? 		ppm ppb ppt mmol mol-1 micro mol mol-1 nmol mol-1 pmol mol-1	Practical_units must be given and must match units multiplier
+	standard_name	mole_fraction_of_peroxyacetyl_nitrate_in_air
+	long_name	Mole Fraction of Peroxyacetyl Nitrate in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: ????		mean or point
+	coordinates	latitude longitude
+	chemical_species	C2H3NO5
+
+qc_flag
+	name	qc_flag
+	type	byte
+	dimension	time
+	units	1
+	standard_name
+	long_name	Data Quality flag:
+	flag_values	0b,1b, 2b, 3b
+	flag_meanings	not_used good_data  suspect_data_unspecified_instrument_performance_issues_contact_data_originator_for_more_information suspect_data_time_stamp_error
