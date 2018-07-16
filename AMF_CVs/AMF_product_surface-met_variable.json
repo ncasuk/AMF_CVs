@@ -124,7 +124,12 @@
             "units": "1", 
             "long_name": "Data Quality flag: Temperature", 
             "flag_values": "0b,1b, 2b, 3b", 
-            "flag_meanings": "not_used good_data  bad_data_temperature_outside_sensor_operational_range suspect_data_time_stamp_error"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "bad_data_temperature_outside_sensor_operational_range", 
+                "suspect_data_time_stamp_error"
+            ]
         }, 
         "qc_flag_relative_humidity": {
             "name": "qc_flag_relative_humidity", 
@@ -133,7 +138,12 @@
             "units": "1", 
             "long_name": "Data Quality flag:Relative Humidity", 
             "flag_values": "0b,1b, 2b, 3b", 
-            "flag_meanings": "not_used good_data  bad_data_relative_humidity_outside_sensor_operational_range suspect_data_time_stamp_error"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "bad_data_relative_humidity_outside_sensor_operational_range", 
+                "suspect_data_time_stamp_error"
+            ]
         }, 
         "qc_flag_pressure": {
             "name": "qc_flag_pressure", 
@@ -142,7 +152,12 @@
             "units": "1", 
             "long_name": "Data Quality flag: Pressure", 
             "flag_values": "0b,1b, 2b, 3b", 
-            "flag_meanings": "not_used good_data  bad_data_pressure_outside_sensor_operational_range suspect_data_time_stamp_error"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "bad_data_pressure_outside_sensor_operational_range", 
+                "suspect_data_time_stamp_error"
+            ]
         }, 
         "qc_flag_wind": {
             "name": "qc_flag_wind", 
@@ -151,7 +166,14 @@
             "units": "1", 
             "long_name": "Data Quality flag: Winds", 
             "flag_values": "0b,1b, 2b, 3b, 4b, 5b", 
-            "flag_meanings": "not_used good_data  suspect_data_measured_wind_speed_==_0_m_s-1 bad_data_wind_speed_outside_sensor_operational_range bad_data_wind_direction_outside_sensor_operational_range suspect_data_time_stamp_error"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "suspect_data_measured_wind_speed_==_0_m_s-1", 
+                "bad_data_wind_speed_outside_sensor_operational_range", 
+                "bad_data_wind_direction_outside_sensor_operational_range", 
+                "suspect_data_time_stamp_error"
+            ]
         }, 
         "qc_flag_radiation": {
             "name": "qc_flag_radiation", 
@@ -160,7 +182,13 @@
             "units": "1", 
             "long_name": "Data Quality flag: Radiation", 
             "flag_values": "0b,1b, 2b, 3b, 4b", 
-            "flag_meanings": "not_used good_data  bad_data_longwave_radiation_outside_sensor_operational_range bad_data_shortwave_radiation_outside_sensor_operational_range suspect_data_time_stamp_error"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "bad_data_longwave_radiation_outside_sensor_operational_range", 
+                "bad_data_shortwave_radiation_outside_sensor_operational_range", 
+                "suspect_data_time_stamp_error"
+            ]
         }, 
         "qc_flag_precipitation": {
             "name": "qc_flag_precipitation", 
@@ -169,7 +197,13 @@
             "units": "1", 
             "long_name": "Data Quality flag: Precipitation", 
             "flag_values": "0b,1b, 2b, 3b, 4b", 
-            "flag_meanings": "not_used good_data  bad_data_rainfall_rate_outside_sensor_operational_range bad_data_accumulated_rain_outside_sensor_operational_range suspect_data_time_stamp_error"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "bad_data_rainfall_rate_outside_sensor_operational_range", 
+                "bad_data_accumulated_rain_outside_sensor_operational_range", 
+                "suspect_data_time_stamp_error"
+            ]
         }
     }
 }

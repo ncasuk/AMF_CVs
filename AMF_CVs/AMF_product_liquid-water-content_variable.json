@@ -20,7 +20,11 @@
             "units": "1", 
             "long_name": "Data Quality flag", 
             "flag_values": "0b,1b, 2b", 
-            "flag_meanings": "not_used good_data  bad_data_do not_use"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "bad_data_do not_use"
+            ]
         }
     }
 }

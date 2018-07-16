@@ -134,7 +134,12 @@
             "units": "1", 
             "long_name": "Data Quality flag: CCl4", 
             "flag_values": "0b,1b, 2b, 3b", 
-            "flag_meanings": "not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.", 
+                "bad_data_do_not_use"
+            ]
         }, 
         "qc_flag_chbr3": {
             "name": "qc_flag_chbr3", 
@@ -143,7 +148,12 @@
             "units": "1", 
             "long_name": "Data Quality flag: CHBr3", 
             "flag_values": "0b,1b, 2b, 3b", 
-            "flag_meanings": "not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.", 
+                "bad_data_do_not_use"
+            ]
         }, 
         "qc_flag_ch2i2": {
             "name": "qc_flag_ch2i2", 
@@ -152,7 +162,12 @@
             "units": "1", 
             "long_name": "Data Quality flag: CH2I2", 
             "flag_values": "0b,1b, 2b, 3b", 
-            "flag_meanings": "not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.", 
+                "bad_data_do_not_use"
+            ]
         }, 
         "qc_flag_ch2icl": {
             "name": "qc_flag_ch2icl", 
@@ -161,7 +176,12 @@
             "units": "1", 
             "long_name": "Data Quality flag: CH2ICl", 
             "flag_values": "0b,1b, 2b, 3b", 
-            "flag_meanings": "not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.", 
+                "bad_data_do_not_use"
+            ]
         }, 
         "qc_flag_chbrcl2": {
             "name": "qc_flag_chbrcl2", 
@@ -170,7 +190,12 @@
             "units": "1", 
             "long_name": "Data Quality flag: CHBrCl2", 
             "flag_values": "0b,1b, 2b, 3b", 
-            "flag_meanings": "not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.", 
+                "bad_data_do_not_use"
+            ]
         }, 
         "qc_flag_ch2br2": {
             "name": "qc_flag_ch2br2", 
@@ -179,7 +204,12 @@
             "units": "1", 
             "long_name": "Data Quality flag: CH2Br2", 
             "flag_values": "0b,1b, 2b, 3b", 
-            "flag_meanings": "not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use"
+            "flag_meanings": [
+                "not_used", 
+                "good_data", 
+                "suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.", 
+                "bad_data_do_not_use"
+            ]
         }, 
         "qc_flag_chcl3": {
             "name": "qc_flag_chcl3", 
