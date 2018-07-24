@@ -13,13 +13,13 @@ institution	Institution the maker affliated to	National Centre for Atmospheric S
 processing_software_url	A public URL for the processing software used to process/QC the data. NOTE: this excludes proprietary software.	https://github.com/lecbjb/AMF_DATA/tree/master/matlab		Valid URL	AMF
 processing_software_version	Version number of the software used to process and QC the data	v1		String: min 2 characters	AMF
 calibration_sensitivity	Calibrated sensitivity/measurement range	Calibrated:SW DN facing 09-01-2015, SWUPfacing 09-01-2015, LW DN facing 30-12-2014, LW UP facing 30-12-2014		String: min 5 characters	AMF
-calibration_certification_date	Date when the instrument was last calibrated	2017-06-06T12:00:00		Match: YYYY-MM-DDThh:mm:ss.*	AMF
+calibration_certification_date	Date when the instrument was last calibrated	2017-06-06T12:00:00		Match: YYYY-MM-DDThh:mm:ss\.\d+	AMF
 calibration_certification_url	URL to calibration file or certificate	https://github.com/lecbjb/AMF_DATA/tree/master/matlab		Valid URL	AMF
 sampling_interval	Time interval between data values in the file	10 second		String: min 2 characters	AMF	<number_greater_than_zero_maybe_decimal><space><word>(microsecond|millisecond|second|minute|hour|day|year)
-averaging_interval	Time interval over which each data point are averaged	5 second		String: min 2 characters	AMF	"
+averaging_interval	Time interval over which each data point are averaged	5 second		String: min 2 characters	AMF
 product_version	Version of the data in this file	v1.3		Match: vN.M	ACDD1.3
 processing_level	Data product level. Possible values: 0: native, 1: basic QC, 2: high-level QC, 3: product derived from levels 1 and 2 data	2		Integer	ACDD1.3
-last_revised_date	Date file was produced	2017-06-06T12:00:00		Match: YYYY-MM-DDThh:mm:ss.*	AMF
+last_revised_date	Date file was produced	2017-06-06T12:00:00		Match: YYYY-MM-DDThh:mm:ss\.\d+	AMF
 project	Full name and acronym of the project	some project		String: min 3 characters	ACDD1.3
 project_principal_investigator	Full name of project PI	Geraint Vaughan		String: min 3 characters	AMF
 project_principal_investigator_email	Contact details of the Project PI	geraint.vaughan@manchester.ac.uk		Valid email	AMF
