@@ -8,8 +8,8 @@ altitude
 	long_name	Geometric height above geoid (WGS84).
 	_FillValue	-1.00E+20
 	axis	Z
-	valid_min	 <derived from file>			centre of lowest gate + platform deployment height
-	valid_max	 <derived from file> 			centre of highest gate + platform deployment height
+	valid_min	<derived from file>			centre of lowest gate + platform deployment height
+	valid_max	<derived from file>			centre of highest gate + platform deployment height
 	coordinates	latitude longitude
 
 sound_intensity_level_in_air
@@ -137,7 +137,7 @@ qc_flag_mean_winds
 	standard_name
 	long_name	Data Quality flag: Mean Winds
 	flag_values	0b, 1b, 2b, 3b, 4b, 5b, 6b
-	flag_meanings	not_used good_data suspect_data_wind_speed_value_outside_operational_range_(0_to_20_m_s-1) suspect_data_wind_speed_==_0 bad_data_signal_consensus_poor bad_data_gate_index_exceeds_number_of_measurement_gates_in_use suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data|suspect_data_wind_speed_value_outside_operational_range_(0_to_20_m_s-1)|suspect_data_wind_speed_==_0|bad_data_signal_consensus_poor|bad_data_gate_index_exceeds_number_of_measurement_gates_in_use|suspect_data_time_stamp_error
 
 qc_flag_wind_component_eastward
 	name	qc_flag_wind_component_eastward
@@ -147,7 +147,7 @@ qc_flag_wind_component_eastward
 	standard_name
 	long_name	Data Quality flag: Eastward Wind Component
 	flag_values	0b,1b, 2b, 3b, 4b, 5b
-	flag_meanings	not_used good_data suspect_data_value_outside_operational_range_(-20_m_s-1_to_20_m_s-1) bad_data_signal_consensus_poor bad_data_gate_index_exceeds_number_of_measurement_gates_in_use suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data|suspect_data_value_outside_operational_range_(-20_m_s-1_to_20_m_s-1)|bad_data_signal_consensus_poor|bad_data_gate_index_exceeds_number_of_measurement_gates_in_use|suspect_data_time_stamp_error
 
 qc_flag_wind_component_northward
 	name	qc_flag_wind_component_northward
@@ -157,7 +157,7 @@ qc_flag_wind_component_northward
 	standard_name
 	long_name	Data Quality flag: Northward Wind Component
 	flag_values	0b,1b, 2b, 3b, 4b, 5b
-	flag_meanings	not_used good_data suspect_data_value_outside_operational_range_(-20_m_s-1_to_20_m_s-1) bad_data_signal_consensus_poor bad_data_gate_index_exceeds_number_of_measurement_gates_in_use suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data|suspect_data_value_outside_operational_range_(-20_m_s-1_to_20_m_s-1)|bad_data_signal_consensus_poor|bad_data_gate_index_exceeds_number_of_measurement_gates_in_use|suspect_data_time_stamp_error
 
 qc_flag_wind_component_upward_air_velocity
 	name	qc_flag_wind_component_upward_air_velocity
@@ -167,7 +167,7 @@ qc_flag_wind_component_upward_air_velocity
 	standard_name
 	long_name	Data Quality flag: Upward Air Velocity
 	flag_values	0b,1b, 2b, 3b, 4b, 5b
-	flag_meanings	not_used good_data suspect_data_value_outside_operational_range_(-20_m_s-1_to_20_m_s-1) bad_data_signal_consensus_poor bad_data_gate_index_exceeds_number_of_measurement_gates_in_use suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data|suspect_data_value_outside_operational_range_(-20_m_s-1_to_20_m_s-1)|bad_data_signal_consensus_poor|bad_data_gate_index_exceeds_number_of_measurement_gates_in_use|suspect_data_time_stamp_error
 
 qc_flag_backscatter
 	name	qc_flag_backscatter
@@ -177,7 +177,7 @@ qc_flag_backscatter
 	standard_name
 	long_name	Data Quality flag: Backscatter
 	flag_values	0b,1b, 2b, 3b, 4b, 5b
-	flag_meanings	not_used good_data  bad_data_value_outside_operational_range bad_data_signal_consensus_poor bad_data_gate_index_exceeds_number_of_measurement_gates_in_use suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_value_outside_operational_range|bad_data_signal_consensus_poor|bad_data_gate_index_exceeds_number_of_measurement_gates_in_use|suspect_data_time_stamp_error
 
 qc_flag_background_noise
 	name	qc_flag_background_noise
@@ -187,4 +187,4 @@ qc_flag_background_noise
 	standard_name
 	long_name	Data Quality flag: Background Noise
 	flag_values	0b,1b, 2b, 3b, 4b
-	flag_meanings	not_used good_data  suspect_data_background_noise_>_2_dB bad_data_gate_index_exceeds_number_of_measurement_gates_in_use suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |suspect_data_background_noise_>_2_dB|bad_data_gate_index_exceeds_number_of_measurement_gates_in_use|suspect_data_time_stamp_error

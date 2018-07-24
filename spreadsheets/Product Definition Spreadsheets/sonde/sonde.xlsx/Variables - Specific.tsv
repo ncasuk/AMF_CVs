@@ -8,8 +8,8 @@ altitude
 	long_name	Geometric height above geoid (WGS 84).
 	_FillValue	-1.00E+20
 	axis	Z
-	valid_min	 <derived from file>
-	valid_max	 <derived from file> 
+	valid_min	<derived from file>
+	valid_max	<derived from file>
 	cell_methods	time: point
 
 latitude
@@ -57,7 +57,7 @@ air_temperature
 	dimension	time
 	units	K
 	standard_name	air_temperature
-	long_name	AirTemperature 
+	long_name	AirTemperature
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -135,5 +135,5 @@ qc_flag
 	units	1
 	standard_name
 	long_name	Data Quality flag
-	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_no_measurable_ascent_rate suspect_data_horizontal_wind_speed_==_0_m_s-1
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data_no_measurable_ascent_rate|suspect_data_horizontal_wind_speed_==_0_m_s-1

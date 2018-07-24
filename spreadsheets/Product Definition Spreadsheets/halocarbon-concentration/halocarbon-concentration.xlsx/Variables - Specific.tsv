@@ -3,8 +3,8 @@ mole_fraction_of_carbon_tetrachloride_in_air
 	name	mole_fraction_of_carbon_tetrachloride_in_air
 	type	float32
 	dimension	time
-	units	? 		1 1e-3 1e-6 1e-9 1e-12	Units must be given
-	practical_units	? 		ppm ppb ppt mmol mol-1 micro mol mol-1 nmol mol-1 pmol mol-1	Practical_units must be given and must match units multiplier
+	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name	mole_fraction_of_carbon_tetrachloride_in_air
 	long_name	Mole Fraction of Carbon Tetrachloride in air
 	_FillValue	-1.00E+20
@@ -18,8 +18,8 @@ mole_fraction_of_bromoform_in_air
 	name	mole_fraction_of_bromoform_in_air
 	type	float32
 	dimension	time
-	units	? 		1 1e-3 1e-6 1e-9 1e-12	Units must be given
-	practical_units	? 		ppm ppb ppt mmol mol-1 micro mol mol-1 nmol mol-1 pmol mol-1	Practical_units must be given and must match units multiplier
+	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name		mole_fraction_of_bromoform_in_air
 	long_name	Mole Fraction of Bromoform in air
 	_FillValue	-1.00E+20
@@ -33,8 +33,8 @@ mole_fraction_of_diiodomethane_in_air
 	name	mole_fraction_of_diiodomethane_in_air
 	type	float32
 	dimension	time
-	units	? 		1 1e-3 1e-6 1e-9 1e-12	Units must be given
-	practical_units	? 		ppm ppb ppt mmol mol-1 micro mol mol-1 nmol mol-1 pmol mol-1	Practical_units must be given and must match units multiplier
+	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name		mole_fraction_of_diiodomethane_in_air
 	long_name	Mole Fraction of Diiodomethane in air
 	_FillValue	-1.00E+20
@@ -48,8 +48,8 @@ mole_fraction_of_chloroiodomethane_in_air
 	name	mole_fraction_of_chloroiodomethane_in_air
 	type	float32
 	dimension	time
-	units	? 		1 1e-3 1e-6 1e-9 1e-12	Units must be given
-	practical_units	? 		ppm ppb ppt mmol mol-1 micro mol mol-1 nmol mol-1 pmol mol-1	Practical_units must be given and must match units multiplier
+	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name		mole_fraction_of_chloroiodomethane_in_air
 	long_name	Mole Fraction of Chloroiodomethane in air
 	_FillValue	-1.00E+20
@@ -63,8 +63,8 @@ mole_fraction_of_bromodichloromethane_in_air
 	name	mole_fraction_of_bromodichloromethane_in_air
 	type	float32
 	dimension	time
-	units	? 		1 1e-3 1e-6 1e-9 1e-12	Units must be given
-	practical_units	? 		ppm ppb ppt mmol mol-1 micro mol mol-1 nmol mol-1 pmol mol-1	Practical_units must be given and must match units multiplier
+	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name		mole_fraction_of_bromodichloromethane_in_air
 	long_name	Mole Fraction of Bromodichloromethane in air
 	_FillValue	-1.00E+20
@@ -78,8 +78,8 @@ mole_fraction_of_dibromomethane_in_air
 	name	mole_fraction_of_dibromomethane_in_air
 	type	float32
 	dimension	time
-	units	? 		1 1e-3 1e-6 1e-9 1e-12	Units must be given
-	practical_units	? 		ppm ppb ppt mmol mol-1 micro mol mol-1 nmol mol-1 pmol mol-1	Practical_units must be given and must match units multiplier
+	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name		mole_fraction_of_dibromomethane_in_air
 	long_name	Mole Fraction of Dibromomethane in air
 	_FillValue	-1.00E+20
@@ -93,8 +93,8 @@ mole_fraction_of_chloroform_in_air
 	name	mole_fraction_of_chloroform_in_air
 	type	float32
 	dimension	time
-	units	? 		1 1e-3 1e-6 1e-9 1e-12	Units must be given
-	practical_units	? 		ppm ppb ppt mmol mol-1 micro mol mol-1 nmol mol-1 pmol mol-1	Practical_units must be given and must match units multiplier
+	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name		mole_fraction_of_chloroform_in_air
 	long_name	Mole Fraction of Chloroform in air
 	_FillValue	-1.00E+20
@@ -108,8 +108,8 @@ mole_fraction_of_methyl_iodide_in_air
 	name	mole_fraction_of_methyl_iodide_in_air
 	type	float32
 	dimension	time
-	units	? 		1 1e-3 1e-6 1e-9 1e-12	Units must be given
-	practical_units	? 		ppm ppb ppt mmol mol-1 micro mol mol-1 nmol mol-1 pmol mol-1	Practical_units must be given and must match units multiplier
+	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name		mole_fraction_of_methyl_iodide_in_air
 	long_name	Mole Fraction of Methyl Iodide in air
 	_FillValue	-1.00E+20
@@ -123,8 +123,8 @@ mole_fraction_of_bromochloromethane_in_air
 	name	mole_fraction_of_bromochloromethane_in_air
 	type	float32
 	dimension	time
-	units	? 		1 1e-3 1e-6 1e-9 1e-12	Units must be given
-	practical_units	? 		ppm ppb ppt mmol mol-1 micro mol mol-1 nmol mol-1 pmol mol-1	Practical_units must be given and must match units multiplier
+	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name		mole_fraction_of_bromochloromethane_in_air
 	long_name	Mole Fraction of Bromochloromethane in air
 	_FillValue	-1.00E+20
@@ -142,7 +142,7 @@ qc_flag_ccl4
 	standard_name
 	long_name	Data Quality flag: CCl4
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use
+	flag_meanings	not_used|good_data |suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.|bad_data_do_not_use
 
 qc_flag_chbr3
 	name	qc_flag_chbr3
@@ -152,7 +152,7 @@ qc_flag_chbr3
 	standard_name
 	long_name	Data Quality flag: CHBr3
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use
+	flag_meanings	not_used|good_data |suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.|bad_data_do_not_use
 
 qc_flag_ch2i2
 	name	qc_flag_ch2i2
@@ -162,7 +162,7 @@ qc_flag_ch2i2
 	standard_name
 	long_name	Data Quality flag: CH2I2
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use
+	flag_meanings	not_used|good_data |suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.|bad_data_do_not_use
 
 qc_flag_ch2icl
 	name	qc_flag_ch2icl
@@ -172,7 +172,7 @@ qc_flag_ch2icl
 	standard_name
 	long_name	Data Quality flag: CH2ICl
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use
+	flag_meanings	not_used|good_data |suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.|bad_data_do_not_use
 
 qc_flag_chbrcl2
 	name	qc_flag_chbrcl2
@@ -182,7 +182,7 @@ qc_flag_chbrcl2
 	standard_name
 	long_name	Data Quality flag: CHBrCl2
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use
+	flag_meanings	not_used|good_data |suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.|bad_data_do_not_use
 
 qc_flag_ch2br2
 	name	qc_flag_ch2br2
@@ -192,7 +192,7 @@ qc_flag_ch2br2
 	standard_name
 	long_name	Data Quality flag: CH2Br2
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information. bad_data_do_not_use
+	flag_meanings	not_used|good_data |suspect_data_gas_concentration_below_calculated_detaction_limit_contact_data_originator_for_more_information.|bad_data_do_not_use
 
 qc_flag_chcl3
 	name	qc_flag_chcl3

@@ -133,7 +133,7 @@
             "dimension": "time", 
             "units": "1", 
             "long_name": "Data Quality flag", 
-            "flag_values": "0b,1b, 2b, 3b", 
+            "flag_values": "0b,1b,2b,3b", 
             "flag_meanings": [
                 "not_used", 
                 "good_data", 

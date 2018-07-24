@@ -31,4 +31,4 @@ qc_flag
 	standard_name
 	long_name	Data Quality flag
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_bad_data_to_be_defined suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |suspect_data_bad_data_to_be_defined|suspect_data_time_stamp_error

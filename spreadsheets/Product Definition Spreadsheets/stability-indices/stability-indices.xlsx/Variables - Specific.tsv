@@ -31,7 +31,7 @@ atmosphere_stability_total_totals_index
 	dimension	time
 	units	K
 	standard_name	atmosphere_stability_total_totals_index
-	long_name	Atmosphere Stability Total Totals Index (TTI) 
+	long_name	Atmosphere Stability Total Totals Index (TTI)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -85,7 +85,7 @@ qc_flag_surface_temperature
 	standard_name
 	long_name	Data Quality flag: Surface Temperature
 	flag_values	0b,1b, 2b, 3b, 4b
-	flag_meanings	not_used good_data  bad_data_temperature_outside_sensor_operational_range bad_data_gate_index_exceeds_number_of_measurement_gates_in_use suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_temperature_outside_sensor_operational_range|bad_data_gate_index_exceeds_number_of_measurement_gates_in_use|suspect_data_time_stamp_error
 
 qc_flag_surface_relative_humidity
 	name	qc_flag_surface_relative_humidity
@@ -95,7 +95,7 @@ qc_flag_surface_relative_humidity
 	standard_name
 	long_name	Data Quality flag: Surface Relative Humidity
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_relative_humidity_outside_sensor_operational_range suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_relative_humidity_outside_sensor_operational_range|suspect_data_time_stamp_error
 
 qc_flag_surface_pressure
 	name	qc_flag_surface_pressure
@@ -105,7 +105,7 @@ qc_flag_surface_pressure
 	standard_name
 	long_name	Data Quality flag: Surface Pressure
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_pressure_outside_sensor_operational_range suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_pressure_outside_sensor_operational_range|suspect_data_time_stamp_error
 
 qc_flag_precipitation
 	name	qc_flag_precipitation
@@ -115,7 +115,7 @@ qc_flag_precipitation
 	standard_name
 	long_name	Data Quality flag: Precipitation
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_precipitation_detected suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |suspect_data_precipitation_detected|suspect_data_time_stamp_error
 
 qc_flag_channel_1_failure
 	name	qc_flag_channel_1_failure
@@ -125,7 +125,7 @@ qc_flag_channel_1_failure
 	standard_name
 	long_name	Data Quality flag: Receiver channel 1 failed
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_channel_failure suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
 qc_flag_channel_2_failure
 	name	qc_flag_channel_2_failure
@@ -135,7 +135,7 @@ qc_flag_channel_2_failure
 	standard_name
 	long_name	Data Quality flag: Receiver channel 2 failed
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_channel_failure suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
 qc_flag_channel_3_failure
 	name	qc_flag_channel_3_failure
@@ -145,7 +145,7 @@ qc_flag_channel_3_failure
 	standard_name
 	long_name	Data Quality flag: Receiver channel 3 failed
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_channel_failure suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
 qc_flag_channel_4_failure
 	name	qc_flag_channel_4_failure
@@ -155,7 +155,7 @@ qc_flag_channel_4_failure
 	standard_name
 	long_name	Data Quality flag: Receiver channel 4 failed
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_channel_failure suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
 qc_flag_channel_5_failure
 	name	qc_flag_channel_5_failure
@@ -165,7 +165,7 @@ qc_flag_channel_5_failure
 	standard_name
 	long_name	Data Quality flag: Receiver channel 5 failed
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_channel_failure suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
 qc_flag_channel_6_failure
 	name	qc_flag_channel_6_failure
@@ -175,7 +175,7 @@ qc_flag_channel_6_failure
 	standard_name
 	long_name	Data Quality flag: Receiver channel 6 failed
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_channel_failure suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
 qc_flag_channel_7_failure
 	name	qc_flag_channel_7_failure
@@ -185,7 +185,7 @@ qc_flag_channel_7_failure
 	standard_name
 	long_name	Data Quality flag: Receiver channel 7 failed
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_channel_failure suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
 qc_flag_channel_8_failure
 	name	qc_flag_channel_8_failure
@@ -195,6 +195,6 @@ qc_flag_channel_8_failure
 	standard_name
 	long_name	Data Quality flag: Receiver channel 8 failed
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_channel_failure suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
 qc_flag_channel_9_failure

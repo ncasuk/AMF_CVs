@@ -59,7 +59,7 @@ qc_flag_upwelling_shortwave
 	standard_name
 	long_name	Data Quality flag: upwelling shortwave
 	flag_values	0b,1b, 2b, 3b, 4b
-	flag_meanings	not_used good_data  bad_data_sw_radiation_<_0 bad_data_sw_radiation_>_2000_W_m-2 suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_sw_radiation_<_0|bad_data_sw_radiation_>_2000_W_m-2|suspect_data_time_stamp_error
 
 qc_flag_downwelling_shortwave
 	name	qc_flag_downwelling_shortwave
@@ -69,7 +69,7 @@ qc_flag_downwelling_shortwave
 	standard_name
 	long_name	Data Quality flag: downwelling shortwave
 	flag_values	0b,1b, 2b, 3b, 4b
-	flag_meanings	not_used good_data  bad_data_sw_radiation_<_0 bad_data_sw_radiation_>_2000_W_m-2 suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_sw_radiation_<_0|bad_data_sw_radiation_>_2000_W_m-2|suspect_data_time_stamp_error
 
 qc_flag_upwelling_longwave
 	name	qc_flag_upwelling_longwave
@@ -79,7 +79,7 @@ qc_flag_upwelling_longwave
 	standard_name
 	long_name	Data Quality flag: upwelling longwave
 	flag_values	0b,1b, 2b, 3b, 4b
-	flag_meanings	not_used good_data  bad_data_lw_radiation_<_0 bad_data_lw_radiation_>_1000_W_m-2 suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_lw_radiation_<_0|bad_data_lw_radiation_>_1000_W_m-2|suspect_data_time_stamp_error
 
 qc_flag_downwelling_longwave
 	name	qc_flag_downwelling_longwave
@@ -89,7 +89,7 @@ qc_flag_downwelling_longwave
 	standard_name
 	long_name	Data Quality flag: downwelling longwave
 	flag_values	0b,1b, 2b, 3b, 4b
-	flag_meanings	not_used good_data  bad_data_lw_radiation_<_0 bad_data_lw_radiation_>_1000_W_m-2 suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_lw_radiation_<_0|bad_data_lw_radiation_>_1000_W_m-2|suspect_data_time_stamp_error
 
 qc_flag_body_temperature
 	name	qc_flag_body_temperature
@@ -99,7 +99,7 @@ qc_flag_body_temperature
 	standard_name
 	long_name	Data Quality flag: sensor body temperature
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_body_temperature_outside_operational_range_(-40C_to_80C) suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_body_temperature_outside_operational_range_(-40C_to_80C)|suspect_data_time_stamp_error
 
 qc_flag_cleaning
 	name	qc_flag_cleaning
@@ -109,4 +109,4 @@ qc_flag_cleaning
 	standard_name
 	long_name	Data Quality flag: sensor cleaning
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  bad_data_sensor_being_cleaned suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |bad_data_sensor_being_cleaned|suspect_data_time_stamp_error

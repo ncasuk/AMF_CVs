@@ -12,8 +12,8 @@
             "platform_id": "iao", 
             "description": "icelandic atmospheric observatory"
         }, 
-        "bt-tower": {
-            "platform_id": "bt-tower", 
+        "bt-tower-t35": {
+            "platform_id": "bt-tower-t35", 
             "description": "british telecoms tower observatory"
         }
     }

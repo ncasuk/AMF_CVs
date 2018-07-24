@@ -8,8 +8,8 @@ altitude
 	long_name	Geometric height above geoid (WGS84).
 	_FillValue	-1.00E+20
 	axis	Z
-	valid_min	 <derived from file>			centre of lowest gate + platform deployment height
-	valid_max	 <derived from file> 			centre of highest gate + platform deployment height
+	valid_min	<derived from file>			centre of lowest gate + platform deployment height
+	valid_max	<derived from file>			centre of highest gate + platform deployment height
 	coordinates	latitude longitude
 
 size_of_gate
@@ -20,8 +20,8 @@ size_of_gate
 	standard_name		size_of_gate
 	long_name	Size of Gate.
 	_FillValue	-1.00E+20
-	valid_min	 <derived from file>
-	valid_max	 <derived from file>
+	valid_min	<derived from file>
+	valid_max	<derived from file>
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
@@ -33,8 +33,8 @@ altitude_of_first_gate
 	standard_name		altitude_of_first_gate
 	long_name	Altitude of First Gate.
 	_FillValue	-1.00E+20
-	valid_min	 <derived from file>
-	valid_max	 <derived from file>
+	valid_min	<derived from file>
+	valid_max	<derived from file>
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
@@ -148,7 +148,7 @@ signal_to_noise_ratio_minimum
 	dimension	time, index
 	units	dB
 	standard_name		signal_to_noise_ratio_minimum
-	long_name	Minimum Signal to Noise Ratio of the three beams 
+	long_name	Minimum Signal to Noise Ratio of the three beams
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>

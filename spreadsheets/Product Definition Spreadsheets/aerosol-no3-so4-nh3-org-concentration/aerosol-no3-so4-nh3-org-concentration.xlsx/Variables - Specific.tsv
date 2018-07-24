@@ -63,7 +63,7 @@ qc_flag_no3
 	standard_name
 	long_name	Data Quality flag: NO3
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_bad_data_to_be_defined suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |suspect_data_bad_data_to_be_defined|suspect_data_time_stamp_error
 
 qc_flag_so4
 	name	qc_flag_so4
@@ -73,7 +73,7 @@ qc_flag_so4
 	standard_name
 	long_name	Data Quality flag: SO4
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_bad_data_to_be_defined suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |suspect_data_bad_data_to_be_defined|suspect_data_time_stamp_error
 qc_flag_nh3
 	name	qc_flag_nh3
 	type	byte
@@ -82,7 +82,7 @@ qc_flag_nh3
 	standard_name
 	long_name	Data Quality flag: NH3
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_bad_data_to_be_defined suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |suspect_data_bad_data_to_be_defined|suspect_data_time_stamp_error
 qc_flag_org
 	name	qc_flag_org
 	type	byte
@@ -91,4 +91,4 @@ qc_flag_org
 	standard_name
 	long_name	Data Quality flag: Organics
 	flag_values	0b,1b, 2b, 3b
-	flag_meanings	not_used good_data  suspect_data_bad_data_to_be_defined suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |suspect_data_bad_data_to_be_defined|suspect_data_time_stamp_error

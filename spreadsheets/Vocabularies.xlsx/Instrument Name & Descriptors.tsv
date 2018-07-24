@@ -1,91 +1,91 @@
-Old Instrument Name 	New Instrument Name 	Descriptor
-man-radar-1290mhz	ncas-radar-wind-profiler-1	NCAS Mobile Radar Wind Profiler unit 1
-	ncas-ceilometer-4	NCAS Lidar Ceilometer unit 4
-man-o3lidar	ncas-o3-lidar-1	NCAS Mobile O3 lidar unit 1
-man-radiosonde	ncas-radiosonde-1	NCAS Vaisala Sounding Station unit 1
-	ncas-rapidsonde-1	NCAS Windsond Sounding Station unit 1
-man-3v-cpi	ncas-3v-cpi-1	NCAS 3 View Cloud Particle Imager unit 1
-man-cpi	ncas-cpi-1	NCAS Cloud Particle Imager unit 1
-man-caps	ncas-caps-1	NCAS Cloud & Aerosol Particle Spectrometer unit 1
-man-ams	ncas-aerosol-mass-spec-1	NCAS Aerosol Mass Spectrometer unit 1
-uom-3321aps-1	ncas-aps-1	NCAS Aerodynamic Particle Sizer unit 1
-uom-3321aps-2	ncas-aps-2	NCAS Aerodynamic Particle Sizer unit 2
-uom-3010cpc-1	ncas-cpc-3010-1	NCAS 3010 Condensation Particle Counter unit 1
-uom-3010cpc-2	ncas-cpc-3010-2	NCAS 3010 Condensation Particle Counter unit 2
-	ncas-cpc-3762-1	NCAS 3762 Condensation Particle Counter unit 1
-	ncas-cpc-3762-2	NCAS 3762 Condensation Particle Counter unit 2
-	ncas-cpc-3762-3	NCAS 3762 Condensation Particle Counter unit 3
-	ncas-cpc-3762-4	NCAS 3762 Condensation Particle Counter unit 4
-uom-grimm	ncas-opc-1	NCAS Optical Particle Counter unit 1
-man-smps-1	ncas-smps-1	NCAS Scanning Mobility Particle Spectrometer unit 1
-man-smps-2	ncas-smps-2	NCAS Scanning Mobility Particle Spectrometer unit 2
-	ncas-aws-6	NCAS Automatic Weather Station unit 6
-	ncas-ceilometer-2	NCAS Lidar Ceilometer unit 2
-	ncas-sodar-rass-1	NCAS Sodar Rass unit 1
-	ncas-42i-nox-2	NCAS Thermo 42i NOX Monitor unit 2
-	ncas-43i-so2-1	NCAS Thermo 42i SO2 Monitor unit 1
-	ncas-49i-o3-2	NCAS Thermo 49i O3 Monitor unit 2
-wao-siemens-oxzilla	ncas-co2-1	NCAS Seimens Oxilla CO2 Gas Monitor unit 1
-wao-ghg-gc-ecd	ncas-ghg-gc-ecd-1	NCAS Gas Chromatograph with Electron Capture Detector unit 1
-wao-ghg-gc-fid	ncas-ghg-gc-fid-1	NCAS Gas Chromatograph with Flame Ionisation Detector unit 1
-wao-siemens-oxzilla	ncas-o2-1	NCAS Seimens Oxilla O2 Gas Monitor unit 1
-wao-rga	ncas-rga3-1	NCAS Reduction Gas Analyser u it 1
-cv-met-campbell	ncas-aws-8	NCAS Automatic Weather Station unit 8
-cv-met-tower, cv-met-webdaq	ncas-aws-7	NCAS Automatic Weather Station unit 7
-cv-tei-o3	ncas-49i-o3-1	NCAS Thermo 49i O3 Monitor unit 1
-	ncas-co-picarro-1	NCAS Picarro CO Monitor unit 1
-cv-gc-ms	ncas-halocarbon-gc-1	NCAS Halocarbon Gas Chromatograph unit 1
-cv-noxy	ncas-noxy-1	NCAS AQD High Sensitivity NOx Monitor unit 1
-	ncas-tgm-tekran-1	NCAS Mercury Monitor unit 1
-cv-specrad	ncas-spectral-radiometer-2	NCAS Spectral Radiometer unit 2
-	ncas-49i-o3-3	NCAS Thermo 49i O3 Monitor unit 3
-	ncas-teco-nox-1	NCAS Teco NOx Monitor unit 1
-york-ozone6	ncas-2b-1chan-o3-1	NCAS 1 Channel O3 Monitor unit 1
-york-ozone7	ncas-2b-2chan-o3-1	NCAS 2 Channel O3 Monitor unit 1
-york-ozone3	ncas-49i-o3-4	NCAS Thermo 49i O3 Monitor unit 4
-	ncas-aerolaser-co-1	NCAS Aerolaser CO Monitor unit 1
-	ncas-co-1	NCAS Ametek CO Monitor unit 1
-	ncas-co-2	NCAS Ametek CO Monitor unit 2
-	ncas-fast-nox-1	NCAS Fast response NOx Monitor unit 1
-	ncas-high-sen-nox-1	NCAS High Semsitivity NOx Monitor unit 1
-	ncas-dc-gc-fid-1	NCAS Dual Channel Gas Chromatograph with Flame Ionisation Detector unit 1
-	ncas-dc-gc-fid-2	NCAS Dual Channel Gas Chromatograph with Flame Ionisation Detector unit 2
-	ncas-gc-ms-1	NCAS Gas Chromatograph with Mass Spectrometer unit 1
-	ncas-pan-gc-1	NCAS Peroxyacetyl Nitrates Gas Chromatograph unit 1
-uea-ptrms	ncas-ptrms-1	NCAS Proton Transfer Reaction Mass Spectrometer unit 1
-leeds-nox	ncas-42i-nox-1	NCAS Thermo 42i NOx Monitor unit 1
-leeds-o3	ncas-49c-o3-1	NCAS Thermo 42c O3 Monitor unit 1
-leeds-dph	ncas-dewpoint-hygrometer-1	NCAS Dewpoint Hygrometer unit 1
-leeds-fage	ncas-fage-1	NCAS FAGE unit 1
-leeds-fr-jo1d	ncas-filtered-radiometer-1	NCAS Filtered Radiometer unit 1
-	ncas-spectral-radiometer-1	NCAS Spectral Radiometer unit 2
-	ncas-micro-fage-1	NCAS Aircraft FAGE unit 1
-	ncas-aws-2	NCAS Automatic Weather Station unit 2
-ncas-mobile-xband-radar	ncas-mobile-x-band-radar-1	NCAS X-Band Mobile Radar unit 1
-	ncas-mobile-ka-band-radar-1	NCAS Ka-Band Mobile Radar unit 1
-	ncas-sunphotometer-1	NCAS Sky-Sun-Lunar Photometer unit 1
-	ncas-aws-3	NCAS Automatic Weather Station unit 3
-	ncas-sonic-3	NCAS Sonic Anemometer unit 2
-	ncas-ceilometer-3	NCAS Lidar Ceilometer unit 3
-	ncas-lidar-dop-2	NCAS Doppler Aerosol Lidar unit 2
-	ncas-cam-1	NCAS Camera unit 1
-	ncas-cam-2	NCAS Camera unit 2
-	ncas-cam-3	NCAS Camera unit 3
-	ncas-aws-1	NCAS Automatic Weather Station unit 1
-	ncas-ceilometer-1	NCAS Lidar Ceilometer unit 1
-	ncas-energy-balance-1	NCAS Energy Balance Station unit 1 - NR01 radiation sensor
-	ncas-energy-balance-2	NCAS Energy Balance Station unit 2 - Kipp&Zonen radiation sensor
-	ncas-flux-1	NCAS Flux Station unit 1 
-	ncas-flux-2	NCAS Flux Station unit 2
-	ncas-licor-1	NCAS LiCor unit 1
-	ncas-licor-2	NCAS LiCor unit 2
-	ncas-lidar-dop-1	NCAS Doppler Aerosol Lidar unit 1
-	ncas-mrr-1	NCAS Micro Rain Radar unit 1
-leeds-radiosonde	ncas-radiosonde-2	NCAS Vaisala Sounding Station unit 2
-	ncas-rapidsonde-2	NCAS Windsond Sounding Station unit 2
-salford-radiometer-1	ncas-scanning-radiometer-1	NCAS Scanning Microwave Radiometer unit 1
-leeds-sodar-unit1	ncas-sodar-1	NCAS Sodar unit 1
-leeds-sodar-unit2	ncas-sodar-2	NCAS Sodar unit 2
-leeds-sodar-unit3	ncas-sodar-3	NCAS Sodar unit 3
-	ncas-sonic-1	NCAS Sonic Anemometer unit 1
-	ncas-sonic-2	NCAS Sonic Anemometer unit 2
+Old Instrument Name	New Instrument Name	Descriptor	CEDA Instrument Record URL
+aber-radar-1290mhz, man-radar-1290mhz	ncas-radar-wind-profiler-1	NCAS Mobile Radar Wind Profiler unit 1	NEEDS INVESTIGATION
+	ncas-ceilometer-4	NCAS Lidar Ceilometer unit 4	NEEDS INVESTIGATION
+aber-o3lidar, man-o3lidar	ncas-o3-lidar-1	NCAS Mobile O3 lidar unit 1	NEEDS INVESTIGATION
+man-radiosonde	ncas-radiosonde-1	NCAS Vaisala Sounding Station unit 1	http://catalogue.ceda.ac.uk/uuid/8dff23de47ae4557a8989be0c05ed708
+	ncas-rapidsonde-1	NCAS Windsond Sounding Station unit 1	NEEDS INVESTIGATION
+man-3v-cpi	ncas-3v-cpi-1	NCAS 3 View Cloud Particle Imager unit 1	http://catalogue.ceda.ac.uk/uuid/f75cf07afe594c08aebee4c73b5a482b
+man-cpi	ncas-cpi-1	NCAS Cloud Particle Imager unit 1	http://catalogue.ceda.ac.uk/uuid/723bb5e1edad4ad48f927759bdcf10cb
+man-caps	ncas-caps-1	NCAS Cloud & Aerosol Particle Spectrometer unit 1	http://catalogue.ceda.ac.uk/uuid/77b018eb8f4648f283ec47d087cb2dea
+man-ams	ncas-aerosol-mass-spec-1	NCAS Aerosol Mass Spectrometer unit 1	http://catalogue.ceda.ac.uk/uuid/98ab5fc9e63c403792e90e6b9b69e3c8
+uom-3321aps-1	ncas-aps-1	NCAS Aerodynamic Particle Sizer unit 1	NEEDS INVESTIGATION
+uom-3321aps-2	ncas-aps-2	NCAS Aerodynamic Particle Sizer unit 2	NEEDS INVESTIGATION
+uom-3010cpc-1	ncas-cpc-3010-1	NCAS 3010 Condensation Particle Counter unit 1	NEEDS INVESTIGATION
+uom-3010cpc-2	ncas-cpc-3010-2	NCAS 3010 Condensation Particle Counter unit 2	NEEDS INVESTIGATION
+	ncas-cpc-3762-1	NCAS 3762 Condensation Particle Counter unit 1	NEEDS INVESTIGATION
+	ncas-cpc-3762-2	NCAS 3762 Condensation Particle Counter unit 2	NEEDS INVESTIGATION
+	ncas-cpc-3762-3	NCAS 3762 Condensation Particle Counter unit 3	NEEDS INVESTIGATION
+	ncas-cpc-3762-4	NCAS 3762 Condensation Particle Counter unit 4	NEEDS INVESTIGATION
+uom-grimm	ncas-opc-1	NCAS Optical Particle Counter unit 1	NEEDS INVESTIGATION
+man-smps-1	ncas-smps-1	NCAS Scanning Mobility Particle Spectrometer unit 1	NEEDS INVESTIGATION
+man-smps-2	ncas-smps-2	NCAS Scanning Mobility Particle Spectrometer unit 2	NEEDS INVESTIGATION
+	ncas-aws-6	NCAS Automatic Weather Station unit 6	NEEDS INVESTIGATION
+	ncas-ceilometer-2	NCAS Lidar Ceilometer unit 2	NEEDS INVESTIGATION
+	ncas-sodar-rass-1	NCAS Sodar Rass unit 1	NEEDS INVESTIGATION
+	ncas-42i-nox-2	NCAS Thermo 42i NOX Monitor unit 2	NEEDS INVESTIGATION
+	ncas-43i-so2-1	NCAS Thermo 42i SO2 Monitor unit 1	NEEDS INVESTIGATION
+	ncas-49i-o3-2	NCAS Thermo 49i O3 Monitor unit 2	NEEDS INVESTIGATION
+wao-siemens-oxzilla	ncas-co2-1	NCAS Seimens Oxilla CO2 Gas Monitor unit 1	NEEDS INVESTIGATION
+wao-ghg-gc-ecd	ncas-ghg-gc-ecd-1	NCAS Gas Chromatograph with Electron Capture Detector unit 1	NEEDS INVESTIGATION
+wao-ghg-gc-fid	ncas-ghg-gc-fid-1	NCAS Gas Chromatograph with Flame Ionisation Detector unit 1	http://catalogue.ceda.ac.uk/uuid/8b3ac252d05a4b7eac85b0bcb1b765d2
+wao-siemens-oxzilla	ncas-o2-1	NCAS Seimens Oxilla O2 Gas Monitor unit 1	NEEDS INVESTIGATION
+wao-rga	ncas-rga3-1	NCAS Reduction Gas Analyser u it 1	NEEDS INVESTIGATION
+cv-met-campbell	ncas-aws-8	NCAS Automatic Weather Station unit 8	http://catalogue.ceda.ac.uk/uuid/84d60aea395b491f8313d6c75b580f93
+cv-met-tower, cv-met-webdaq	ncas-aws-7	NCAS Automatic Weather Station unit 7	NEEDS INVESTIGATION
+cv-tei-o3	ncas-49i-o3-1	NCAS Thermo 49i O3 Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/e964c05ed6704dd89326cc6cad27c6bb
+	ncas-co-picarro-1	NCAS Picarro CO Monitor unit 1	NEEDS INVESTIGATION
+cv-gc-ms	ncas-halocarbon-gc-1	NCAS Halocarbon Gas Chromatograph unit 1	http://catalogue.ceda.ac.uk/uuid/fc34e6a732af44fc896e69cf4bf0ea7b
+cv-noxy	ncas-noxy-1	NCAS AQD High Sensitivity NOx Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/bfec242b35524bbe9dff61765e755271
+	ncas-tgm-tekran-1	NCAS Mercury Monitor unit 1	NEEDS INVESTIGATION
+cv-specrad	ncas-spectral-radiometer-2	NCAS Spectral Radiometer unit 2	NEEDS INVESTIGATION
+	ncas-49i-o3-3	NCAS Thermo 49i O3 Monitor unit 3	NEEDS INVESTIGATION
+	ncas-teco-nox-1	NCAS Teco NOx Monitor unit 1	NEEDS INVESTIGATION
+york-ozone6	ncas-2b-1chan-o3-1	NCAS 1 Channel O3 Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/951bb4d012d4490682b03dcd9864b1b7
+york-ozone7	ncas-2b-2chan-o3-1	NCAS 2 Channel O3 Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/76684ba152334ebcb72c44accff62b04
+york-ozone3	ncas-49i-o3-4	NCAS Thermo 49i O3 Monitor unit 4	http://catalogue.ceda.ac.uk/uuid/3f21274cd3ba40d391b154f87bfc9f25
+	ncas-aerolaser-co-1	NCAS Aerolaser CO Monitor unit 1	NEEDS INVESTIGATION
+	ncas-co-1	NCAS Ametek CO Monitor unit 1	NEEDS INVESTIGATION
+	ncas-co-2	NCAS Ametek CO Monitor unit 2	NEEDS INVESTIGATION
+	ncas-fast-nox-1	NCAS Fast response NOx Monitor unit 1	NEEDS INVESTIGATION
+	ncas-high-sen-nox-1	NCAS High Semsitivity NOx Monitor unit 1	NEEDS INVESTIGATION
+	ncas-dc-gc-fid-1	NCAS Dual Channel Gas Chromatograph with Flame Ionisation Detector unit 1	NEEDS INVESTIGATION
+	ncas-dc-gc-fid-2	NCAS Dual Channel Gas Chromatograph with Flame Ionisation Detector unit 2	NEEDS INVESTIGATION
+	ncas-gc-ms-1	NCAS Gas Chromatograph with Mass Spectrometer unit 1	NEEDS INVESTIGATION
+	ncas-pan-gc-1	NCAS Peroxyacetyl Nitrates Gas Chromatograph unit 1	NEEDS INVESTIGATION
+uea-ptrms	ncas-ptrms-1	NCAS Proton Transfer Reaction Mass Spectrometer unit 1	http://catalogue.ceda.ac.uk/uuid/c39cb6ce89ea4b4a9c3d3d9ae602f983
+leeds-nox	ncas-42i-nox-1	NCAS Thermo 42i NOx Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/e296a7dd92b047ba909ad7b9c742cced
+leeds-o3	ncas-49c-o3-1	NCAS Thermo 42c O3 Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/cb9dcae55bee4f4dbc79374f6199b9d4
+leeds-dph	ncas-dewpoint-hygrometer-1	NCAS Dewpoint Hygrometer unit 1	http://catalogue.ceda.ac.uk/uuid/56cf819313ed431686aa4eae9364843c
+leeds-fage	ncas-fage-1	NCAS FAGE unit 1	http://catalogue.ceda.ac.uk/uuid/fa81f4481fc0403d843dae1be91c0e01
+leeds-fr-jo1d	ncas-filtered-radiometer-1	NCAS Filtered Radiometer unit 1	http://catalogue.ceda.ac.uk/uuid/a5d341f986e64aca88fb92a18fa1f77d
+	ncas-spectral-radiometer-1	NCAS Spectral Radiometer unit 2	NEEDS INVESTIGATION
+	ncas-micro-fage-1	NCAS Aircraft FAGE unit 1	NEEDS INVESTIGATION
+	ncas-aws-2	NCAS Automatic Weather Station unit 2	NEEDS INVESTIGATION
+ncas-mobile-xband-radar	ncas-mobile-x-band-radar-1	NCAS X-Band Mobile Radar unit 1	http://catalogue.ceda.ac.uk/uuid/792da2ff61f647aa8021b4b9c06702a9
+	ncas-mobile-ka-band-radar-1	NCAS Ka-Band Mobile Radar unit 1	NEEDS INVESTIGATION
+	ncas-sunphotometer-1	NCAS Sky-Sun-Lunar Photometer unit 1	NEEDS INVESTIGATION
+	ncas-aws-3	NCAS Automatic Weather Station unit 3	NEEDS INVESTIGATION
+	ncas-sonic-3	NCAS Sonic Anemometer unit 2	NEEDS INVESTIGATION
+	ncas-ceilometer-3	NCAS Lidar Ceilometer unit 3	NEEDS INVESTIGATION
+	ncas-lidar-dop-2	NCAS Doppler Aerosol Lidar unit 2	NEEDS INVESTIGATION
+	ncas-cam-1	NCAS Camera unit 1	NEEDS INVESTIGATION
+	ncas-cam-2	NCAS Camera unit 2	NEEDS INVESTIGATION
+	ncas-cam-3	NCAS Camera unit 3	NEEDS INVESTIGATION
+	ncas-aws-1	NCAS Automatic Weather Station unit 1	NEEDS INVESTIGATION
+	ncas-ceilometer-1	NCAS Lidar Ceilometer unit 1	NEEDS INVESTIGATION
+	ncas-energy-balance-1	NCAS Energy Balance Station unit 1 - NR01 radiation sensor	NEEDS INVESTIGATION
+	ncas-energy-balance-2	NCAS Energy Balance Station unit 2 - Kipp&Zonen radiation sensor	NEEDS INVESTIGATION
+	ncas-flux-1	NCAS Flux Station unit 1	NEEDS INVESTIGATION
+	ncas-flux-2	NCAS Flux Station unit 2	NEEDS INVESTIGATION
+	ncas-licor-1	NCAS LiCor unit 1	NEEDS INVESTIGATION
+	ncas-licor-2	NCAS LiCor unit 2	NEEDS INVESTIGATION
+	ncas-lidar-dop-1	NCAS Doppler Aerosol Lidar unit 1	http://catalogue.ceda.ac.uk/uuid/d35f8ddefa8442d9b63883f05aa40057
+	ncas-mrr-1	NCAS Micro Rain Radar unit 1	NEEDS INVESTIGATION
+leeds-radiosonde	ncas-radiosonde-2	NCAS Vaisala Sounding Station unit 2	http://catalogue.ceda.ac.uk/uuid/86569f5888ec4e06a9c8bb000126c0b9
+	ncas-rapidsonde-2	NCAS Windsond Sounding Station unit 2	NEEDS INVESTIGATION
+salford-radiometer-1	ncas-scanning-radiometer-1	NCAS Scanning Microwave Radiometer unit 1	http://catalogue.ceda.ac.uk/uuid/bf38bcb7cfac483bb2374b48b3809c57
+leeds-sodar-unit1	ncas-sodar-1	NCAS Sodar unit 1	NEEDS INVESTIGATION
+leeds-sodar-unit2	ncas-sodar-2	NCAS Sodar unit 2	NEEDS INVESTIGATION
+leeds-sodar-unit3	ncas-sodar-3	NCAS Sodar unit 3	NEEDS INVESTIGATION
+	ncas-sonic-1	NCAS Sonic Anemometer unit 1	NEEDS INVESTIGATION
+	ncas-sonic-2	NCAS Sonic Anemometer unit 2	NEEDS INVESTIGATION

@@ -3,6 +3,7 @@
         "ncas-radar-wind-profiler-1": {
             "instrument_id": "ncas-radar-wind-profiler-1", 
             "previous_instrument_ids": [
+                "aber-radar-1290mhz", 
                 "man-radar-1290mhz"
             ], 
             "description": "NCAS Mobile Radar Wind Profiler unit 1"
@@ -15,6 +16,7 @@
         "ncas-o3-lidar-1": {
             "instrument_id": "ncas-o3-lidar-1", 
             "previous_instrument_ids": [
+                "aber-o3lidar", 
                 "man-o3lidar"
             ], 
             "description": "NCAS Mobile O3 lidar unit 1"

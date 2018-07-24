@@ -7,8 +7,8 @@ cloud_base_altitude
 	standard_name	cloud_base_altitude
 	long_name	Cloud Base Altitude (Geometric height above geoid WGS84)
 	_FillValue	-1.00E+20
-	valid_min	 <derived from file>			centre of lowest gate + platform deployment height
-	valid_max	 <derived from file> 			centre of highest gate + platform deployment height
+	valid_min	<derived from file>			centre of lowest gate + platform deployment height
+	valid_max	<derived from file>			centre of highest gate + platform deployment height
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
@@ -85,4 +85,4 @@ qc_flag
 	standard_name
 	long_name	Data Quality flag
 	flag_values	0b,1b, 2b, 3b, 4b, 5b, 6b
-	flag_meanings	not_used good_data  suspect_data_no_signifcant_backscatter suspect_data_full_obscuration_determined_but_no_cloud_base_detected suspect_data_some_obscuration_detected_but_determined_to_be_transparent bad_data_raw_data_missing suspect_data_time_stamp_error
+	flag_meanings	not_used|good_data |suspect_data_no_signifcant_backscatter|suspect_data_full_obscuration_determined_but_no_cloud_base_detected|suspect_data_some_obscuration_detected_but_determined_to_be_transparent|bad_data_raw_data_missing|suspect_data_time_stamp_error
