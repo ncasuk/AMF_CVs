@@ -1,0 +1,102 @@
+Instrument	Old Instrument Name	New Instrument Name	Descriptor	CEDA Instrument Record URL	Manufacturer	Model No.	Scientist	Data Product(s)	Domains
+Boundary Layer Wind profiler	aber-radar-1290mhz, man-radar-1290mhz	ncas-radar-wind-profiler-1	NCAS Mobile Radar Wind Profiler unit 1	NEEDS INVESTIGATION	Degreane Horizon	Degrewind PCL1300	Emily Norton	snr-winds	land
+Ceilometer		ncas-ceilometer-4	NCAS Lidar Ceilometer unit 4	NEEDS INVESTIGATION	campbell	cs135	Emily Norton	aerosol-backscatter, |cloud-base	land, sea
+Ozone lidar	aber-o3lidar, man-o3lidar	ncas-o3-lidar-1	NCAS Mobile O3 lidar unit 1	NEEDS INVESTIGATION	bespoke	bespoke	Hugo Ricketts	aerosol-extinction, |o3-concentration-profile	land, sea
+Radio sonde unit1	man-radiosonde	ncas-radiosonde-1	NCAS Vaisala Sounding Station unit 1	http://catalogue.ceda.ac.uk/uuid/8dff23de47ae4557a8989be0c05ed708	Vaisala	MW41|For older data this can also be MW31 or MW21	Hugo Ricketts	sonde	land, sea
+Rapid sonde unit1		ncas-rapidsonde-1	NCAS Windsond Sounding Station unit 1	NEEDS INVESTIGATION	Windsond	Not appicable	Hugo Ricketts	sonde	land, sea
+Aircraft 3V - CPI	man-3v-cpi	ncas-3v-cpi-1	NCAS 3 View Cloud Particle Imager unit 1	http://catalogue.ceda.ac.uk/uuid/f75cf07afe594c08aebee4c73b5a482b	Spec. Inc, USA	3V-CPI	James Dorsey	images - data product not defined	land, air, sea
+Aircraft CPI	man-cpi	ncas-cpi-1	NCAS Cloud Particle Imager unit 1	http://catalogue.ceda.ac.uk/uuid/723bb5e1edad4ad48f927759bdcf10cb	Spec. Inc, USA	CPI	James Dorsey	images - data product not defined	land, air, sea
+Aircraft CAPS-DPOL	man-caps	ncas-caps-1	NCAS Cloud & Aerosol Particle Spectrometer unit 1	http://catalogue.ceda.ac.uk/uuid/77b018eb8f4648f283ec47d087cb2dea	Droplet Measurement Technology,	CAPS	James Dorsey	aerosol-size-distribution, |liquid-water-content	land, air, sea
+Aircraft AMS C-TOF-AMS	man-ams	ncas-aerosol-mass-spec-1	NCAS Aerosol Mass Spectrometer unit 1	http://catalogue.ceda.ac.uk/uuid/98ab5fc9e63c403792e90e6b9b69e3c8	Aerodyne Research Inc	C-TOF-AMS	Paul I Williams	aerosol-no3-so4-nh3-org-concentration	land, air, sea
+High Volume Precipitation Specrometer Version 3 (HVPS - 3)		ncas-hvps3-1	NCAS High Volume Precipitation Spectometer unit 1		Spec. Inc, USA	HVPS version 3	James Dorsey		land, air, sea
+APS -1	uom-3321aps-1	ncas-aps-1	NCAS Aerodynamic Particle Sizer unit 1	NEEDS INVESTIGATION	TSI	3321	Paul I Williams	aerosol-size-distribution	land, sea
+APS -2	uom-3321aps-2	ncas-aps-2	NCAS Aerodynamic Particle Sizer unit 2	NEEDS INVESTIGATION	TSI	3321	Paul I Williams	aerosol-size-distribution	land, sea
+CPC 3010 1	uom-3010cpc-1	ncas-cpc-3010-1	NCAS 3010 Condensation Particle Counter unit 1	NEEDS INVESTIGATION	TSI	3010	Paul I Williams	aerosol-concentration	land, air, sea
+CPC 3010 2	uom-3010cpc-2	ncas-cpc-3010-2	NCAS 3010 Condensation Particle Counter unit 2	NEEDS INVESTIGATION	TSI	3010	Paul I Williams	aerosol-concentration	land, air, sea
+CPC 3762 1		ncas-cpc-3762-1	NCAS 3762 Condensation Particle Counter unit 1	NEEDS INVESTIGATION	TSI	3762	Paul I Williams	aerosol-concentration	land, air, sea
+CPC 3762 2		ncas-cpc-3762-2	NCAS 3762 Condensation Particle Counter unit 2	NEEDS INVESTIGATION	TSI	3762	Paul I Williams	aerosol-concentration	land, air, sea
+CPC 3762 3		ncas-cpc-3762-3	NCAS 3762 Condensation Particle Counter unit 3	NEEDS INVESTIGATION	TSI	3762	Paul I Williams	aerosol-concentration	land, air, sea
+CPC 3762 4		ncas-cpc-3762-4	NCAS 3762 Condensation Particle Counter unit 4	NEEDS INVESTIGATION	TSI	3762	Paul I Williams	aerosol-concentration	land, air, sea
+Grimm OPC	uom-grimm	ncas-opc-1	NCAS Optical Particle Counter unit 1	NEEDS INVESTIGATION	Grimm Aerosol Technik	Dust Monitor 1.108	Paul I Williams	aerosol-size-distribution	land, air, sea
+SMPS - 1	man-smps-1	ncas-smps-1	NCAS Scanning Mobility Particle Spectrometer unit 1	NEEDS INVESTIGATION	TSI	3936	Paul I Williams	aerosol-size-distribution	land, air, sea
+SMPS - 2	man-smps-2	ncas-smps-2	NCAS Scanning Mobility Particle Spectrometer unit 2	NEEDS INVESTIGATION	TSI	3936	Paul I Williams	aerosol-size-distribution	land, air, sea
+WAO - Met		ncas-aws-6	NCAS Automatic Weather Station unit 6	NEEDS INVESTIGATION	Gill	MetPak	Grant Forster	surface-met	land
+WAO - ceilometer		ncas-ceilometer-2	NCAS Lidar Ceilometer unit 2	NEEDS INVESTIGATION	Vaisala	ct25k	Grant Forster	aerosol-backscatter, |cloud-base	land
+WAO - sodar		ncas-sodar-rass-1	NCAS Sodar Rass unit 1	NEEDS INVESTIGATION	Metek	PCS.2000 RASS	Grant Forster	acoustic-backscatter-winds, |boundary-layer-temperature	land
+WAO - NOx		ncas-42i-nox-2	NCAS Thermo 42i NOX Monitor unit 2	NEEDS INVESTIGATION	Thermo	42i	Grant Forster	nox-noxy-concentration	land
+WAO - SO2		ncas-43i-so2-1	NCAS Thermo 43i SO2 Monitor unit 1	NEEDS INVESTIGATION	Thermo	43i	Grant Forster	so2-concentration	land
+WAO - O3		ncas-49i-o3-2	NCAS Thermo 49i O3 Monitor unit 2	NEEDS INVESTIGATION	Thermo	49i	Grant Forster	o3-concentration	land
+WAO - CO2	wao-siemens-oxzilla	ncas-co2-1	NCAS Seimens Oxilla CO2 Gas Monitor unit 1	NEEDS INVESTIGATION	Siemens	Sable Systems Oxzilla II	Grant Forster	co2-concentration	land
+WAO  - N2O & SF6	wao-ghg-gc-ecd	ncas-ghg-gc-ecd-1	NCAS Gas Chromatograph with Electron Capture Detector unit 1	NEEDS INVESTIGATION	Perkin Elmer	Clarus 500 Gas Chromatograph	Grant Forster	n2o-sf6-concentration|sf6-concentration	land
+WAO - NO2		uea-caps-1	UEA Cavity Attenuated Phase Shift Spectroscopy unit 1		Teledyne	T500U	Grant Forster	no2-concentration	land
+WAO - CH4	wao-ghg-gc-fid	ncas-ghg-gc-fid-1	NCAS Gas Chromatograph with Flame Ionisation Detector unit 1	http://catalogue.ceda.ac.uk/uuid/8b3ac252d05a4b7eac85b0bcb1b765d2	Perkin Elmer	Clarus 500 Gas Chromatograph	Grant Forster	ch4-concentration	land
+WAO - O2	wao-siemens-oxzilla	ncas-o2-1	NCAS Seimens Oxilla O2 Gas Monitor unit 1	NEEDS INVESTIGATION	Siemens	Ultramat 6E	Grant Forster	o2n2-concentration-ratio	land
+WAO - CO & h2	wao-rga	ncas-rga3-1	NCAS Reduction Gas Analyser unit 1	NEEDS INVESTIGATION	Trace Analytical	RGA3	Grant Forster	co-h2-concentration|h2-concentration	land
+WAO - PM		uea-fidas200E-1	UEA PM Mass Concentration Counter unit 1		Palas	Fidas 200E	Grant Forster	pm-concentration	land
+WAO - CH4, N20, CO		ncas-ftir-1	NCAS FTIR CH4 N2O CO Monitor unit 1		Ecotech	Spectronus	Grant Forster	ch4-n2o-co-concentration	land
+CVAO - 2D sonic		ncas-sonic-4	NCAS Sonic Anemometer unit 4	NEEDS INVESTIGATION	Gill	WindMaster	Katie Read	mean-winds	land
+CVAO - met Campbell	cv-met-campbell	ncas-aws-8	NCAS Automatic Weather Station unit 8	http://catalogue.ceda.ac.uk/uuid/84d60aea395b491f8313d6c75b580f93	campbell	WxPRO	Katie Read	surface-met	land
+CVAO - met Davis	cv-met-tower, cv-met-webdaq	ncas-aws-7	NCAS Automatic Weather Station unit 7	NEEDS INVESTIGATION	davis	vantage vue	Katie Read	surface-met	land
+CVAO - SO2		ncas-43i-so2-2	NCAS Thermo 43i SO2 Monitor unit 1	NEEDS INVESTIGATION	Thermo
+CVAO - 03	cv-tei-o3	ncas-49i-o3-1	NCAS Thermo 49i O3 Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/e964c05ed6704dd89326cc6cad27c6bb	thermo	49i	Katie Read	o3-concentration	land
+CVAO - CO		ncas-co-picarro-1	NCAS Picarro CO Monitor unit 1	NEEDS INVESTIGATION	Picarro	G2401 CO,CH4,CO2,H2O Analyzer	Katie Read	co-concentration	land
+CVAO - halocarbons	cv-gc-ms	ncas-halocarbon-gc-1	NCAS Halocarbon Gas Chromatograph unit 1	http://catalogue.ceda.ac.uk/uuid/fc34e6a732af44fc896e69cf4bf0ea7b	bespoke	GC MS	Katie Read	halocarbon-concentration	land
+CVAO - noxy	cv-noxy	ncas-noxy-1	NCAS AQD High Sensitivity NOx Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/bfec242b35524bbe9dff61765e755271	Air Quality Design Inc	High Performance, 2 Channel NOx monitor	Katie Read	nox-noxy-concentration	land
+CVAO - Mercury		ncas-tgm-tekran-1	NCAS Mercury Monitor unit 1	NEEDS INVESTIGATION	Tekran	2537B CVAFS	Katie Read	tgm-concentration	land
+CVAO - Spectral radiiometer	cv-specrad	ncas-spectral-radiometer-2	NCAS Spectral Radiometer unit 2	NEEDS INVESTIGATION	Ocean Optics	QE65000	James Lee	solar-actinic-flux	land
+CVAO - VOC	cv-dc-gc-fid	ncas-dc-gc-fid-3	NCAS Dual Channel Gas Chromatograph with Flame Ionisation Detector unit 3	NEEDS INVESTIGATION	Perkin Elmer	GC	Katie Read	voc-concentration	land
+BT Tower - O3		ncas-49i-o3-3	NCAS Thermo 49i O3 Monitor unit 3	NEEDS INVESTIGATION	thermo	49i	James Lee	o3-concentration	land
+BT Tower - Nox		ncas-teco-nox-1	NCAS Teco NOx Monitor unit 1	NEEDS INVESTIGATION	thermo	42i	James Lee	nox-noxy-concentration	land
+1 chan O3	york-ozone6	ncas-2b-1chan-o3-1	NCAS 1 Channel O3 Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/951bb4d012d4490682b03dcd9864b1b7	2B Technologies	205	Katie Read	o3-concentration	land, sea
+2 chan O3	york-ozone7	ncas-2b-2chan-o3-1	NCAS 2 Channel O3 Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/76684ba152334ebcb72c44accff62b04	2B Technologies	205	Katie Read	o3-concentration	land, sea
+Thermo O3	york-ozone3	ncas-49i-o3-4	NCAS Thermo 49i O3 Monitor unit 4	http://catalogue.ceda.ac.uk/uuid/3f21274cd3ba40d391b154f87bfc9f25	thermo	49i	Katie Read	o3-concentration	land, sea
+Aerolaser co 2		ncas-aerolaser-co-2	NCAS Aerolaser CO Monitor unit 2	NEEDS INVESTIGATION	Aero-Laser	AL5002	Katie Read	co-concentration	land, sea
+Aerolaser co 1		ncas-aerolaser-co-1	NCAS Aerolaser CO Monitor unit 1	NEEDS INVESTIGATION	Aero-Laser	AL5002	Katie Read	co-concentration	land, sea
+CO GC - 1		ncas-co-1	NCAS Ametek CO Monitor unit 1	NEEDS INVESTIGATION	Ametek	ta3000R	James Lee	co-concentration	land, sea
+CO GC - 2		ncas-co-2	NCAS Ametek CO Monitor unit 2	NEEDS INVESTIGATION	Ametek	ta3000R	James Lee	co-concentration	land, sea
+Fast NOX		ncas-fast-nox-1	NCAS Fast response NOx Monitor unit 1	NEEDS INVESTIGATION	Air Quality Design	bespoke	James Lee	nox-noxy-concentration	land, sea
+High Sensitivity NOX		ncas-high-sen-nox-1	NCAS High Semsitivity NOx Monitor unit 1	NEEDS INVESTIGATION	Air Quality Design	High Performance, 2 Channel NOx monitor	James Lee	nox-noxy-concentration	land, air, sea
+DC-GC-FID-1		ncas-dc-gc-fid-1	NCAS Dual Channel Gas Chromatograph with Flame Ionisation Detector unit 1	NEEDS INVESTIGATION	Perkin Elmer	GC	James Hopkins	voc-concentration	land, air, sea
+DC-GC-FID-2		ncas-dc-gc-fid-2	NCAS Dual Channel Gas Chromatograph with Flame Ionisation Detector unit 2	NEEDS INVESTIGATION	Perkin Elmer	GC	James Hopkins	voc-concentration	land, air, sea
+TOF gcms		ncas-gc-ms-tof-1	NCAS Dual Gas Chromatograph with Time of Flight Mass Spectrometer unit 1
+GC-ms		ncas-gc-ms-1	NCAS Gas Chromatograph with Mass Spectrometer unit 1	NEEDS INVESTIGATION	bespoke	bespoke	James Hopkins	voc-concentration	land, air, sea
+PAN-gc		ncas-pan-gc-1	NCAS Peroxyacetyl Nitrates Gas Chromatograph unit 1	NEEDS INVESTIGATION	bespoke	bespoke	James Hopkins	peroxyacetyl-nitrate-concentration	land, air, sea
+PTRMS	uea-ptrms	ncas-ptrms-1	NCAS Proton Transfer Reaction Mass Spectrometer unit 1	http://catalogue.ceda.ac.uk/uuid/c39cb6ce89ea4b4a9c3d3d9ae602f983	onicon Analytik	bespoke	David Oram	voc-concentration	land, air, sea
+Nox - 1	leeds-nox	ncas-42i-nox-1	NCAS Thermo 42i NOx Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/e296a7dd92b047ba909ad7b9c742cced	thermo	42i	Lisa Whalley	nox-noxy-concentration	land, sea
+O3	leeds-o3	ncas-49c-o3-1	NCAS Thermo 42c O3 Monitor unit 1	http://catalogue.ceda.ac.uk/uuid/cb9dcae55bee4f4dbc79374f6199b9d4	thermo	42c	Lisa Whalley	o3-concentration	land, sea
+Dewpoint Hygrometer	leeds-dph	ncas-dewpoint-hygrometer-1	NCAS Dewpoint Hygrometer unit 1	http://catalogue.ceda.ac.uk/uuid/56cf819313ed431686aa4eae9364843c	General Eastern	Optica Chilled Mirror Hygrometer	Lisa Whalley	dew-point	land, sea
+FAGE	leeds-fage	ncas-fage-1	NCAS FAGE unit 1	http://catalogue.ceda.ac.uk/uuid/fa81f4481fc0403d843dae1be91c0e01	bespoke	bespoke	Lisa Whalley	oh-concentration	land, sea
+Filtered radiometer	leeds-fr-jo1d	ncas-filtered-radiometer-1	NCAS Filtered Radiometer unit 1	http://catalogue.ceda.ac.uk/uuid/a5d341f986e64aca88fb92a18fa1f77d	Metcon GmbH	Filtered radiometer	Lisa Whalley	o3-photolysis-frequencies	land, sea
+Spectral radiometer		ncas-spectral-radiometer-1	NCAS Spectral Radiometer unit 2	NEEDS INVESTIGATION	Ocean Optics	QE65000	Lisa Whalley	solar-actinic-flux	land, sea
+micro Fage		ncas-micro-fage-1	NCAS Aircraft FAGE unit 1	NEEDS INVESTIGATION	bespoke	bespoke	Trevor Ingham	oh-concentration	land, air, sea
+radar aws		ncas-aws-2	NCAS Automatic Weather Station unit 2	NEEDS INVESTIGATION	davis instruments	Vatage Vue	Lindsay Bennett	surface-met	land
+X-band radar	ncas-mobile-xband-radar	ncas-mobile-x-band-radar-1	NCAS X-Band Mobile Radar unit 1	http://catalogue.ceda.ac.uk/uuid/792da2ff61f647aa8021b4b9c06702a9	Selex	METEOR 60DX	Lindsay Bennett	radar	land
+Ka-Band radar		ncas-mobile-ka-band-radar-1	NCAS Ka-Band Mobile Radar unit 1	NEEDS INVESTIGATION	METEK	MIRA-35	Chris Walden	radar	land, sea
+sun photometer		ncas-sunphotometer-1	NCAS Sky-Sun-Lunar Photometer unit 1	NEEDS INVESTIGATION	Cimel	CE318-T	Chris Walden	aerosol-optical-depth	land, sea
+IAO - met		ncas-aws-3	NCAS Automatic Weather Station unit 3	NEEDS INVESTIGATION	Davis	VAntage pro 2	Barbara Brooks	surface-met	land
+IAO - vaisala WXT365		ncas-aws-10	NCAS Automatic Weather Station unit 10	NEEDS INVESTIGATION	Vaisala	WXT365	Barbara Brooks	surface-met	land
+IAO Ceilometer		ncas-ceilometer-3	NCAS Lidar Ceilometer unit 3	NEEDS INVESTIGATION	Campbel	CS135	Barbara Brooks	aerosol-backscatter, |cloud-base	land
+IAO Doppler lidar		ncas-lidar-dop-2	NCAS Doppler Aerosol Lidar unit 2	NEEDS INVESTIGATION	HALO Photonics	StreamLine	Barbara Brooks	mean-winds-profile,|aerosol-backscatter-radial-winds, |depolarisation-ratio	land
+IAO Camera 1		ncas-cam-1	NCAS Camera unit 1	NEEDS INVESTIGATION	ycam	protect outdoor camera	James Groves	images - data product not defined	land
+IAO Camera 2		ncas-cam-2	NCAS Camera unit 2	NEEDS INVESTIGATION	ycam	protect outdoor camera	James Groves	images - data product not defined	land
+IAO All sky camera	skycam	ncas-cam-3	NCAS Camera unit 3	NEEDS INVESTIGATION	planet	ICA 8350	James Groves	images - data product not defined	land
+AWS		ncas-aws-1	NCAS Automatic Weather Station unit 1	NEEDS INVESTIGATION	Davis	Vatage Pro 2	Phil Rosenberg	surface-met	land, sea
+Ceilometer		ncas-ceilometer-1	NCAS Lidar Ceilometer unit 1	NEEDS INVESTIGATION	Campbel	CS135	Phil Rosenberg	aerosol-backscatter, |cloud-base	land, sea
+Energy Balance -1		ncas-energy-balance-1	NCAS Energy Balance Station unit 1 - NR01 radiation sensor	NEEDS INVESTIGATION	Campbel	CR5000	Phil Rosenberg	radiation, |soil	land, sea
+Energy Balance -2		ncas-energy-balance-2	NCAS Energy Balance Station unit 2 - Kipp&Zonen radiation sensor	NEEDS INVESTIGATION	Campbel	CR3000	Phil Rosenberg	radiation, |soil	land, sea
+Flux - 1		ncas-flux-1	NCAS Flux Station unit 1	NEEDS INVESTIGATION	Bespoke	Flux	Phil Rosenberg	flux-components, |flux estimates	land, sea
+Flux - 2		ncas-flux-2	NCAS Flux Station unit 2	NEEDS INVESTIGATION	Bespoke	Flux	Phil Rosenberg	flux-components, |flux estimates	land, sea
+Licor - 1		ncas-licor-1	NCAS LiCor unit 1	NEEDS INVESTIGATION	Li-Cor	LI-7500	Phil Rosenberg	mean-co2-h2o	land, sea
+Licor - 2		ncas-licor-2	NCAS LiCor unit 2	NEEDS INVESTIGATION	Li-Cor	LI-7500	Phil Rosenberg	mean-co2-h2o	land, sea
+Doppler lidar		ncas-lidar-dop-1	NCAS Doppler Aerosol Lidar unit 1	http://catalogue.ceda.ac.uk/uuid/d35f8ddefa8442d9b63883f05aa40057	HALO Photonics	StreamLine	Phil Rosenberg	mean-winds-profile, |aerosol-backscatter-radial-winds, |depolarisation-ratio	land, air, sea
+Micro Rain Radar		ncas-mrr-1	NCAS Micro Rain Radar unit 1	NEEDS INVESTIGATION	METEK	MRR-2	Phil Rosenberg	rain-lwc-velocity-reflectivity, |size-concentration-spectra	land, sea
+Radio sonde unit2	leeds-radiosonde	ncas-radiosonde-2	NCAS Vaisala Sounding Station unit 2	http://catalogue.ceda.ac.uk/uuid/86569f5888ec4e06a9c8bb000126c0b9	Vaisala	MW41|For older data this can also be MW31 or MW21	Phil Rosenberg	sonde	land, sea
+Rapid sonde unit2		ncas-rapidsonde-2	NCAS Windsond Sounding Station unit 2	NEEDS INVESTIGATION	Windsond	Not appicable	Phil Rosenberg	sonde	land, sea
+HATPRO Radiometer	salford-radiometer-1	ncas-scanning-radiometer-1	NCAS Scanning Microwave Radiometer unit 1	http://catalogue.ceda.ac.uk/uuid/bf38bcb7cfac483bb2374b48b3809c57	RPG	HATPRO	Phil Rosenberg	boundary-layer-temperature-profiles, |brightness-temperature, |boundary-layer-height|full-troposphere-temperature-profiles, |iwv-lwp, |moisture-profile, |stability-indices, |surface-met	land, sea
+HATPRO Radiometer 2		ncas-scanning-radiometer-2	NCAS Scanning Microwave Radiometer unit 2		RPG	HTPRO G5	Phil Rosenberg	boundary-layer-temperature-profiles, |brightness-temperature, |boundary-layer-height|full-troposphere-temperature-profiles, |iwv-lwp, |moisture-profile, |stability-indices, |surface-met	land, sea
+sodar -1	leeds-sodar-unit1	ncas-sodar-1	NCAS Sodar unit 1	NEEDS INVESTIGATION	Scintec	MFAS	Barbara Brooks	acoustic-backscatter-winds	land
+sodar -2	leeds-sodar-unit2	ncas-sodar-2	NCAS Sodar unit 2	NEEDS INVESTIGATION	Scintec	MFAS	Barbara Brooks	acoustic-backscatter-winds	land
+sodar -3	leeds-sodar-unit3	ncas-sodar-3	NCAS Sodar unit 3	NEEDS INVESTIGATION	Scintec	MFAS	Barbara Brooks	acoustic-backscatter-winds	land
+sonic 1		ncas-sonic-1	NCAS Sonic Anemometer unit 1	NEEDS INVESTIGATION	METEK	uSonic-3	Phil Rosenberg	mean-winds	land, sea
+sonic 2		ncas-sonic-2	NCAS Sonic Anemometer unit 2	NEEDS INVESTIGATION	METEK	uSonic-3	Phil Rosenberg	mean-winds	land, sea
+lidar windprofiler 1		ncas-lidar-wind-profiler-1	NCAS Lidar Wind Profiler unit 1		Wood	Galion 4000	Phil Rosenberg	mean-winds-profile	land, sea

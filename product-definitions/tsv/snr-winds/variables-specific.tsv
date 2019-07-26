@@ -1,0 +1,258 @@
+Variable	Attribute	Value	Proposed name	example value	notes
+time_minutes_since_start_of_day
+	type	float32
+	dimension	time
+	units	1
+	standard_name
+	long_name	Time in Minutes Since Start of Day
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+
+altitude
+	type	float32
+	dimension	time, index
+	units	m
+	standard_name	altitude
+	long_name	Geometric height above geoid (WGS84).
+	_FillValue	-1.00E+20
+	axis	Z
+	valid_min	<derived from file>			centre of lowest gate + platform deployment height
+	valid_max	<derived from file>			centre of highest gate + platform deployment height
+	coordinates	latitude longitude
+
+size_of_gate
+	type	float32
+	dimension	time
+	units	m
+	standard_name		size_of_gate
+	long_name	Size of Gate.
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+wind_speed
+	type	float32
+	dimension	time, index
+	units	m s-1
+	standard_name	wind_speed
+	long_name	Wind Speed
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+wind_from_direction
+	type	float32
+	dimension	time, index
+	units	degree
+	standard_name	wind_from_direction
+	long_name	Wind From Direction
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+eastward_wind
+	type	float32
+	dimension	time, index
+	units	m s-1
+	standard_name	eastward_wind
+	long_name	Eastward Wind Component (U)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+northward_wind
+	type	float32
+	dimension	time, index
+	units	m s-1
+	standard_name	northward_wind
+	long_name	Northward Wind Component (V)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+upward_air_velocity
+	type	float32
+	dimension	time, index
+	units	m s-1
+	standard_name	upward_air_velocity
+	long_name	Upward Air Velocity Component (W)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+signal_to_noise_ratio_of_beam_1
+	type	float32
+	dimension	time, index
+	units	dB
+	standard_name		signal_to_noise_ratio_of_beam_1
+	long_name	Signal to Noise Ratio of beam 1 (back panel)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+signal_to_noise_ratio_of_beam_2
+	type	float32
+	dimension	time, index
+	units	dB
+	standard_name		signal_to_noise_ratio_of_beam_2
+	long_name	Signal to Noise Ratio of beam 2 (side panel)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+signal_to_noise_ratio_of_beam_3
+	type	float32
+	dimension	time, index
+	units	dB
+	standard_name		signal_to_noise_ratio_of_beam_3
+	long_name	Signal to Noise Ratio of beam 3 (vertical beam from centre panel)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+signal_to_noise_ratio_minimum
+	type	float32
+	dimension	time, index
+	units	dB
+	standard_name		signal_to_noise_ratio_minimum
+	long_name	Minimum Signal to Noise Ratio of the three beams
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+spectral_width_of_beam_1
+	type	float32
+	dimension	time, index
+	units	m s-1
+	standard_name		spectral_width_of_beam_1
+	long_name	Spectral Width of beam 1 (back panel)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+spectral_width_of_beam_2
+	type	float32
+	dimension	time, index
+	units	m s-1
+	standard_name		spectral_width_of_beam_2
+	long_name	Spectral Width of beam 2 (side panel)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+spectral_width_of_beam_3
+	type	float32
+	dimension	time, index
+	units	m s-1
+	standard_name		spectral_width_of_beam_3
+	long_name	Spectral Width of beam 3 (vertical beam from centre panel)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+skew_of_beam_1
+	type	float32
+	dimension	time, index
+	units	m s-1
+	standard_name		skew_of_beam_1
+	long_name	Skew of beam 1 (back panel)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: skew
+	coordinates	latitude longitude
+
+skew_of_beam_2
+	type	float32
+	dimension	time, index
+	units	m s-1
+	standard_name		skew_of_beam_2
+	long_name	Skew of beam 2 (side panel)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: skew
+	coordinates	latitude longitude
+
+skew_of_beam_3
+	type	float32
+	dimension	time, index
+	units	m s-1
+	standard_name		skew_of_beam_3
+	long_name	Skew of beam 3 (vertical beam from centre panel)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: skew
+	coordinates	latitude longitude
+
+qc_flag_wind
+	type	byte
+	dimension	time, index
+	units	1
+	standard_name
+	long_name	Data Quality flag: Mean Winds
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |bad_data|bad_data_gates_not_available
+
+qc_flag_beam_1
+	type	byte
+	dimension	time, index
+	units	1
+	standard_name
+	long_name	Data Quality flag: SNR Beam 1 (back panel)
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |bad_data|bad_data_gates_not_available
+
+qc_flag_beam_2
+	type	byte
+	dimension	time, index
+	units	1
+	standard_name
+	long_name	Data Quality flag: SNR Beam 2 (side panel)
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |bad_data|bad_data_gates_not_available
+
+qc_flag_beam_3
+	type	byte
+	dimension	time, index
+	units	1
+	standard_name
+	long_name	Data Quality flag: SNR Beam 3 (vertical beam from centre panel)
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |bad_data|bad_data_gates_not_available
+
+qc_flag_rain_detected
+	type	byte
+	dimension	time
+	units	1
+	standard_name
+	long_name	Data Quality flag: Rain Detected
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data_no_rain |suspect_data_rain_detected|suspect_data_discontinuous_rain

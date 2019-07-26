@@ -1,0 +1,32 @@
+<instrument_name>_<platform_name>_<YYYYMM><DD><HH><mm><SS>_<data_product>_<option1>_<option2>_v<version>.nc
+
+Instrument	data product	option 1	option 2
+ncas-caps-1	aerosol-size-distribution	cas
+	aerosol-size-distribution	cis
+
+ncas-lidar-dop-1	aerosol- backscatter-radial-winds	fixed	co or cr
+	aerosol- backscatter-radial-winds	ppi
+	aerosol- backscatter-radial-winds	rhi
+	aerosol- backscatter-radial-winds	user-1
+	aerosol- backscatter-radial-winds	user-2
+	aerosol- backscatter-radial-winds	user-3
+	aerosol- backscatter-radial-winds	user-4
+	aerosol- backscatter-radial-winds	user-5
+	aerosol- backscatter-radial-winds	winds-ppi
+
+ncas-lidar-dop-2	aerosol- backscatter-radial-winds	fixed	co or cr
+	aerosol- backscatter-radial-winds	ppi
+	aerosol- backscatter-radial-winds	rhi
+	aerosol- backscatter-radial-winds	user-1
+	aerosol- backscatter-radial-winds	user-2
+	aerosol- backscatter-radial-winds	user-3
+	aerosol- backscatter-radial-winds	user-4
+	aerosol- backscatter-radial-winds	user-5
+	aerosol- backscatter-radial-winds	winds-ppi
+
+ncas-radar-wind-profiler-1	snr-winds	high-range-mode	indication of averageing time - can have the same days file averaged over different scales
+		low-range-mode	indication of averageing time - can have the same days file averaged over different scales
+
+ncas-aws-7	surface-met	30m
+ncas-aws-8	surface-met	10m
+ncas-aws-n	surface-met	height of AWS above ground

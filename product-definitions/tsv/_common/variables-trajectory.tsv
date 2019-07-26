@@ -1,0 +1,73 @@
+Variable	Attribute	Value	Compliance checking rules
+time
+	type	float64
+	dimension	time
+	units	seconds since 1970-01-01 00:00:00
+	standard_name	time
+	long_name	Time (seconds since 1970-01-01 00:00:00)
+	axis	T
+	valid_min	<derived from file>	Check against array values
+	valid_max	<derived from file>	Check against array values
+	calendar	standard
+day_of_year
+	type	float32
+	dimension	time
+	units	1
+	standard_name		No standard_name: this is intentional
+	long_name	Day of Year
+	valid_min	<derived from file>	Check against array values
+	valid_max	<derived from file>	Check against array values
+
+year
+	type	int32
+	dimension	time
+	units	1
+	standard_name		No standard_name: this is intentional
+	long_name	Year
+	valid_min	<derived from file>	Check against array values
+	valid_max	<derived from file>	Check against array values
+
+month
+	type	int32
+	dimension	time
+	units	1
+	standard_name		No standard_name: this is intentional
+	long_name	Month
+	valid_min	<derived from file>	Check against array values
+	valid_max	<derived from file>	Check against array values
+
+day
+	type	int32
+	dimension	time
+	units	1
+	standard_name		No standard_name: this is intentional
+	long_name	Day
+	valid_min	<derived from file>	Check against array values
+	valid_max	<derived from file>	Check against array values
+
+hour
+	type	int32
+	dimension	time
+	units	1
+	standard_name		No standard_name: this is intentional
+	long_name	Hour
+	valid_min	<derived from file>	Check against array values
+	valid_max	<derived from file>	Check against array values
+
+minute
+	type	int32
+	dimension	time
+	units	1
+	standard_name		No standard_name: this is intentional
+	long_name	Minute
+	valid_min	<derived from file>	Check against array values
+	valid_max	<derived from file>	Check against array values
+
+second
+	type	float32
+	dimension	time
+	units	1
+	standard_name		No standard_name: this is intentional
+	long_name	Second
+	valid_min	<derived from file>	Check against array values
+	valid_max	<derived from file>	Check against array values

@@ -1,0 +1,45 @@
+Variable	Attribute	Value	Proposed name	example value	notes
+dew_point_temperature
+	type	float32
+	dimension	time
+	units	K
+	standard_name	dew_point_temperature
+	long_name	Dew \Frost point Temperature
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: ????		mean or point
+	coordinates	latitude longitude
+
+relative_humidity
+	type	float32
+	dimension	time
+	units	%
+	standard_name	relative_humidity
+	long_name	Relative Humidity
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: ????		mean or point
+	coordinates	latitude longitude
+
+mole_fraction_of_water_vapor_in_air
+	type	float32
+	dimension	time
+	units	?		1|1e-3|1e-6|1e-9|1e-12	1|1e-3 (parts_per_thousand, mmol mole|1e-6 (ppm, micromole mole-1)|1e-9 (ppb, nmole mole-1)|1e-12 (ppt, pmole mole-1)
+	standard_name	mole_fraction_of_water_vapor_in_air
+	long_name	Mole Fraction of Water Vapor in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: ????		mean or point
+	coordinates	latitude longitude
+
+qc_flag
+	type	byte
+	dimension	time
+	units	1
+	standard_name
+	long_name	Data Quality flag
+	flag_values	0b,1b, 2b, 3b
+	flag_meanings	not_used|good_data |suspect_data_contact_creator|bad_data_do_not_use

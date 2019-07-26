@@ -1,0 +1,202 @@
+Name	Description	Example	Fixed Value	Compliance checking rules	Convention Providence	Regex check (if required) - AS & JS to populate	Vocabulary - AS & JS to populate
+Conventions	NetCDF Conventions being followed	CF-1.6, NCAS-AMF-1.0	CF-1.6, NCAS-AMF-1.0	Exact match	CF
+source	Description of instrument	NCAS Energy balance station unit 1  - NR01 radiation sensor		Exact match in vocabulary	CF		Decide VOCAB
+instrument_manufacturer	Manufacturer of instrument and key sub components	Campbell logger and Hukseflux radiation sensor		String: min 2 characters	AMF
+instrument_model	Model number of instrument and key sub components	CR5000 logger, NR01 4 component radiation sensor		String: min 3 characters	AMF
+instrument_serial_number	Serial number of instrument and key sub components	1399, NR101 - 2413 (SW UP facing 3985, SW DN facing 3984, IR UP facing 3928, IR DN facing 3927)		String: min 3 characters	AMF
+instrument_software	Name of the native software running the measurement	EB1_logger.cr5		String: min 3 characters	AMF
+instrument_software_version	Version number of the native software running the measurement	v1		String: min 2 characters	AMF
+creator_name	Full name of the the person who made the file	Barbara Brooks		String: min 3 characters	ACDD1.3
+creator_email	E-mail address of the person who made the file	barbara.brooks@ncas.ac.uk		Valid email	ACDD1.3
+creator_url	ORCID URL of the person who made the file	https://orcid.org/0000-0001-8932-9256		Valid URL	ACDD1.3
+institution	Institution the maker affliated to	National Centre for Atmospheric Science (NCAS)		Exact match in vocabulary	CF		Decide VOCAB
+processing_software_url	A public URL for the processing software used to process/QC the data. NOTE: this excludes proprietary software.	https://github.com/lecbjb/AMF_DATA/tree/master/matlab		Valid URL	AMF
+processing_software_version	Version number of the software used to process and QC the data	v1		String: min 2 characters	AMF
+calibration_sensitivity	Calibrated sensitivity/measurement range	Calibrated:SW DN facing 09-01-2015, SWUPfacing 09-01-2015, LW DN facing 30-12-2014, LW UP facing 30-12-2014		String: min 5 characters	AMF
+calibration_certification_date	Date when the instrument was last calibrated	2017-06-06T12:00:00		Match: YYYY-MM-DDThh:mm:ss\.\d+ _or_ N/A	AMF
+calibration_certification_url	URL to calibration file or certificate	https://github.com/lecbjb/AMF_DATA/tree/master/matlab		Valid URL _or_ N/A	AMF
+sampling_interval	Time interval between data values in the file	10 second		String: min 2 characters	AMF	<number_greater_than_zero_maybe_decimal><space><word>(microsecond|millisecond|second|minute|hour|day|year)
+averaging_interval	Time interval over which each data point are averaged	5 second		String: min 2 characters	AMF
+product_version	Version of the data in this file	v1.3		Match: vN.M	ACDD1.3
+processing_level	Data product level. Possible values: 0: native, 1: basic QC, 2: high-level QC, 3: product derived from levels 1 and 2 data	2		Integer	ACDD1.3
+last_revised_date	Date file was produced	2017-06-06T12:00:00		Match: YYYY-MM-DDThh:mm:ss\.\d+	AMF
+project	Full name and acronym of the project	some project		String: min 3 characters	ACDD1.3
+project_principal_investigator	Full name of project PI	Geraint Vaughan		String: min 3 characters	AMF
+project_principal_investigator_email	Contact details of the Project PI	geraint.vaughan@manchester.ac.uk		Valid email	AMF
+project_principal_investigator_url	ORCID URL of the Project PI	https://orcid.org/0000-0002-0885-0398		Valid URL	AMF
+licence	Under what licence the data are being made available	Data usage licence - UK Government Open Licence agreement: http://www.nationalarchives.gov.uk/doc/open-government-licence	Data usage licence - UK Government Open Licence agreement: http://www.nationalarchives.gov.uk/doc/open-government-licence	Exact match of text to the left	AMF	NOTE - UK spelling ... because it's a UK standard!
+acknowledgement	How should use of these data should be acknowledged	Acknowledgement of NCAS as the data provider is required whenever and wherever these data are used	Acknowledgement of NCAS as the data provider is required whenever and wherever these data are used	Exact match of text to the left	ACDD1.3
+platform	Name of the platform on which the instrument was deployed	kumasi		Exact match in vocabulary	ACDD1.3		Decide VOCAB
+platform_type	Type of platform on which the instrument was deployed	stationary_platform		Exact match in vocabulary	AMF		Decide VOCAB
+deployment_mode	Is the instrument delpyed on land, sea, or in the air	land	land, sea air
+title	Name and general description of the data set	Point measurement of 4 components of radiation from the NCAS energy balance station.		String: min 10 characters	CF
+featureType	Feature Type of measurements (set for each instrument type).	timeSeriesPoint		Exact match in vocabulary	CF		Decide VOCAB
+time_coverage_start	Time stamp of the first data point in the file	2016-07-06T00:00:00		Match: YYYY-MM-DDThh:mm:ss\.\d+	ACDD1.3
+time_coverage_end	Time stamp of the last data point in the file	2016-07-06T23:59:00		Match: YYYY-MM-DDThh:mm:ss\.\d+	ACDD1.3
+geospatial_bounds	For a point deployment: (latitude longitude) - signed decimal|For a bounding box: SW corner, NE corner: (latitude longitude, latitude longitude) - signed decimal	For a point deployment: -111.29N 40.26E|For bounding box: -111.29N 40.26E, -110.29N 40.26E		See example.	ACDD1.3
+platform_altitude	Altitude of the deployment position above MSL. Enter Not Applicable for air	10.35 m		Exact match: <number> m	AMF
+location_keywords	Comma-separated words to help locate the geographical positon of the deployment site	Ghana, Kumasi, Africa		String: min 3 characters	AMF
+amf_vocabularies_release	URL to AMF Vocabularies repository	https://github.com/ncasuk/AMF_CVs/releases/tag/0.5.0		Valid URL	AMF
+history	History of the data. Append a time-stamped newline for each stage of re-processing	2016-07-12T08:21:21 - Data collected.|2016-11-04T09:09 - v0 processed & QC'd |2017-01-01T01:01:01 - v1 Revision due to error in processing.		String: min 1 character	CF
+comment	Any other text that might be useful. Use "None" if no comment needed.	Line of Sight directional reference: positive values indicate movement away from the instrument, negative towards. User defined scan pattern - all angles with respect instrument. sensor_view_angle of 90 degrees referes to the the sensor looking directly above, 0 looking horizontaly forward wrt instrument, 180 horizontally backward wrt instrument		String: min 4 characters	CF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		float64
