@@ -3,10 +3,10 @@
     "canonical_name": "lower-channel-cuf-off",
     "create_date": "2018-07-09 13:09:00+00:00",
     "data": {
-        "compliance_checking_rules": null,
+        "compliance_checking_rules": "String: min 3 characters",
         "convention_providence": null,
-        "description": null,
-        "fixed_value": null,
+        "description": "Theoretical lower size limit",
+        "fixed_value": "",
         "global_attribute_id": "lower_channel_cuf_off"
     },
     "label": "lower_channel_cuf_off",

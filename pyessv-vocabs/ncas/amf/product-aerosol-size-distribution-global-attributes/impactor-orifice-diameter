@@ -3,10 +3,10 @@
     "canonical_name": "impactor-orifice-diameter",
     "create_date": "2018-07-09 13:09:00+00:00",
     "data": {
-        "compliance_checking_rules": null,
+        "compliance_checking_rules": "String: min 3 characters",
         "convention_providence": null,
-        "description": null,
-        "fixed_value": null,
+        "description": "Diameter of Imapctor nozzle",
+        "fixed_value": "",
         "global_attribute_id": "impactor_orifice_diameter"
     },
     "label": "impactor_orifice_diameter",

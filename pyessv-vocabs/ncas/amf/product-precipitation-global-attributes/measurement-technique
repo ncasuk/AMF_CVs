@@ -3,10 +3,10 @@
     "canonical_name": "measurement-technique",
     "create_date": "2018-07-09 13:09:00+00:00",
     "data": {
-        "compliance_checking_rules": null,
+        "compliance_checking_rules": "One of: optical, peizoelectric, tipping_bucket, drop_counting, weighing, collecting, droplet_impact",
         "convention_providence": null,
         "description": "optical, peizoelectric, tipping_bucket, drop_counting, weighing, collecting, droplet_impact",
-        "fixed_value": null,
+        "fixed_value": "",
         "global_attribute_id": "measurement_technique"
     },
     "label": "measurement_technique",

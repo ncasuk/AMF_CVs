@@ -13,7 +13,6 @@
 
 repo_base_dir=$(dirname $(dirname $(dirname $0)))
 sub_dirs="AMF_CVs product-definitions pyessv-vocabs"
-sub_dirs="AMF_CVs product-definitions"
 
 if [ ! -d "$repo_base_dir" ]; then
     echo "[ERROR] Cannot find repo base dir at: '${repo_base_dir}'"
@@ -52,7 +51,7 @@ rm -f $diff_file
 
 
 for sdir in $sub_dirs ; do
-    echo "cp -r $NV/$sdir/* $repo_base_dir/$sdir/"
+    echo "rsync -rv --checksum $NV/$sdir/* $repo_base_dir/$sdir/"
 done
 
 echo

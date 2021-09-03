@@ -1,2 +1,2 @@
 Name	Description	Example	Fixed Value	Compliance checking rules	Convention Providence
-measurement_technique	What measurement technique does the instrument employ?	optical
+measurement_technique	What measurement technique does the instrument employ?	optical		String: min 3 characters

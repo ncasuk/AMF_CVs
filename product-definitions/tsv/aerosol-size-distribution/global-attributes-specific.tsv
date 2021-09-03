@@ -1,9 +1,8 @@
 Name	Description	Example	Fixed Value	Compliance checking rules	Convention Providence
-measurement_technique	What measurement technique does the instrument employ?	optical|aerodynamic|electrostatic_mobility
-
-dma_inner_radius
-dma_outer_radius
-dma_length
-impactor_orifice_diameter
-lower_channel_cuf_off
-upper_channel_cut_off
+measurement_technique	What measurement technique does the instrument employ?	electrostatic_mobility		String: min 3 characters
+dma_inner_radius	Physical diameter of inner column	0.937 cm		String: min 3 characters
+dma_outer_radius	Physical diameter of outer column	19..58 cm		String: min 3 characters
+dma_length	Physical lengty of coulm	44.44 cm		String: min 3 characters
+impactor_orifice_diameter	Diameter of Imapctor nozzle	0.0457 cm		String: min 3 characters
+lower_channel_cuf_off	Theoretical lower size limit	9 e-9 m		String: min 3 characters
+upper_channel_cut_off	Theoretical upper size limit	469 e-9 m		String: min 3 characters
