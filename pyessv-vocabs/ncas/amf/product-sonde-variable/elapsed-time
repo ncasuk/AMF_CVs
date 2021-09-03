@@ -1,0 +1,18 @@
+{
+    "_type": "term",
+    "canonical_name": "elapsed-time",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "dimension": "time",
+        "long_name": "Elapsed Time",
+        "type": "float32",
+        "units": "s",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "elapsed_time",
+    "namespace": "ncas:amf:product-sonde-variable:elapsed-time",
+    "raw_name": "elapsed_time",
+    "status": "pending"
+}

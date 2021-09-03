@@ -1,0 +1,16 @@
+Name	Description	Example	Fixed Value	Compliance checking rules	Convention Providence
+laser_wavelength	laser wavelength	1550 nm	1550 nm	String: min 3 characters
+laser_pulse_energy	laser energy	1.0e-05 J	1.0e-05 J	String: min 3 characters
+pulse_repetition_frequency	pulse repetion frequency	15000 s-1	15000 s-1	String: min 3 characters
+pulses_per_ray	no pulses averged to give a ray (500 - 1500)	15000		Integer
+rays_per_point	number of ray averaged to give a measurement	2		Integer
+lens_diameter	lens diameter	0.08 m	0.08 m	String: min 3 characters
+beam_divergence	beam divergence	0.00189 degrees	0.00189 degrees	String: min 3 characters
+pulse_length	pulse length	2.0e-07 s	2.0e-07 s	String: min 3 characters
+sampling_frequency	digitisation frequency (10, 15, or 50MHz)	1.5e+07 s-1	1.5e+07 s-1	String: min 3 characters
+focus	focus (300m, 500m, 800m, 1000m, 1250m, 1500m, 1750m, 2000m or Inf)	inf		String: min 3 characters
+velocity_resolution	velocity resolution	0.0382 m s-1		String: min 3 characters
+number_of_gates	number of gates	64		Integer
+gate_length	gate length	30 m		String: min 3 characters
+fft_length	doppler FFT length	1024		Integer
+maximum_range	maximum measurement range	10 000 m		String: min 3 characters

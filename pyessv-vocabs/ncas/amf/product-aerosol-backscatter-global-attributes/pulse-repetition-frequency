@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "pulse-repetition-frequency",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "pulse repetition frequency",
+        "fixed_value": "",
+        "global_attribute_id": "pulse_repetition_frequency"
+    },
+    "label": "pulse_repetition_frequency",
+    "namespace": "ncas:amf:product-aerosol-backscatter-global-attributes:pulse-repetition-frequency",
+    "raw_name": "pulse_repetition_frequency",
+    "status": "pending"
+}

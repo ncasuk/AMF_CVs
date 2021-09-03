@@ -1,8 +1,8 @@
 {
     "product_o3-concentration-profile_dimension": {
-        "index": {
-            "units": "1", 
-            "length": "<i>"
+        "altitude": {
+            "length": "<i>",
+            "units": "m"
         }
     }
 }

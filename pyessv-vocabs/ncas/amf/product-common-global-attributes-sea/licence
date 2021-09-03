@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "licence",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Exact match of text to the left",
+        "convention_providence": "AMF",
+        "description": "Under what licence the data are being made available",
+        "fixed_value": "Data usage licence - UK Government Open Licence agreement: http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "global_attribute_id": "licence"
+    },
+    "namespace": "ncas:amf:product-common-global-attributes-sea:licence",
+    "status": "pending"
+}

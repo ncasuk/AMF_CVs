@@ -116,7 +116,6 @@ elapsed_time
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: point
 
 qc_flag
 	type	byte

@@ -1,0 +1,21 @@
+{
+    "_type": "term",
+    "canonical_name": "mole-concentration-of-nitrous-oxide-in-air",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "chemical_species": "N2O",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Mole Concentration of Nitrous Oxide in air",
+        "standard_name": "mole_concentration_of_nitrous_oxide_in_air",
+        "type": "float32",
+        "units": "mol m-3",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "mole_concentration_of_nitrous_oxide_in_air",
+    "namespace": "ncas:amf:product-n2o-concentration-variable:mole-concentration-of-nitrous-oxide-in-air",
+    "raw_name": "mole_concentration_of_nitrous_oxide_in_air",
+    "status": "pending"
+}

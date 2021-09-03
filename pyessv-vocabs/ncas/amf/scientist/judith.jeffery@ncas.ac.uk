@@ -1,0 +1,13 @@
+{
+    "_type": "term",
+    "canonical_name": "judith.jeffery@ncas.ac.uk",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "name": "Judith Jeffery",
+        "orcid": "https://orcid.org/0000-0002-9273-4380",
+        "previous_emails": [],
+        "primary_email": "judith.jeffery@ncas.ac.uk"
+    },
+    "namespace": "ncas:amf:scientist:judith.jeffery@ncas.ac.uk",
+    "status": "pending"
+}

@@ -1,0 +1,17 @@
+{
+    "_type": "term",
+    "canonical_name": "time-minutes-since-start-of-day",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "dimension": "time",
+        "long_name": "Time in Minutes Since Start of Day",
+        "type": "float32",
+        "units": "1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "time_minutes_since_start_of_day",
+    "namespace": "ncas:amf:product-snr-winds-variable:time-minutes-since-start-of-day",
+    "raw_name": "time_minutes_since_start_of_day",
+    "status": "pending"
+}

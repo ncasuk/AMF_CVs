@@ -1,0 +1,19 @@
+{
+    "_type": "term",
+    "canonical_name": "number-of-instrument-counts-per-channel",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "time, index",
+        "long_name": "Number of Instrument Counts per Channel",
+        "type": "float32",
+        "units": "1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "number_of_instrument_counts_per_channel",
+    "namespace": "ncas:amf:product-particle-size-distribution-variable:number-of-instrument-counts-per-channel",
+    "raw_name": "number_of_instrument_counts_per_channel",
+    "status": "pending"
+}

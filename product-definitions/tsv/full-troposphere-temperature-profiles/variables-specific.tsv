@@ -1,7 +1,7 @@
 Variable	Attribute	Value	Proposed name	example value	notes
 altitude
 	type	float32
-	dimension	time, index
+	dimension	altitude
 	units	m
 	standard_name	altitude
 	long_name	Geometric height above geoid (WGS84).
@@ -13,7 +13,7 @@ altitude
 
 air_temperature
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	K
 	standard_name	air_temperature
 	long_name	Temperature

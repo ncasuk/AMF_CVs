@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "gate-length",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "gate length",
+        "fixed_value": "",
+        "global_attribute_id": "gate_length"
+    },
+    "label": "gate_length",
+    "namespace": "ncas:amf:product-aerosol-backscatter-radial-winds-global-attributes:gate-length",
+    "raw_name": "gate_length",
+    "status": "pending"
+}

@@ -1,16 +1,16 @@
 {
     "product_common_dimension_air": {
         "time": {
-            "units": "seconds since 1970-01-01 00:00:00", 
-            "length": "<n>"
-        }, 
+            "length": "<n>",
+            "units": "seconds since 1970-01-01 00:00:00"
+        },
         "latitude": {
-            "units": "degrees_north", 
-            "length": "<n>"
-        }, 
+            "length": "<n>",
+            "units": "degrees_north"
+        },
         "longitude": {
-            "units": "degrees_east", 
-            "length": "<n>"
+            "length": "<n>",
+            "units": "degrees_east"
         }
     }
 }

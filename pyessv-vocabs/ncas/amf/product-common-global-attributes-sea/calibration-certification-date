@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "calibration-certification-date",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Match: YYYY-MM-DDThh:mm:ss\\.\\d+ _or_ N/A",
+        "convention_providence": "AMF",
+        "description": "Date when the instrument was last calibrated",
+        "fixed_value": "",
+        "global_attribute_id": "calibration_certification_date"
+    },
+    "label": "calibration_certification_date",
+    "namespace": "ncas:amf:product-common-global-attributes-sea:calibration-certification-date",
+    "raw_name": "calibration_certification_date",
+    "status": "pending"
+}

@@ -1,0 +1,17 @@
+{
+    "_type": "term",
+    "canonical_name": "fallspeed",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "fallspeed",
+        "long_name": "Hydrometeor Fallspeed",
+        "type": "float32",
+        "units": "m s-1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "namespace": "ncas:amf:product-precipitation-variable:fallspeed",
+    "status": "pending"
+}

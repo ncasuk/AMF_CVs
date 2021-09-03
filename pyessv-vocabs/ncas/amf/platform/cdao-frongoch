@@ -1,0 +1,11 @@
+{
+    "_type": "term",
+    "canonical_name": "cdao-frongoch",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "capel dewi atmospheric observatory - frongoch sub site",
+        "platform_id": "cdao-frongoch"
+    },
+    "namespace": "ncas:amf:platform:cdao-frongoch",
+    "status": "pending"
+}

@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "net-total-irradiance",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Net Downwelling Radiative Flux",
+        "type": "float32",
+        "units": "W m-2",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "net_total_irradiance",
+    "namespace": "ncas:amf:product-surface-met-variable:net-total-irradiance",
+    "raw_name": "net_total_irradiance",
+    "status": "pending"
+}

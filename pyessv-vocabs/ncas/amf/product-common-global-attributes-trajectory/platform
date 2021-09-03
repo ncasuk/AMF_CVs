@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "platform",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Exact match in vocabulary",
+        "convention_providence": "ACDD1.3",
+        "description": "Name of the platform on which the instrument was deployed",
+        "fixed_value": "",
+        "global_attribute_id": "platform"
+    },
+    "namespace": "ncas:amf:product-common-global-attributes-trajectory:platform",
+    "status": "pending"
+}

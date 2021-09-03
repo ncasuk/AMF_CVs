@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-spectral-radiometer-2",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Spectral Radiometer unit 2",
+        "instrument_id": "ncas-spectral-radiometer-2",
+        "previous_instrument_ids": [
+            "cv-specrad"
+        ]
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-spectral-radiometer-2",
+    "status": "pending"
+}

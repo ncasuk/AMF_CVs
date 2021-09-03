@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-radar-mst-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS MST Radar unit 1",
+        "instrument_id": "ncas-radar-mst-1",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-radar-mst-1",
+    "status": "pending"
+}

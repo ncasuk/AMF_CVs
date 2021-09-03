@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "uea-caps-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "UEA Cavity Attenuated Phase Shift Spectroscopy unit 1",
+        "instrument_id": "uea-caps-1",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:community-instrument:uea-caps-1",
+    "status": "pending"
+}

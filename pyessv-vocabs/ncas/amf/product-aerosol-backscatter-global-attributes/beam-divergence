@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "beam-divergence",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "beam divergence",
+        "fixed_value": "",
+        "global_attribute_id": "beam_divergence"
+    },
+    "label": "beam_divergence",
+    "namespace": "ncas:amf:product-aerosol-backscatter-global-attributes:beam-divergence",
+    "raw_name": "beam_divergence",
+    "status": "pending"
+}

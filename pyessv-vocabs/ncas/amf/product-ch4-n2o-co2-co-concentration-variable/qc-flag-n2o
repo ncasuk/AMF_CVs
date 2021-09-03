@@ -1,0 +1,17 @@
+{
+    "_type": "term",
+    "canonical_name": "qc-flag-n2o",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "dimension": "time",
+        "flag_meanings": "not_used|good_data |suspect_data_data_not_quality_controlled|bad_data_do_not_use",
+        "flag_values": "0b,1b, 2b, 3b",
+        "long_name": "Data Quality flag: N2O",
+        "type": "byte",
+        "units": "1.00E+00"
+    },
+    "label": "qc_flag_n2o",
+    "namespace": "ncas:amf:product-ch4-n2o-co2-co-concentration-variable:qc-flag-n2o",
+    "raw_name": "qc_flag_n2o",
+    "status": "pending"
+}

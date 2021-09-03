@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "history",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 1 character",
+        "convention_providence": "CF",
+        "description": "History of the data. Append a time-stamped newline for each stage of re-processing",
+        "fixed_value": "",
+        "global_attribute_id": "history"
+    },
+    "namespace": "ncas:amf:product-common-global-attributes-air:history",
+    "status": "pending"
+}

@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "mole-concentration-of-noy-expressed-as-nitrogen-in-air",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "chemical_species": "NOy",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Mole Concentration of NOy expressed as nitrogen in air",
+        "type": "float32",
+        "units": "mol m-3",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "mole_concentration_of_noy_expressed_as_nitrogen_in_air",
+    "namespace": "ncas:amf:product-nox-noxy-concentration-variable:mole-concentration-of-noy-expressed-as-nitrogen-in-air",
+    "raw_name": "mole_concentration_of_noy_expressed_as_nitrogen_in_air",
+    "status": "pending"
+}

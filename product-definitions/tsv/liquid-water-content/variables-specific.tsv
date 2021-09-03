@@ -1,14 +1,14 @@
 Variable	Attribute	Value	Proposed name	example value	notes
-atmosphere_mass_content_of_cloud_liquid_water
+cloud_liquid_water_content
 	type	float32
 	dimension	time
-	units	kg m-2
-	standard_name	atmosphere_mass_content_of_cloud_liquid_water
-	long_name	Atmosphere Mass Content of Cloud Liquid Water
+	units	g m-3
+	standard_name
+	long_name	Cloud Liquid Water Content		cloud_liquid_water_content
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 
 qc_flag

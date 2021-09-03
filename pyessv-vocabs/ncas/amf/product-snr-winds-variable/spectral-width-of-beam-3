@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "spectral-width-of-beam-3",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: standard_deviation",
+        "coordinates": "latitude longitude",
+        "dimension": "time, altitude",
+        "long_name": "Spectral Width of beam 3 (vertical beam from centre panel)",
+        "type": "float32",
+        "units": "m s-1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "spectral_width_of_beam_3",
+    "namespace": "ncas:amf:product-snr-winds-variable:spectral-width-of-beam-3",
+    "raw_name": "spectral_width_of_beam_3",
+    "status": "pending"
+}

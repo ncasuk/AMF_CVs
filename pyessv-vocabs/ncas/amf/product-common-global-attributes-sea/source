@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "source",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Exact match in vocabulary",
+        "convention_providence": "CF",
+        "description": "Description of instrument",
+        "fixed_value": "",
+        "global_attribute_id": "source"
+    },
+    "namespace": "ncas:amf:product-common-global-attributes-sea:source",
+    "status": "pending"
+}

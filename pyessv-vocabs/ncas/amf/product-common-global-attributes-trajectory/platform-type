@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "platform-type",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Exact match in vocabulary",
+        "convention_providence": "AMF",
+        "description": "Type of platform on which the instrument was deployed",
+        "fixed_value": "",
+        "global_attribute_id": "platform_type"
+    },
+    "label": "platform_type",
+    "namespace": "ncas:amf:product-common-global-attributes-trajectory:platform-type",
+    "raw_name": "platform_type",
+    "status": "pending"
+}

@@ -58,6 +58,7 @@ mole_concentration_of_carbon_dioxide_in_air
 	valid_max	<derived from file>
 	cell_methods	time: mean
 	coordinates	latitude longitude
+	chemical_species	CO2
 
 divergence_of_mole_concentration_of_carbon_dioxide_in_air
 	type	float32
@@ -70,30 +71,33 @@ divergence_of_mole_concentration_of_carbon_dioxide_in_air
 	valid_max	<derived from file>
 	cell_methods	time: standard_deviation
 	coordinates	latitude longitude
+	chemical_species	CO2
 
 mole_concentration_of_water_vapor_in_air
 	type	float32
 	dimension	time
 	units	mmol m-3
 	standard_name	mole_concentration_of_water_vapor_in_air
-	long_name	Mole concentration of Water Vapor in air
+	long_name	Mole concentration of Water Vapour in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
 	cell_methods	time: mean
 	coordinates	latitude longitude
+	chemical_species	H2O
 
 divergence_of_mole_concentration_of_water_vapor_in_air
 	type	float32
 	dimension	time
 	units	mmol m-3
 	standard_name		divergence_of_mole_concentration_of_water_vapor_in_air
-	long_name	Divergence of mole concentration of Water Vapor in air
+	long_name	Divergence of mole concentration of Water Vapour in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
 	cell_methods	time: standard_deviation
 	coordinates	latitude longitude
+	chemical_species	H2O
 
 specific_humidity
 	type	float32

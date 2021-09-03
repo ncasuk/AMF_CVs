@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "instrument-manufacturer",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 2 characters",
+        "convention_providence": "AMF",
+        "description": "Manufacturer of instrument and key sub components",
+        "fixed_value": "",
+        "global_attribute_id": "instrument_manufacturer"
+    },
+    "label": "instrument_manufacturer",
+    "namespace": "ncas:amf:product-common-global-attributes-trajectory:instrument-manufacturer",
+    "raw_name": "instrument_manufacturer",
+    "status": "pending"
+}

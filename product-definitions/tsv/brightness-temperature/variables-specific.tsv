@@ -1,4 +1,4 @@
-Variable	Attribute	Value	Proposed Name	Example values	notes
+Variable	Attribute	Value	Proposed Name	Example values
 radiation_frequency
 	type	float32
 	dimension	radiation_frequency

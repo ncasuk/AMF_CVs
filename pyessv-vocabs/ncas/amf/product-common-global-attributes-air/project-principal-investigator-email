@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "project-principal-investigator-email",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Valid email",
+        "convention_providence": "AMF",
+        "description": "Contact details of the Project PI",
+        "fixed_value": "",
+        "global_attribute_id": "project_principal_investigator_email"
+    },
+    "label": "project_principal_investigator_email",
+    "namespace": "ncas:amf:product-common-global-attributes-air:project-principal-investigator-email",
+    "raw_name": "project_principal_investigator_email",
+    "status": "pending"
+}

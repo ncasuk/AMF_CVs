@@ -1,28 +1,20 @@
-<instrument_name>_<platform_name>_<YYYYMM><DD><HH><mm><SS>_<data_product>_<option1>_<option2>_v<version>.nc
+<instrument_name>_<platform_name>_<YYYYMM><DD>-<HH><mm><SS>_<data_product>_<option1>_<option2>_<option3>_v<version>.nc
 
-Instrument	data product	option 1	option 2
-ncas-caps-1	aerosol-size-distribution	cas
-	aerosol-size-distribution	cis
+Instrument	data product	option 1	option 2	option 3
+ncas-caps-1	particle-size-distribution	cas
+	particle-size-distribution	cip
 
-ncas-lidar-dop-1	aerosol- backscatter-radial-winds	fixed	co or cr
-	aerosol- backscatter-radial-winds	ppi
-	aerosol- backscatter-radial-winds	rhi
-	aerosol- backscatter-radial-winds	user-1
-	aerosol- backscatter-radial-winds	user-2
-	aerosol- backscatter-radial-winds	user-3
-	aerosol- backscatter-radial-winds	user-4
-	aerosol- backscatter-radial-winds	user-5
-	aerosol- backscatter-radial-winds	winds-ppi
+ncas-lidar-dop-n	aerosol- backscatter-radial-winds	fixed	co or cr	standard or advanced
+	aerosol- backscatter-radial-winds	ppi	standard or advanced
+	aerosol- backscatter-radial-winds	rhi	standard or advanced
+	aerosol- backscatter-radial-winds	user-1	standard or advanced
+	aerosol- backscatter-radial-winds	user-2	standard or advanced
+	aerosol- backscatter-radial-winds	user-3	standard or advanced
+	aerosol- backscatter-radial-winds	user-4	standard or advanced
+	aerosol- backscatter-radial-winds	user-5	standard or advanced
+	aerosol- backscatter-radial-winds	winds-ppi	standard or advanced
 
-ncas-lidar-dop-2	aerosol- backscatter-radial-winds	fixed	co or cr
-	aerosol- backscatter-radial-winds	ppi
-	aerosol- backscatter-radial-winds	rhi
-	aerosol- backscatter-radial-winds	user-1
-	aerosol- backscatter-radial-winds	user-2
-	aerosol- backscatter-radial-winds	user-3
-	aerosol- backscatter-radial-winds	user-4
-	aerosol- backscatter-radial-winds	user-5
-	aerosol- backscatter-radial-winds	winds-ppi
+ncas-lidar-dop-n	depolarisation-ratio	standard or advanced
 
 ncas-radar-wind-profiler-1	snr-winds	high-range-mode	indication of averageing time - can have the same days file averaged over different scales
 		low-range-mode	indication of averageing time - can have the same days file averaged over different scales
@@ -30,3 +22,5 @@ ncas-radar-wind-profiler-1	snr-winds	high-range-mode	indication of averageing ti
 ncas-aws-7	surface-met	30m
 ncas-aws-8	surface-met	10m
 ncas-aws-n	surface-met	height of AWS above ground
+
+ceilometers	aerosol_backscatter	standard or advanced

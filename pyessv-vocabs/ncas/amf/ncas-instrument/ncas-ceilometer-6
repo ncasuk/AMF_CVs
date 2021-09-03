@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-ceilometer-6",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Lidar Ceilometer unit 6",
+        "instrument_id": "ncas-ceilometer-6",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-ceilometer-6",
+    "status": "pending"
+}

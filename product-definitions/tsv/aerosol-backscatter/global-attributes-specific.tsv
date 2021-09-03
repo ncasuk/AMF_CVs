@@ -1,0 +1,8 @@
+Name	Description	Example	Fixed Value	Compliance checking rules	Convention Providence
+laser_wavelength	wavelength of ceilometer laser	910 nm		String: min 3 characters
+nominal_laser_pulse_energy	nominal laser pulse energy	3.0e-06 J		String: min 3 characters
+pulse_repetition_frequency	pulse repetition frequency	6500 s-1		String: min 3 characters
+lens_diameter	lens diameter	0.148 m		String: min 3 characters
+beam_divergence	beam divergence	0.14 degrees		String: min 3 characters
+pulse_length	pulse length	1.1e-07 s		String: min 3 characters
+sampling_frequency	sampling frequency	1.5e+07 s-1		String: min 3 characters

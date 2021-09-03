@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "rays-per-point",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Integer",
+        "convention_providence": null,
+        "description": "number of ray averaged to give a measurement",
+        "fixed_value": "",
+        "global_attribute_id": "rays_per_point"
+    },
+    "label": "rays_per_point",
+    "namespace": "ncas:amf:product-aerosol-backscatter-radial-winds-global-attributes:rays-per-point",
+    "raw_name": "rays_per_point",
+    "status": "pending"
+}

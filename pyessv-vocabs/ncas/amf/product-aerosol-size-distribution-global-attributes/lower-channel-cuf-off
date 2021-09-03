@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "lower-channel-cuf-off",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": null,
+        "convention_providence": null,
+        "description": null,
+        "fixed_value": null,
+        "global_attribute_id": "lower_channel_cuf_off"
+    },
+    "label": "lower_channel_cuf_off",
+    "namespace": "ncas:amf:product-aerosol-size-distribution-global-attributes:lower-channel-cuf-off",
+    "raw_name": "lower_channel_cuf_off",
+    "status": "pending"
+}

@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "product-version",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Match: vN.M",
+        "convention_providence": "ACDD1.3",
+        "description": "Version of the data in this file",
+        "fixed_value": "",
+        "global_attribute_id": "product_version"
+    },
+    "label": "product_version",
+    "namespace": "ncas:amf:product-common-global-attributes-land:product-version",
+    "raw_name": "product_version",
+    "status": "pending"
+}

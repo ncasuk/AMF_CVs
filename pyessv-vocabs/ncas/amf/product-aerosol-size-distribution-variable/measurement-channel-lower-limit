@@ -1,0 +1,18 @@
+{
+    "_type": "term",
+    "canonical_name": "measurement-channel-lower-limit",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "coordinates": "latitude longitude",
+        "dimension": "time, index",
+        "long_name": "Lower Limit of Spectrometer Measurement Channel",
+        "type": "float32",
+        "units": "um",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "measurement_channel_lower_limit",
+    "namespace": "ncas:amf:product-aerosol-size-distribution-variable:measurement-channel-lower-limit",
+    "raw_name": "measurement_channel_lower_limit",
+    "status": "pending"
+}

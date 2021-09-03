@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "backscatter-sum",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Sum of detected and normalized backscatter",
+        "type": "float32",
+        "units": "sr-1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "backscatter_sum",
+    "namespace": "ncas:amf:product-cloud-base-variable:backscatter-sum",
+    "raw_name": "backscatter_sum",
+    "status": "pending"
+}

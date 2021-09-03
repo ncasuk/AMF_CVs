@@ -1,0 +1,19 @@
+{
+    "_type": "term",
+    "canonical_name": "cloud-liquid-water-content",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Cloud Liquid Water Content",
+        "type": "float32",
+        "units": "g m-3",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "cloud_liquid_water_content",
+    "namespace": "ncas:amf:product-liquid-water-content-variable:cloud-liquid-water-content",
+    "raw_name": "cloud_liquid_water_content",
+    "status": "pending"
+}

@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "sampling-frequency",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "digitisation frequency (10, 15, or 50MHz)",
+        "fixed_value": "1.5e+07 s-1",
+        "global_attribute_id": "sampling_frequency"
+    },
+    "label": "sampling_frequency",
+    "namespace": "ncas:amf:product-depolarisation-ratio-global-attributes:sampling-frequency",
+    "raw_name": "sampling_frequency",
+    "status": "pending"
+}

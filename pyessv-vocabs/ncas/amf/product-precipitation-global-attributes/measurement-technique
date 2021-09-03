@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "measurement-technique",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": null,
+        "convention_providence": null,
+        "description": "optical, peizoelectric, tipping_bucket, drop_counting, weighing, collecting, droplet_impact",
+        "fixed_value": null,
+        "global_attribute_id": "measurement_technique"
+    },
+    "label": "measurement_technique",
+    "namespace": "ncas:amf:product-precipitation-global-attributes:measurement-technique",
+    "raw_name": "measurement_technique",
+    "status": "pending"
+}

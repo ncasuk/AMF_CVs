@@ -1,7 +1,7 @@
 Variable	Attribute	Value	Proposed name	example value	notes
 altitude
 	type	float32
-	dimension	time, index
+	dimension	altitude
 	units	m
 	standard_name	altitude
 	long_name	Geometric height above geoid (WGS84).
@@ -13,7 +13,7 @@ altitude
 
 relative_humidity
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	%
 	standard_name	relative_humidity
 	long_name	Relative Humidity
@@ -25,7 +25,7 @@ relative_humidity
 
 absolute_humidity
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	g m-3
 	standard_name		absolute_humidity
 	long_name	Absolute Humidity

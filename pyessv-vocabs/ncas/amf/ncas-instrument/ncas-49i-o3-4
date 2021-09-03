@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-49i-o3-4",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Thermo 49i O3 Monitor unit 4",
+        "instrument_id": "ncas-49i-o3-4",
+        "previous_instrument_ids": [
+            "york-ozone3"
+        ]
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-49i-o3-4",
+    "status": "pending"
+}

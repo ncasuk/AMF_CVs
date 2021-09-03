@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-sonic-3",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Sonic Anemometer unit 3",
+        "instrument_id": "ncas-sonic-3",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-sonic-3",
+    "status": "pending"
+}

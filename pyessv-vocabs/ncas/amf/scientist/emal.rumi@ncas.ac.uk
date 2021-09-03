@@ -1,0 +1,13 @@
+{
+    "_type": "term",
+    "canonical_name": "emal.rumi@ncas.ac.uk",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "name": "Emal Rumi",
+        "orcid": "https://orcid.org/0000-0001-6617-4941",
+        "previous_emails": [],
+        "primary_email": "emal.rumi@ncas.ac.uk"
+    },
+    "namespace": "ncas:amf:scientist:emal.rumi@ncas.ac.uk",
+    "status": "pending"
+}

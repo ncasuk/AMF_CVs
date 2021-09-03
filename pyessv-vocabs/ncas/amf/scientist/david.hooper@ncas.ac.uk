@@ -1,0 +1,13 @@
+{
+    "_type": "term",
+    "canonical_name": "david.hooper@ncas.ac.uk",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "name": "David Hooper",
+        "orcid": "https://orcid.org/0000-0003-0956-6732",
+        "previous_emails": [],
+        "primary_email": "david.hooper@ncas.ac.uk"
+    },
+    "namespace": "ncas:amf:scientist:david.hooper@ncas.ac.uk",
+    "status": "pending"
+}

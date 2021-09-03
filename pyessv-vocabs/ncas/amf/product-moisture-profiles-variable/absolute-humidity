@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "absolute-humidity",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time, altitude",
+        "long_name": "Absolute Humidity",
+        "type": "float32",
+        "units": "g m-3",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "absolute_humidity",
+    "namespace": "ncas:amf:product-moisture-profiles-variable:absolute-humidity",
+    "raw_name": "absolute_humidity",
+    "status": "pending"
+}

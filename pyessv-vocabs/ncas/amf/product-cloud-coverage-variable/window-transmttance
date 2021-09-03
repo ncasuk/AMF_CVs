@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "window-transmttance",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Window Transmittance, % of nominal value",
+        "type": "float32",
+        "units": "%",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "window_transmttance",
+    "namespace": "ncas:amf:product-cloud-coverage-variable:window-transmttance",
+    "raw_name": "window_transmttance",
+    "status": "pending"
+}

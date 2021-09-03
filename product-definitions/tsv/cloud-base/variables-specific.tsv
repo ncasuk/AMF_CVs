@@ -1,4 +1,4 @@
-Variable	Attribute	Value	Proposed Name	Example values	notes
+Variable	Attribute	Value	Proposed Name	Example values
 cloud_base_altitude
 	type	float32
 	dimension	time, layer_index
@@ -6,8 +6,8 @@ cloud_base_altitude
 	standard_name	cloud_base_altitude
 	long_name	Cloud Base Altitude (Geometric height above geoid WGS84)
 	_FillValue	-1.00E+20
-	valid_min	<derived from file>			centre of lowest gate + platform deployment height
-	valid_max	<derived from file>			centre of highest gate + platform deployment height
+	valid_min	<derived from file>
+	valid_max	<derived from file>
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
@@ -47,6 +47,42 @@ sensor_zenith_angle
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
+sensor_azimuth_angle
+	type	float32
+	dimension	time
+	units	degree
+	standard_name	sensor_azimuth_angle
+	long_name	Sensor Azimuth Angle (clockwise from true North)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+profile_pulses
+	type	float32
+	dimension	time
+	units	1
+	standard_name
+	long_name	Number of pulses in each profile
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: sum
+	coordinates	latitude longitude
+
+profile_scaling
+	type	float32
+	dimension	time
+	units	%
+	standard_name
+	long_name	Scaling of range profile (default = 100%)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: point
+	coordinates	latitude longitude
+
 window_contamination
 	type	float32
 	dimension	time
@@ -59,32 +95,47 @@ window_contamination
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
-background_light
+window_transmttance
 	type	float32
 	dimension	time
-	units	mv
-	standard_name		background_light
+	units	%
+	standard_name
+	long_name	Window Transmittance, % of nominal value
 	_FillValue	-1.00E+20
-	long_name	Background Light (mV as measured by ADC: 0 - 2500)
 	valid_min	<derived from file>
 	valid_max	<derived from file>
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
-qc_flag_cloud_base
+background_light
+	type	float32
+	dimension	time
+	units	mV
+	standard_name		background_light
+	long_name	Background Light (mV as measured by ADC: 0 - 2500)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+backscatter_sum
+	type	float32
+	dimension	time
+	units	sr-1
+	standard_name
+	long_name	Sum of detected and normalized backscatter
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+qc_flag
 	type	byte
 	dimension	time
 	units	1
 	standard_name
 	long_name	Data Quality flag: Cloud Base
-	flag_values	0b,1b, 2b, 3b, 4b, 5b, 6b
-	flag_meanings	not_used|good_data |suspect_data_no_signifcant_backscatter|suspect_data_full_obscuration_determined_but_no_cloud_base_detected|suspect_data_some_obscuration_detected_but_determined_to_be_transparent|bad_data_raw_data_missing|suspect_data_time_stamp_error
-
-qc_flag_cloud_coverage
-	type	byte
-	dimension	time
-	units	1
-	standard_name
-	long_name	Data Quality flag: Cloud Coverage
 	flag_values	0b,1b, 2b, 3b, 4b, 5b, 6b
 	flag_meanings	not_used|good_data |suspect_data_no_signifcant_backscatter|suspect_data_full_obscuration_determined_but_no_cloud_base_detected|suspect_data_some_obscuration_detected_but_determined_to_be_transparent|bad_data_raw_data_missing|suspect_data_time_stamp_error

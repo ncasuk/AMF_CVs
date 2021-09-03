@@ -1,0 +1,19 @@
+{
+    "_type": "term",
+    "canonical_name": "sensor-azimuth-angle-earth-frame",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "time, index_of_angle",
+        "long_name": "Scanning head azimuth angle in the Earth frame of reference",
+        "type": "float32",
+        "units": "degree",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "sensor_azimuth_angle_earth_frame",
+    "namespace": "ncas:amf:product-aerosol-backscatter-radial-winds-variable:sensor-azimuth-angle-earth-frame",
+    "raw_name": "sensor_azimuth_angle_earth_frame",
+    "status": "pending"
+}

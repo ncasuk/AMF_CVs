@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "dma-outer-radius",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": null,
+        "convention_providence": null,
+        "description": null,
+        "fixed_value": null,
+        "global_attribute_id": "dma_outer_radius"
+    },
+    "label": "dma_outer_radius",
+    "namespace": "ncas:amf:product-aerosol-size-distribution-global-attributes:dma-outer-radius",
+    "raw_name": "dma_outer_radius",
+    "status": "pending"
+}

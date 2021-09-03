@@ -1,0 +1,152 @@
+Instrument	Manufacturer	Model No.	Serial Number	Old Instrument Name	New Instrument Name	Data Product(s)	Mobile/Fixed (loc)	Host	Scientist	Category	Descriptor	Owner
+NOx	Air Quality Design Inc	bespoke			ncas-fast-nox-1	nox-noxy-concentration	fixed - BTTAO	York	James Lee	gas phase	NCAS Fast response NOx Monitor unit 1	NCAS
+O3	ThermoScientific	49i			ncas-49i-o3-3	o3-concentration	fixed - BTTAO	York	James Lee	gas phase	NCAS Thermo 49i O3 Monitor unit 3	NCAS
+Anemometer Cup & Vane	Vector instrument WS and WD		SB1/5187 (wind speed),|T99/2999 (wind direction)		ncas-anemometer-2	mean-winds	fixed - CAO	STFC	Judith Jeffery	Winds	NCAS Mechanicle Anemometer unit 2	NCAS
+Camera	AXIS Communications	AXIS2100			ncas-cam-7	images - data product not defined	fixed - CAO	STFC	Judith Jeffery	imager	NCAS Camera unit 7	NCAS
+Camera - Cloud	AXIS Communications	AXIS 0556-001			ncas-cam-9	images - data product not defined	fixed - CAO	STFC	Judith Jeffery	imager	NCAS Camera unit 9	NCAS
+Camera - Cloud	JVC	JVC KYF55-BE			ncas-cam-8	images - data product not defined	fixed - CAO	STFC	Judith Jeffery	imager	NCAS Camera unit 8	NCAS
+Camera - Cloud - Sparsholt					ncas-cam-10	images - data product not defined	fixed - CAO	STFC	Judith Jeffery	imager	NCAS Camera unit 10	NCAS
+Ceilometer	Vaisala	CL51	K0150001		ncas-ceilometer-5	aerosol-backscatter, |cloud-base|cloud-coverage	fixed - CAO	STFC	Judith Jeffery	profiler	NCAS Lidar Ceilometer unit 5	NCAS
+Disdrometer	Distromet		3020214 now, others in past		ncas-disdrometer-2	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Disdrometer unit 2	NCAS
+Disdrometer	Distromet		2770211 now, different in past		ncas-disdrometer-1	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Disdrometer unit 1	NCAS
+Grimm OPC	Grimm Aerosol Technik		7H130008		ncas-opc-2	aerosol-size-distribution	fixed - CAO	STFC	Judith Jeffery	aerosol	NCAS Optical Particle Counter unit 2	NCAS
+Lidar - Doppler	HALO Photonics	StreamLine Pro	0616-118		ncas-lidar-dop-3	mean-winds-profile, |aerosol-backscatter-radial-winds,	fixed - CAO	STFC	Judith Jeffery	profiler	NCAS Doppler Aerosol Lidar unit 3	NCAS
+Lidar - Doppler	HALO Photonics	original			ncas-lidar-dop-4	aerosol-backscatter-radial-winds,	fixed - CAO	STFC	Judith Jeffery	profiler	NCAS Doppler Aerosol Lidar unit 4	NCAS
+Lidar - UV Raman	Bespoke	Bespoke		cfarr-lidar-uv_chilbolton	ncas-lidar-uv-raman-1		fixed - CAO	STFC	Judith Jeffery	profiler	NCAS UV Raman Lidar unit 1	NCAS
+Mu Wave Radiometer	RPG	HATPRO G5			ncas-scanning-radiometer-3	boundary-layer-temperature-profiles, |brightness-temperature, |boundary-layer-thickness|full-troposphere-temperature-profiles, |iwv-lwp, |moisture-profiles, |stability-indices, |surface-met	fixed - CAO	STFC	Emal Rumi	profiler	NCAS Scanning Microwave Radiometer unit 3	NCAS
+Mu Wave Radiometer	Radiometrics				ncas-scanning-radiometer-4	boundary-layer-temperature-profiles, |brightness-temperature, |boundary-layer-thickness|full-troposphere-temperature-profiles, |iwv-lwp, |moisture-profiles, |stability-indices, |surface-met	fixed - CAO	STFC	Judith Jeffery	profiler	NCAS Scanning Microwave Radiometer unit 3	NCAS
+Present Weather	Campbell Scientific	PWS100	E1067		ncas-present-weather-1	present-weather	fixed - CAO	STFC	Judith Jeffery	present weather	NCAS Present Weather unit 1	NCAS
+Pressure	Vaisala	R0610199			ncas-pressure-1	surface-met	fixed - CAO	STFC	Judith Jeffery	surface met	NCAS Pressure Sensor unit 1	NCAS
+Radar - CAMRa					ncas-radar-camra-1	radar	fixed - CAO	STFC	Chris Walden	radar	NCAS X-Band CAMRa Weather Radar unit 1	NCAS
+Radar - Copernicus					ncas-radar-ka-band-1	radar	fixed - CAO	STFC	Chris Walden	radar	NCAS Ka-Band Copernicus Cloud Radar unit 1	NCAS
+Radar - Galileo					ncas-radar-w-band-1	radar	fixed - CAO	STFC	Chris Walden	radar	NCAS W-Band Galileo Cloud Radar unit 1	NCAS
+Radiometer	Zipp & Zonen	CHP1 pyrheliometer	121016		ncas-radiometer-4	radiation	fixed - CAO	STFC	Judith Jeffery	radiation	NCAS CHP1 Pyrheliometer unit 4	NCAS
+Radiometer	Zipp & Zonen	CG4 pyrgeometer	10539		ncas-radiometer-3	radiation	fixed - CAO	STFC	Judith Jeffery	radiation	NCAS CG4 Pyrgeometer unit 3	NCAS
+Radiometer	Zipp & Zonen	CMP21 pyranometer	120894		ncas-radiometer-2	radiation	fixed - CAO	STFC	Judith Jeffery	radiation	NCAS CM21 Pyranometer Shaded unit 2	NCAS
+Radiometer	Zipp & Zonen	CM21 pyranometer	010785		ncas-radiometer-1	radiation	fixed - CAO	STFC	Judith Jeffery	radiation	NCAS CM21 Pyranometer unit 1	NCAS
+Rain Gauge	Bespoke		BA-008		ncas-rain-gauge-7	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Drop Counting Rain Gauge unit 7	NCAS
+Rain Gauge	Munro?		233/2		ncas-rain-gauge-6	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Tipping Bucket Rain Gauge unit 6	NCAS
+Rain Gauge	Munro		1280/5		ncas-rain-gauge-5	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Tipping Bucket Rain Gauge unit 5	NCAS
+Rain Gauge	OTT	Pluvio 2	367792		ncas-rain-gauge-4	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Weighing Rain Gauge unit 4	NCAS
+Rain Gauge	Bespoke	Bespoke	BX-015		ncas-rain-gauge-3	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Drop Counting Rain Gauge unit 3	NCAS
+Rain Gauge	Bespoke	Bespoke	BW-005 (was BW-014 until 20170727)		ncas-rain-gauge-2	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Drop Counting Rain Gauge unit 2	NCAS
+Rain Gauge	Bespoke	Bespoke	BN-010 (was BN-013 until 20160912)		ncas-rain-gauge-1	precipitation	fixed - CAO	STFC	Judith Jeffery	precipitation	NCAS Drop Counting Rain Gauge unit 1	NCAS
+sun photometer	Cimel	CE318-T	discontinued		ncas-sunphotometer-4	aerosol-optical-depth	fixed - CAO	STFC	Emal Rumi	radiation	NCAS Sky-Sun-Lunar Photometer unit 4	NCAS
+sun photometer	Cimel	CE318-T			ncas-sunphotometer-1	aerosol-optical-depth	fixed - CAO	STFC	Emal Rumi	radiation	NCAS Sky-Sun-Lunar Photometer unit 1	NCAS
+temperature\rh sensor	Vaisala	HMP155A	L0550630		ncas-temperature-rh-1	surface-met	fixed - CAO	STFC	Judith Jeffery	surface met	NCAS Temperature and Humidity Sensor unit 1	NCAS
+Anemometer Cup & Vane	Campbell Scientific logger, Vector instrument WS and WD				ncas-anemometer-1	mean-winds	fixed - CDAO	STFC	David Hooper	Winds	NCAS Mechanicle Anemometer unit 1	NCAS
+Camera - All Sky					ncas-cam-4	images - data product not defined	fixed - CDAO	STFC	David Hooper	imager	NCAS Camera unit 4	NCAS
+Camera - NLC					ncas-cam-5	images - data product not defined	fixed - CDAO	STFC	David Hooper	imager	NCAS Camera unit 5	NCAS
+Ceilometer	Vaislala	LD40			ncas-ceilometer-6	aerosol-backscatter, |cloud-base|cloud-coverage	fixed - CDAO	STFC	David Hooper	profiler	NCAS Lidar Ceilometer unit 6	NCAS
+Ceilometer	Lufft	CHM 15K			ncas-ceilometer-7	aerosol-backscatter, |cloud-base|cloud-coverage	fixed - CDAO	STFC	David Hooper & Hugo Ricketts	profiler	NCAS Lidar Ceilometer unit 7	NCAS
+Lidar - Ozone	Bespoke	Bespoke		aber-o3lidar, man-o3lidar	ncas-o3-lidar-1	aerosol-extinction, |o3-concentration-profile	fixed - CDAO	Manchester	Hugo Ricketts	profiler	NCAS Mobile O3 lidar unit 1	NCAS
+Met	Vaisala	WXT520			ncas-aws-12	surface-met	fixed - CDAO	STFC	David Hooper	surface met	NCAS Automatic Weather Station unit 12	NCAS
+Met	Campbell Scientific logger: instrument ???				ncas-aws-11	surface-met	fixed - CDAO	STFC	David Hooper	surface met	NCAS Automatic Weather Station unit 11	NCAS
+Radar - mst	Bespoke	Bespoke			ncas-radar-mst-1	snr-winds	fixed - CDAO	STFC	David Hooper	radar	NCAS MST Radar unit 1	NCAS
+CO	Aero-Laser	AL5002			ncas-aerolaser-co-1	co-concentration	fixed - COZI	York	Katie Read	gas phase	NCAS Aerolaser CO Monitor unit 1	AMOF
+Anemometer 2D Sonic	Gill	WindSonic			ncas-sonic-4	mean-winds	fixed - CVAO	York	Katie Read	gas phase	NCAS Sonic Anemometer unit 4	NCAS
+CO	Picarro	G2401 CO,CH4,CO2,H2O Analyzer			ncas-co-picarro-1	co-concentration	fixed - CVAO	York	Katie Read	gas phase	NCAS Picarro CO Monitor unit 1	NCAS
+DC-GC-FID	Perkin Elmer	GC		cv-dc-gc-fid	ncas-dc-gc-fid-3	voc-concentration	fixed - CVAO	York	Katie Read	gas phase	NCAS Dual Channel Gas Chromatograph with Flame Ionisation Detector unit 3	NCAS
+DC-GC-FID	Agilent	6890N	GC SN: 10537080		ncas-dc-gc-fid-4	voc-concentration	fixed - CVAO	York	Katie Read	gas phase	NCAS Dual Channel Gas Chromatograph with Flame Ionisation Detector unit 4	NCAS
+GCMS	Bespoke	GC MS		cv-gc-ms	ncas-halocarbon-gc-1	halocarbon-concentration	fixed - CVAO	York	Katie Read	gas phase	NCAS Halocarbon Gas Chromatograph unit 1	NCAS
+Mercury	Tekran	2537B CVAFS			ncas-tgm-tekran-1	tgm-concentration	fixed - CVAO	York	Katie Read	gas phase	NCAS Mercury Monitor unit 1	NCAS
+Met	Campbell Scientific	WxPRO		cv-met-campbell	ncas-aws-8	surface-met	fixed - CVAO	York	Katie Read	surface met	NCAS Automatic Weather Station unit 8	NCAS
+Met	Davis	vantage vue		cv-met-tower, cv-met-webdaq	ncas-aws-7	surface-met	fixed - CVAO	York	Katie Read	surface met	NCAS Automatic Weather Station unit 7	NCAS
+NOx	Air Quality Design Inc	High Performance, 2 Channel NOx monitor		cv-noxy	ncas-noxy-1	nox-noxy-concentration	fixed - CVAO	York	Katie Read	gas phase	NCAS AQD High Sensitivity NOx Monitor unit 1	NCAS
+O3	ThermoScientific	49i		cv-tei-o3	ncas-49i-o3-1	o3-concentration	fixed - CVAO	York	Katie Read	gas phase	NCAS Thermo 49i O3 Monitor unit 1	NCAS
+SO2	ThermoScientific				ncas-43i-so2-2	so2-concentration	fixed - CVAO	York	Katie Read	gas phase	NCAS Thermo 43i SO2 Monitor unit 1	NCAS
+Spectral radiiometer	Ocean Optics	QE65000		cv-specrad	ncas-spectral-radiometer-2	solar-actinic-flux	fixed - CVAO	York	James Lee	radiation	NCAS Spectral Radiometer unit 2	NCAS
+Anemometer 2D Sonic	Gill	WindSonic			ncas-sonic-3	mean-winds	fixed - IAO	Leeds	Barbara Brooks	Winds	NCAS Sonic Anemometer unit 3	NCAS
+Camera - All Sky	Planet	ICA 8350	AB50774100117(116)		ncas-cam-3	images - data product not defined	fixed - IAO	Leeds	James Groves	imager	NCAS Camera unit 3	NCAS
+Camera - Ycam	Ycam	ICA-3550V	AB50874900023(176)		ncas-cam-1	images - data product not defined	fixed - IAO	Leeds	James Groves	imager	NCAS Camera unit 1	NCAS
+Camera - Ycam	Ycam	ICA-3550V	AB50874C00067(176)		ncas-cam-2	images - data product not defined	fixed - IAO	Leeds	James Groves	imager	NCAS Camera unit 2	NCAS
+Ceilometer	Campbell Scientific	CS135	E1002		ncas-ceilometer-3	aerosol-backscatter, |cloud-base|cloud-coverage	fixed - IAO	Leeds	Barbara Brooks	profiler	NCAS Lidar Ceilometer unit 3	NCAS
+Lidar - Scanning Doppler	HALO Photonics	StreamLine	2010-3591052|ID: 05|RPC: 3591052|ncasshaun|ncaslidar		ncas-lidar-dop-2	mean-winds-profile,|aerosol-backscatter-radial-winds, |depolarisation-ratio	fixed - IAO	Leeds	Barbara Brooks	profiler	NCAS Doppler Aerosol Lidar unit 2	NCAS
+Met	Davis	VAntage pro 2	Not known		ncas-aws-3	surface-met	fixed - IAO	Leeds	Barbara Brooks	surface met	NCAS Automatic Weather Station unit 3	NCAS
+Met	Vaisala	WXT536	N404071|PTU: P5040241		ncas-aws-10	surface-met	fixed - IAO	Leeds	Barbara Brooks	surface met	NCAS Automatic Weather Station unit 10	NCAS
+Met	Vaisala	WXT536	PO250070|PTU: N5050060		ncas-aws-13	surface-met	fixed - IAO	Leeds	Barbara Brooks	surface met	NCAS Automatic Weather Station unit 10	NCAS
+sun photometer	Spectrafy	Solsim	155		ncas-sunphotometer-3	aerosol-optical-depth	fixed - IAO	Leeds	Barbara Brooks	radiation	NCAS Sky-Sun-Lunar Photometer unit 3	NCAS
+Camera - Ycam	Ycam	protect outdoor camera			ncas-cam-6	images - data product not defined	fixed - WAO	UEA	Grant Forster	imager	NCAS Camera unit 6	NCAS
+Ceilometer	Vaisala	CT25k			ncas-ceilometer-2	aerosol-backscatter, |cloud-base|cloud-coverage	fixed - WAO	UEA	Grant Forster	profiler	NCAS Lidar Ceilometer unit 2	NCAS
+CH4	Perkin Elmer	Clarus 500 Gas Chromatograph		wao-ghg-gc-fid	ncas-ghg-gc-fid-1	ch4-concentration	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Gas Chromatograph with Flame Ionisation Detector unit 1	NCAS
+CH4, N20, CO2, CO	Ecotech	Spectronus	14-1121		ncas-ftir-1	ch4-n2o-co2-co-concentration	fixed - WAO	UEA	Grant Forster	gas phase	NCAS FTIR CH4 N2O CO Monitor unit 1	NCAS
+CH4, CO2, H2O	Los Gatos	915-0011			ncas-ugga-1	ch4-co2-h2o-concentration	mobile	York	Katie Read	gas phase	NCAS Ultra-Portable Greenhouse Gas Analyzer unit 1	NCAS
+CO & H2	Trace Analytical	RGA3		wao-rga	ncas-rga3-1	co-h2-concentration|h2-concentration	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Reduction Gas Analyser unit 1	NCAS
+CO2	Siemens	Ultramet 6E		wao-siemens-oxzilla	ncas-co2-1	co2-concentration	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Seimens Oxilla CO2 Gas Monitor unit 1	NCAS
+O2	Sable	Oxzilla II		wao-siemens-oxzilla	ncas-o2-1	o2n2-concentration-ratio	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Seimens Oxilla O2 Gas Monitor unit 1	NCAS
+SF6	Perkin Elmer	Clarus 500 Gas Chromatograph		wao-ghg-gc-ecd	ncas-ghg-gc-ecd-1	n2o-sf6-concentration|sf6-concentration	fixed - WAO	UEA	Grant Forster	gas phase	NCAS Gas Chromatograph with Electron Capture Detector unit 1	NCAS
+AMS C-TOF-AMS	Aerodyne Research Inc	C-TOF-AMS		man-ams	ncas-aerosol-mass-spec-1	aerosol-no3-so4-nh3-org-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS Aerosol Mass Spectrometer unit 1	NCAS
+Anemometer 3D Sonic	METEK	uSonic-3	108034985		ncas-sonic-1	mean-winds	Mobile	Leeds	Phil Rosenberg	Winds	NCAS Sonic Anemometer unit 1	AMOF
+Anemometer 3D Sonic	METEK	uSonic-3	108024976		ncas-sonic-2	mean-winds	Mobile	Leeds	Phil Rosenberg	Winds	NCAS Sonic Anemometer unit 2	AMOF
+APS	TSI	3321		uom-3321aps-1	ncas-aps-1	aerosol-size-distribution	Mobile	Manchester	Paul I Williams	aerosol	NCAS Aerodynamic Particle Sizer unit 1	AMOF
+APS	TSI	3321		uom-3321aps-2	ncas-aps-2	aerosol-size-distribution	Mobile	Manchester	Paul I Williams	aerosol	NCAS Aerodynamic Particle Sizer unit 2	AMOF
+CAPS-DPOL	Droplet Measurement Technology,	CAPS		man-caps	ncas-caps-1	particle-size-distribution,	Mobile	Manchester	Sebastian O'Shea	imager	NCAS Cloud & Aerosol Particle Spectrometer unit 1	AMOF
+Ceilometer	Campbell Scientific	CS135	E1037		ncas-ceilometer-1	aerosol-backscatter, |cloud-base|cloud-coverage	Mobile	Leeds	Phil Rosenberg	profiler	NCAS Lidar Ceilometer unit 1	AMOF
+CO	Ametek	ta3000R			ncas-co-1	co-concentration	Mobile	York	James Lee	gas phase	NCAS Ametek CO Monitor unit 1	AMOF
+CO	Ametek	ta3000R			ncas-co-2	co-concentration	Mobile	York	James Lee	gas phase	NCAS Ametek CO Monitor unit 2	AMOF
+CO	Aero-Laser	AL5002			ncas-aerolaser-co-2	co-concentration	Mobile	York	Katie Read	gas phase	NCAS Aerolaser CO Monitor unit 2	AMOF
+CPC 3010	TSI	3010		uom-3010cpc-1	ncas-cpc-3010-1	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3010 Condensation Particle Counter unit 1	AMOF
+CPC 3010	TSI	3010		uom-3010cpc-2	ncas-cpc-3010-2	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3010 Condensation Particle Counter unit 2	AMOF
+CPC 3750	TSI	3750			ncas-cpc-3750-1	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3750 Condensation Particle Counter unit 1	AMOF
+CPC 3750	TSI	3750			ncas-cpc-3750-2	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3750 Condensation Particle Counter unit 2	AMOF
+CPC 3762	TSI	3762			ncas-cpc-3762-1	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3762 Condensation Particle Counter unit 1	AMOF
+CPC 3762	TSI	3762			ncas-cpc-3762-2	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3762 Condensation Particle Counter unit 2	AMOF
+CPC 3762	TSI	3762			ncas-cpc-3762-3	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3762 Condensation Particle Counter unit 3	AMOF
+CPC 3762	TSI	3762			ncas-cpc-3762-4	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3762 Condensation Particle Counter unit 4	AMOF
+CPC 3776	TSI	3776			ncas-cpc-3776-1	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3776 Condensation Particle Counter unit 1	AMOF
+CPC 3776	TSI	3776			ncas-cpc-3776-2	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3776 Condensation Particle Counter unit 2	AMOF
+CPC 3776	TSI	3776			ncas-cpc-3776-3	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3776 Condensation Particle Counter unit 3	AMOF
+CPC 3776	TSI	3776			ncas-cpc-3776-4	aerosol-concentration	Mobile	Manchester	Paul I Williams	aerosol	NCAS 3776 Condensation Particle Counter unit 4	AMOF
+CPI	Spec. Inc, USA	CPI		man-cpi	ncas-cpi-2	images - data product not defined	Mobile	Manchester	Sebastian O'Shea	imager	NCAS Cloud Particle Imager unit 1	AMOF
+CPI - 3V	Spec. Inc, USA	3V-CPI		man-3v-cpi	ncas-cpi-1	images - data product not defined,	Mobile	Manchester	Sebastian O'Shea	imager	NCAS 3 View Cloud Particle Imager unit 1	AMOF
+DC-GC-FID	Perkin Elmer	GC			ncas-dc-gc-fid-2	voc-concentration	Mobile	York	James Hopkins	gas phase	NCAS Dual Channel Gas Chromatograph with Flame Ionisation Detector unit 2	NCAS
+DC-GC-FID (aircraft)	Perkin Elmer	GC			ncas-dc-gc-fid-1	voc-concentration	Mobile	York	James Hopkins	gas phase	NCAS Dual Channel Gas Chromatograph with Flame Ionisation Detector unit 1	NCAS
+Dewpoint Hygrometer	General Eastern	Optica Chilled Mirror Hygrometer		leeds-dph	ncas-dewpoint-hygrometer-1	dew-point	Mobile	Leeds	Lisa Whalley	gas phase	NCAS Dewpoint Hygrometer unit 1	AMOF
+Energy Balance	Campbell Scientific	CR3000	was 1399 (DACCIWA) now 12848|Soil T(107): N\A |Soil M(253): N\A|Soil HF(HFP01SC-05): 4251, 4249, 4250|Radiometer (NR01): 2413		ncas-energy-balance-1	radiation, |soil	Mobile	Leeds	Phil Rosenberg	Flux	NCAS Energy Balance Station unit 1 - NR01 radiation sensor	AMOF
+Energy Balance	Campbell Scientific	CR3000	10075|Soil T(107): N\A |Soil M(253): N\A|Soil HF(HFP01SC-05): 4252, 4253, 4244|Radiometer (LWUL: cgr4 140074, LWDL: cgr4 140073, SWUL: cmp22 140092,SWDL: cmp 22 140109):		ncas-energy-balance-2	radiation, |soil	Mobile	Leeds	Phil Rosenberg	Flux	NCAS Energy Balance Station unit 2 - Kipp&Zonen radiation sensor	AMOF
+FAGE	Bespoke	Bespoke		leeds-fage	ncas-fage-1	oh-concentration	Mobile	Leeds	Lisa Whalley	gas phase	NCAS FAGE unit 1	NCAS
+Filtered radiometer	Metcon GmbH	Filtered radiometer		leeds-fr-jo1d	ncas-filtered-radiometer-1	photolysis-frequencies	Mobile	Leeds	Lisa Whalley	radiation	NCAS Filtered Radiometer unit 1	AMOF
+Flux	Bespoke	Flux	Logger (IA240): |Sonic (u-sonic 3d): 108034985|Licor Interface(AIU): 1416|Licor head(LI-7500A): 75H 2575		ncas-flux-1	flux-components, |flux-estimates	Mobile	Leeds	Phil Rosenberg	Flux	NCAS Flux Station unit 1	AMOF
+Flux	Bespoke	Flux	Logger (IA240): |Sonic (u-sonic 3d): 108024976|Licor Interface(AIU): 1419|Licor head(LI-7500A): 75H - 2578		ncas-flux-2	flux-components, |flux estimates	Mobile	Leeds	Phil Rosenberg	Flux	NCAS Flux Station unit 2	AMOF
+GCMS	Bespoke	Bespoke			ncas-gc-ms-1	voc-concentration	Mobile	York	James Hopkins	gas phase	NCAS Gas Chromatograph with Mass Spectrometer unit 1	AMOF
+GCMS TOF					ncas-gc-ms-tof-1	voc-concentration	Mobile	York	James Hopkins	gas phase	NCAS Dual Gas Chromatograph with Time of Flight Mass Spectrometer unit 1	AMOF
+Grimm OPC	Grimm Aerosol Technik	Dust Monitor 1.108		uom-grimm	ncas-opc-1	aerosol-size-distribution	Mobile	Manchester	Paul I Williams	aerosol	NCAS Optical Particle Counter unit 1	AMOF
+HATPRO Radiometer	RPG	HTPRO G5	30123		ncas-scanning-radiometer-2	boundary-layer-temperature-profiles, |brightness-temperature, |boundary-layer-thickness|full-troposphere-temperature-profiles, |iwv-lwp, |moisture-profiles, |stability-indices, |surface-met	Mobile	Leeds	Phil Rosenberg	profiler	NCAS Scanning Microwave Radiometer unit 2	AMOF
+HVPS	Spec. Inc, USA	HVPS version 3			ncas-hvps3-1	particle-size-distribution	Mobile	Manchester	Sebastian O'Shea	clouds	NCAS High Volume Precipitation Spectrometer unit 1	AMOF
+Licor	Li-Cor	LI-7500	Licor Interface(AIU): 1416 |Licor head(LI-7500A): 75H 2575		ncas-licor-1	mean-co2-h2o	Mobile	Leeds	Phil Rosenberg	gas phase	NCAS LiCor unit 1	AMOF
+Licor	Li-Cor	LI-7500	Licor Interface(AIU): 1419|Licor head(LI-7500A): 75H - 2578		ncas-licor-2	mean-co2-h2o	Mobile	Leeds	Phil Rosenberg	gas phase	NCAS LiCor unit 2	AMOF
+Lidar - Scanning Doppler	HALO Photonics	StreamLine	1210-18|RPC: 2962021|ID: 18|nacsflossy|ncaslidar		ncas-lidar-dop-1	mean-winds-profile, |aerosol-backscatter-radial-winds, |depolarisation-ratio	Mobile	Leeds	Phil Rosenberg	profiler	NCAS Doppler Aerosol Lidar unit 1	AMOF
+Lidar - windprofiler	Wood	Galion 4000			ncas-lidar-wind-profiler-1	mean-winds-profile	Mobile	Leeds	Phil Rosenberg	profiler	NCAS Lidar Wind Profiler unit 1	AMOF
+Met	Davis	Vatage Pro 2|6316UK - envoy|63270V - ISS	not given		ncas-aws-1	surface-met	Mobile	Leeds	Phil Rosenberg	surface met	NCAS Automatic Weather Station unit 1	AMOF
+Met - radar	Davis	Vatage Vue			ncas-aws-2	surface-met	Mobile	Leeds	Lindsay Bennett	surface met	NCAS Automatic Weather Station unit 2	NCAS
+Micro Rain Radar	METEK	MRR-2	TXRX: 050711-4695|SPU: 050711-4700		ncas-mrr-1	rain-lwc-velocity-reflectivity, |size-concentration-spectra	Mobile	Leeds	Phil Rosenberg	profiler	NCAS Micro Rain Radar unit 1	AMOF
+NOx	ThermoScientific	42i			ncas-teco-nox-1	nox-noxy-concentration	Mobile	York	Katie Read	gas phase	NCAS Teco NOx Monitor unit 1	AMOF
+NOx	Air Quality Design Inc	High Performance, 2 Channel NOx monitor			ncas-high-sen-nox-1	nox-noxy-concentration	Mobile	York	James Lee	gas phase	NCAS High Semsitivity NOx Monitor unit 1	AMOF
+NOx	Teledyne	T200UP			ncas-teledyne-t200up-nox-1	nox-noxy-concentration	Mobile	York	Katie Read	gas phase	NCAS Teledyne NOx Monitor unit 1	AMOF
+NOx	ThermoScientific	42i		leeds-nox	ncas-42i-nox-1	nox-noxy-concentration	Mobile	Leeds	Lisa Whalley	gas phase	NCAS Thermo 42i NOx Monitor unit 1	AMOF
+O3	2B Technologies	202		york-ozone6	ncas-2b-1chan-o3-1	o3-concentration	Mobile	York	Katie Read	gas phase	NCAS 1 Channel O3 Monitor unit 1	AMOF
+O3	2B Technologies	205		york-ozone7	ncas-2b-2chan-o3-1	o3-concentration	Mobile	York	Katie Read	gas phase	NCAS 2 Channel O3 Monitor unit 1	AMOF
+O3	ThermoScientific	49i		york-ozone3	ncas-49i-o3-4	o3-concentration	Mobile	York	Katie Read	gas phase	NCAS Thermo 49i O3 Monitor unit 4	AMOF
+O3	ThermoScientific	49c		leeds-o3	ncas-49c-o3-1	o3-concentration	Mobile	Leeds	Lisa Whalley	gas phase	NCAS Thermo 42c O3 Monitor unit 1	AMOF
+PAN-GC	Bespoke	Bespoke			ncas-pan-gc-1	peroxyacetyl-nitrate-concentration	Mobile	York	James Hopkins	gas phase	NCAS Peroxyacetyl Nitrates Gas Chromatograph unit 1	Retired
+PTRMS	Ionicon Analytik	Bespoke		uea-ptrms	ncas-ptrms-1	voc-concentration	Mobile	UEA	David Oram	gas phase	NCAS Proton Transfer Reaction Mass Spectrometer unit 1	NCAS
+Radar - mobile ka band	METEK	MIRA-35			ncas-mobile-ka-band-radar-1	radar	Mobile	STFC	Chris Walden	radar	NCAS Ka-Band Mobile Cloud Radar unit 1	AMOF
+Radar - mobile X band	Selex	METEOR 60DX		ncas-mobile-xband-radar	ncas-mobile-x-band-radar-1	radar	Mobile	Leeds	Lindsay Bennett	radar	NCAS X-Band Mobile Radar unit 1	AMOF
+Radar - windprofiler	Degreane Horizon	Degrewind PCL1300		aber-radar-1290mhz, man-radar-1290mhz	ncas-radar-wind-profiler-1	snr-winds	Mobile	Manchester	Emily Norton	profiler	NCAS Mobile Radar Wind Profiler unit 1	AMOF
+Radio sonde	Vaisala	MW41|For older data this can also be MW31 or MW21		man-radiosonde	ncas-radiosonde-1	sonde	Mobile	Manchester	Hugo Ricketts	profiler	NCAS Vaisala Sounding Station unit 1	AMOF
+Radio sonde	Vaisala	MW41|For older data this can also be MW31 or MW21	SPU: L16401	leeds-radiosonde	ncas-radiosonde-2	sonde	Mobile	Leeds	Phil Rosenberg	profiler	NCAS Vaisala Sounding Station unit 2	AMOF
+Rapid sonde	Windsond	Not appicable			ncas-rapidsonde-1	sonde	Mobile	Machester	Hugo Ricketts	profiler	NCAS Windsond Sounding Station unit 1	AMOF
+Rapid sonde	Windsond	Not appicable	2020-02-06		ncas-rapidsonde-2	sonde	Mobile	Leeds	Phil Rosenberg	profiler	NCAS Windsond Sounding Station unit 2	AMOF
+SMPS	TSI	3936		man-smps-1	ncas-smps-1	aerosol-size-distribution	Mobile	Manchester	Paul I Williams	aerosol	NCAS Scanning Mobility Particle Spectrometer unit 1	AMOF
+SMPS	TSI	3936		man-smps-2	ncas-smps-2	aerosol-size-distribution	Mobile	Manchester	Paul I Williams	aerosol	NCAS Scanning Mobility Particle Spectrometer unit 2	AMOF
+SMPS	TSI	3080			ncas-smps-3	aerosol-size-distribution	Mobile	Manchester	Paul I Williams	aerosol	NCAS Scanning Mobility Particle Spectrometer unit 3	AMOF
+SMPS	TSI	3080			ncas-smps-4	aerosol-size-distribution	Mobile	Manchester	Paul I Williams	aerosol	NCAS Scanning Mobility Particle Spectrometer unit 4	AMOF
+SMPS	TSI	3082			ncas-smps-5	aerosol-size-distribution	Mobile	Manchester	Paul I Williams	aerosol	NCAS Scanning Mobility Particle Spectrometer unit 5	AMOF
+SODAR	Scintec	MFAS	C0026	leeds-sodar-unit1	ncas-sodar-1	acoustic-backscatter-winds	Mobile	Leeds	Barbara Brooks	profiler	NCAS Sodar unit 1	NCAS
+SODAR	Scintec	MFAS	C0027	leeds-sodar-unit2	ncas-sodar-2	acoustic-backscatter-winds	Mobile	Leeds	Barbara Brooks	profiler	NCAS Sodar unit 2	NCAS
+SODAR	Scintec	MFAS	C0028	leeds-sodar-unit3	ncas-sodar-3	acoustic-backscatter-winds	Mobile	Leeds	Barbara Brooks	profiler	NCAS Sodar unit 3	NCAS
+Spectral radiometer	Ocean Optics	QE65000			ncas-spectral-radiometer-1	solar-actinic-flux	Mobile	Leeds	Lisa Whalley	radiation	NCAS Spectral Radiometer unit 2	AMOF
+Spectral radiometer - aircraft	Ocean Optics	QE65000	Upward looking,|Downward loking		ncas-spectral-radiometer-3	solar-actinic-flux	Mobile	Leeds	Lisa Whalley	radiation	NCAS Spectral Radiometer unit 3	AMOF
+sun photometer	Cimel	CE318-T			ncas-sunphotometer-2	aerosol-optical-depth	Mobile	Manchester	Hugo Rickets	radiation	NCAS Sky-Sun-Lunar Photometer unit 2	AMOF
+Ceilometer	Campbell Scientific	CS135			ncas-ceilometer-4	aerosol-backscatter, |cloud-base|cloud-coverage	Mobile	Manchester	Emily Norton	profiler	NCAS Lidar Ceilometer unit 4	AMOF
+Mu Wave Radiometer	RPG	HATPRO	R-DPR-05/002	salford-radiometer-1	ncas-scanning-radiometer-1	boundary-layer-temperature-profiles, |brightness-temperature, |boundary-layer-thickness|full-troposphere-temperature-profiles, |iwv-lwp, |moisture-profile, |stability-indices, |surface-met		Leeds	Phil Rosenberg	profiler	NCAS Scanning Microwave Radiometer unit 1	NCAS

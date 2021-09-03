@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "lens-diameter",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "lens diameter",
+        "fixed_value": "0.08 m",
+        "global_attribute_id": "lens_diameter"
+    },
+    "label": "lens_diameter",
+    "namespace": "ncas:amf:product-depolarisation-ratio-global-attributes:lens-diameter",
+    "raw_name": "lens_diameter",
+    "status": "pending"
+}

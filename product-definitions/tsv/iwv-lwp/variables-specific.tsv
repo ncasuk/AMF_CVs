@@ -1,9 +1,9 @@
 Variable	Attribute	Value	Proposed name	example value	notes
-integrated_water_vapour
+integrated_water_vapor
 	type	float32
 	dimension	time
 	units	kg m-2
-	standard_name		integrated_water_vapour
+	standard_name		integrated_water_vapor
 	long_name	Integrated Water Vapour
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
@@ -13,7 +13,7 @@ integrated_water_vapour
 
 liquid_water_path
 	type	float32
-	dimension	time, altitude
+	dimension	time
 	units	g m-2
 	standard_name		liquid_water_path
 	long_name	Liquid Water Path

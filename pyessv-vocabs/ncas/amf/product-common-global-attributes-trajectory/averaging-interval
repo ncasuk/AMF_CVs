@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "averaging-interval",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 2 characters",
+        "convention_providence": "AMF",
+        "description": "Time interval over which each data point are averaged",
+        "fixed_value": "",
+        "global_attribute_id": "averaging_interval"
+    },
+    "label": "averaging_interval",
+    "namespace": "ncas:amf:product-common-global-attributes-trajectory:averaging-interval",
+    "raw_name": "averaging_interval",
+    "status": "pending"
+}

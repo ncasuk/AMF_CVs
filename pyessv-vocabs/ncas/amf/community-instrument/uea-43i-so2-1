@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "uea-43i-so2-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "UEA Thermo 43i SO2 Monitor unit 1",
+        "instrument_id": "uea-43i-so2-1",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:community-instrument:uea-43i-so2-1",
+    "status": "pending"
+}

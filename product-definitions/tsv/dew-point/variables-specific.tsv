@@ -8,7 +8,7 @@ dew_point_temperature
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 
 relative_humidity
@@ -20,20 +20,62 @@ relative_humidity
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 
 mole_fraction_of_water_vapor_in_air
 	type	float32
 	dimension	time
-	units	?		1|1e-3|1e-6|1e-9|1e-12	1|1e-3 (parts_per_thousand, mmol mole|1e-6 (ppm, micromole mole-1)|1e-9 (ppb, nmole mole-1)|1e-12 (ppt, pmole mole-1)
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name	mole_fraction_of_water_vapor_in_air
-	long_name	Mole Fraction of Water Vapor in air
+	long_name	Mole Fraction of Water Vapour in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
+	chemical_species	H2O
+
+mass_fraction_of_water_vapor_in_air
+	type	float32
+	dimension	time
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			ppm|ppb|ppt	Practical_units must be given and must match units multiplier
+	standard_name			mass_fraction_of_water_vapor_in_air
+	long_name	Mass Fraction of Water Vapour in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	H2O
+
+mole_concentration_of_water_vapor_in_air
+	type	float32
+	dimension	time
+	units	mol m-3
+	standard_name	mole_concentration_of_water_vapor_in_air
+	long_name	Mole Concentration of Water Vapour in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	H2O
+
+mass_concentration_of_water_vapor_in_air
+	type	float32
+	dimension	time
+	units	kg m-3
+	standard_name	mass_concentration_of_water_vapor_in_air
+	long_name	Mass Concentration of Water Vapour in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	H2O
 
 qc_flag
 	type	byte

@@ -1,0 +1,19 @@
+{
+    "_type": "term",
+    "canonical_name": "ambient-aerosol-size-log-distribution",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "time, index",
+        "long_name": "Ambient Aerosol Size Log Distribution (dN\\dlogD)",
+        "type": "float32",
+        "units": "cm-3",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "ambient_aerosol_size_log_distribution",
+    "namespace": "ncas:amf:product-aerosol-size-distribution-variable:ambient-aerosol-size-log-distribution",
+    "raw_name": "ambient_aerosol_size_log_distribution",
+    "status": "pending"
+}

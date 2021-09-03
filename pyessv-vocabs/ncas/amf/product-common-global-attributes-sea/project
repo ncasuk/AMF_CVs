@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "project",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": "ACDD1.3",
+        "description": "Full name and acronym of the project",
+        "fixed_value": "",
+        "global_attribute_id": "project"
+    },
+    "namespace": "ncas:amf:product-common-global-attributes-sea:project",
+    "status": "pending"
+}

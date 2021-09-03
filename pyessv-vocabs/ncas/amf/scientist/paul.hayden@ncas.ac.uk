@@ -1,0 +1,13 @@
+{
+    "_type": "term",
+    "canonical_name": "paul.hayden@ncas.ac.uk",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "name": "Paul Hayden",
+        "orcid": "https://orcid.org/0000-0003-3492-3009",
+        "previous_emails": [],
+        "primary_email": "paul.hayden@ncas.ac.uk"
+    },
+    "namespace": "ncas:amf:scientist:paul.hayden@ncas.ac.uk",
+    "status": "pending"
+}

@@ -1,4 +1,4 @@
-Variable	Attribute	Value	Proposed name	example value	notes
+Variable	Attribute	Value	Proposed name	example value
 altitude
 	type	float32
 	dimension	altitude
@@ -7,8 +7,8 @@ altitude
 	long_name	Geometric height above geoid (WGS84).
 	_FillValue	-1.00E+20
 	axis	Z
-	valid_min	<derived from file>			centre of lowest gate + platform deployment height
-	valid_max	<derived from file>			centre of highest gate + platform deployment height
+	valid_min	<derived from file>
+	valid_max	<derived from file>
 	coordinates	latitude longitude
 
 attenuated_aerosol_backscatter_coefficient
@@ -63,12 +63,48 @@ sensor_zenith_angle
 	type	float32
 	dimension	time
 	units	degree
-	standard_name
+	standard_name	sensor_zenith_angle
 	long_name	Sensor Zenith Angle (from vertical)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
 	cell_methods	time: mean
+	coordinates	latitude longitude
+
+sensor_azimuth_angle
+	type	float32
+	dimension	time
+	units	degree
+	standard_name	sensor_azimuth_angle
+	long_name	Sensor Azimuth Angle (clockwise from true North)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+profile_pulses
+	type	float32
+	dimension	time
+	units	1
+	standard_name
+	long_name	Number of pulses in each profile
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: sum
+	coordinates	latitude longitude
+
+profile_scaling
+	type	float32
+	dimension	time
+	units	%
+	standard_name
+	long_name	Scaling of range profile (default = 100%)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: point
 	coordinates	latitude longitude
 
 window_contamination
@@ -77,6 +113,18 @@ window_contamination
 	units	mV
 	standard_name		window_contamination
 	long_name	Window Contamination (mV as measured by ADC: 0 - 2500)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+window_transmittance
+	type	float32
+	dimension	time
+	units	%
+	standard_name
+	long_name	Window Transmittance, % of nominal value
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -95,9 +143,21 @@ background_light
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
+backscatter_sum
+	type	float32
+	dimension	time
+	units	sr-1
+	standard_name
+	long_name	Sum of detected and normalized backscatter
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
 qc_flag
 	type	byte
-	dimension	time, index
+	dimension	time, altitude
 	units	1
 	standard_name
 	long_name	Data Quality flag

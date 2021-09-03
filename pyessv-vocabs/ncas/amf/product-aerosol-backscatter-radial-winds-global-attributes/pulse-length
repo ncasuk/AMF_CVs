@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "pulse-length",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "pulse length",
+        "fixed_value": "2.0e-07 s",
+        "global_attribute_id": "pulse_length"
+    },
+    "label": "pulse_length",
+    "namespace": "ncas:amf:product-aerosol-backscatter-radial-winds-global-attributes:pulse-length",
+    "raw_name": "pulse_length",
+    "status": "pending"
+}

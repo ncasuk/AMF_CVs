@@ -1,43 +1,43 @@
-Variable	Attribute	Value	Proposed name	example value	notes
+Variable	Attribute	Value	Proposed name	example value
 altitude
 	type	float32
-	dimension	time, index
+	dimension	altitude
 	units	m
 	standard_name	altitude
 	long_name	Geometric height above geoid (WGS84).
 	_FillValue	-1.00E+20
 	axis	Z
-	valid_min	<derived from file>			centre of lowest gate + platform deployment height
-	valid_max	<derived from file>			centre of highest gate + platform deployment height
+	valid_min	<derived from file>
+	valid_max	<derived from file>
 	coordinates	latitude longitude
 
 volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles_355
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m-1 sr-1
 	standard_name		volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles_355
 	long_name	Volume Extinction Coefficient in air due to Ambient Aerosol Particles (Wavelength = 355 nm)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 
 volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles_316
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m-1 sr-1
 	standard_name		volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles_316
 	long_name	Volume Extinction Coefficient in air due to Ambient Aerosol Particles (Wavelength = 316 nm)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 
 qc_flag_355
 	type	byte
-	dimension	time, index
+	dimension	time, altitude
 	units	1
 	standard_name
 	long_name	Data Quality flag: 355nm
@@ -46,7 +46,7 @@ qc_flag_355
 
 qc_flag_316
 	type	byte
-	dimension	time, index
+	dimension	time, altitude
 	units	1
 	standard_name
 	long_name	Data Quality flag: 316nm

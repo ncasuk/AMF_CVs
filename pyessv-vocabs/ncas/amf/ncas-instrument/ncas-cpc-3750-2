@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-cpc-3750-2",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS 3750 Condensation Particle Counter unit 2",
+        "instrument_id": "ncas-cpc-3750-2",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-cpc-3750-2",
+    "status": "pending"
+}

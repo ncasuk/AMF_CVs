@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "instrument-serial-number",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": "AMF",
+        "description": "Serial number of instrument and key sub components",
+        "fixed_value": "",
+        "global_attribute_id": "instrument_serial_number"
+    },
+    "label": "instrument_serial_number",
+    "namespace": "ncas:amf:product-common-global-attributes-air:instrument-serial-number",
+    "raw_name": "instrument_serial_number",
+    "status": "pending"
+}

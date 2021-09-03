@@ -1,4 +1,4 @@
-Variable	Attribute	Value	Proposed name	example vale	notes
+Variable	Attribute	Value	Proposed name	example vale
 ambient_aerosol_particle_diameter
 	type	float32
 	dimension	time, index
@@ -9,16 +9,118 @@ ambient_aerosol_particle_diameter
 	valid_max	<derived from file>
 	coordinates	latitude longitude
 
+measurement_channel_lower_limit
+	type	float32
+	dimension	time, index
+	units	um
+	standard_name		measurement_channel_lower_limit
+	long_name	Lower Limit of Spectrometer Measurement Channel
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	coordinates	latitude longitude
+
+measurement_channel_upper_limit
+	type	float32
+	dimension	time, index
+	units	um
+	standard_name		measurement_channel_upper_limit
+	long_name	Upper Limit of Spectrometer Measurement Channel
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	coordinates	latitude longitude
+
+ambient_aerosol_number_per_channel
+	type	float32
+	dimension	time, index
+	units	cm-3
+	standard_name		ambient_aerosol_number_per_channel
+	long_name	Ambient Aerosol Number per Channel (dN)
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	coordinates	latitude longitude
+
 ambient_aerosol_size_distribution
 	type	float32
 	dimension	time, index
 	units	cm3-1 um-1
 	standard_name		ambient_aerosol_size_distribution
-	long_name	Ambient Aerosol Size Distribution
+	long_name	Ambient Aerosol Size Distribution (dN\dD)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+
+ambient_aerosol_size_log_distribution
+	type	float32
+	dimension	time, index
+	units	cm-3
+	standard_name		ambient_aerosol_size_log_distribution
+	long_name	Ambient Aerosol Size Log Distribution (dN\dlogD)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+
+total_number_concentration_of_ambient_aerosol_particles_in_air
+	type	float32
+	dimension	time
+	units	cm-3
+	standard_name		total number_concentration_of_ambient_aerosol_particles_in_air
+	long_name	Number Concentration of Ambient Aerosol Particles in air (N)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+
+sample_pressure
+	type	float32
+	dimension	time
+	units	kPa
+	standard_name		sample_pressure
+	long_name	Pressure of Sample Stream
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+
+sample_temperature
+	type	float32
+	dimension	time
+	units	K
+	standard_name		sample_temperature
+	long_name	Temperature of Sample Stream
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+
+sample_mean_free_path
+	type	float32
+	dimension	time
+	units	m
+	standard_name		sample_mean_free_path
+	long_name	Mean Free Path of Sample Stream
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+
+sample_gas_viscosity
+	type	float32
+	dimension	time
+	units	Pa s
+	standard_name		sample_gas_viscosity
+	long_name	Gas Viscosity of Sample Stream
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 
 qc_flag

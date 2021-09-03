@@ -1,0 +1,21 @@
+{
+    "_type": "term",
+    "canonical_name": "sensor-azimuth-angle",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Sensor Azimuth Angle (clockwise from true North)",
+        "standard_name": "sensor_azimuth_angle",
+        "type": "float32",
+        "units": "degree",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "sensor_azimuth_angle",
+    "namespace": "ncas:amf:product-aerosol-backscatter-variable:sensor-azimuth-angle",
+    "raw_name": "sensor_azimuth_angle",
+    "status": "pending"
+}

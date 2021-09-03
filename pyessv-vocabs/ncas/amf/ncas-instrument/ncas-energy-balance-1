@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-energy-balance-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Energy Balance Station unit 1 - NR01 radiation sensor",
+        "instrument_id": "ncas-energy-balance-1",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-energy-balance-1",
+    "status": "pending"
+}

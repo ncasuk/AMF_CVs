@@ -1,0 +1,19 @@
+{
+    "_type": "term",
+    "canonical_name": "total-number-concentration-of-ambient-particles-in-air",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Number Concentration of Ambient Particles in air (N)",
+        "type": "float32",
+        "units": "cm-3",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "total_number_concentration_of_ambient_particles_in_air",
+    "namespace": "ncas:amf:product-particle-size-distribution-variable:total-number-concentration-of-ambient-particles-in-air",
+    "raw_name": "total_number_concentration_of_ambient_particles_in_air",
+    "status": "pending"
+}

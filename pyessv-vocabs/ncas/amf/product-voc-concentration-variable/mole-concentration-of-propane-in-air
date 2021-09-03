@@ -1,0 +1,21 @@
+{
+    "_type": "term",
+    "canonical_name": "mole-concentration-of-propane-in-air",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "chemical_species": "C3H8",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Mole Concentration of Propane in air",
+        "standard_name": "mole_concentration_of_propane_in_air",
+        "type": "float32",
+        "units": "mol m-3",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "mole_concentration_of_propane_in_air",
+    "namespace": "ncas:amf:product-voc-concentration-variable:mole-concentration-of-propane-in-air",
+    "raw_name": "mole_concentration_of_propane_in_air",
+    "status": "pending"
+}

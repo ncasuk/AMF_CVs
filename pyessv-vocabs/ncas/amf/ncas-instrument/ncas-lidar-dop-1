@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-lidar-dop-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Doppler Aerosol Lidar unit 1",
+        "instrument_id": "ncas-lidar-dop-1",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-lidar-dop-1",
+    "status": "pending"
+}

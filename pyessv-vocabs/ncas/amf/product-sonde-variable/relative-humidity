@@ -1,0 +1,21 @@
+{
+    "_type": "term",
+    "canonical_name": "relative-humidity",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: point",
+        "coordinates": "latitude longitude altitude",
+        "dimension": "time",
+        "long_name": "Relative Humidity",
+        "standard_name": "relative_humidity",
+        "type": "float32",
+        "units": "%",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "relative_humidity",
+    "namespace": "ncas:amf:product-sonde-variable:relative-humidity",
+    "raw_name": "relative_humidity",
+    "status": "pending"
+}

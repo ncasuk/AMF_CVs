@@ -1,2 +1,9 @@
 Name	Description	Example	Fixed Value	Compliance checking rules	Convention Providence
 measurement_technique	What measurement technique does the instrument employ?	optical|aerodynamic|electrostatic_mobility
+
+dma_inner_radius
+dma_outer_radius
+dma_length
+impactor_orifice_diameter
+lower_channel_cuf_off
+upper_channel_cut_off

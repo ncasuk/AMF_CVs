@@ -2,126 +2,486 @@ Variable	Attribute	Value	Proposed name	example value	notes
 mole_fraction_of_carbon_tetrachloride_in_air
 	type	float32
 	dimension	time
-	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
-	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name	mole_fraction_of_carbon_tetrachloride_in_air
 	long_name	Mole Fraction of Carbon Tetrachloride in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CCl4
+
+mass_fraction_of_carbon_tetrachloride_in_air
+	type	float32
+	dimension	time
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			ppm|ppb|ppt	Practical_units must be given and must match units multiplier
+	standard_name	mass_fraction_of_carbon_tetrachloride_in_air
+	long_name	Mass Fraction of  Carbon Tetrachloride in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CCl4
+
+mole_concentration_of_carbon_tetrachloride_in_air
+	type	float32
+	dimension	time
+	units	mol m-3
+	standard_name	mole_concentration_of_carbon_tetrachloride_in_air
+	long_name	Mole Concentration of Carbon Tetrachloride in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CCl4
+
+mass_concentration_of_carbon_tetrachloride_in_air
+	type	float32
+	dimension	time
+	units	kg m-3
+	standard_name	mass_concentration_of_carbon_tetrachloride_in_air
+	long_name	Mass Concentration of  Carbon Tetrachloride in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	CCl4
 
 mole_fraction_of_bromoform_in_air
 	type	float32
 	dimension	time
-	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
-	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
-	standard_name		mole_fraction_of_bromoform_in_air
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
+	standard_name			mole_fraction_of_bromoform_in_air
 	long_name	Mole Fraction of Bromoform in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CHBr3
+
+mass_fraction_of_bromoform_in_air
+	type	float32
+	dimension	time
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			ppm|ppb|ppt	Practical_units must be given and must match units multiplier
+	standard_name			mass_fraction_of_bromoform_in_air
+	long_name	Mass Fraction of Bromoform in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CHBr3
+
+mole_concentration_of_bromoform_in_air
+	type	float32
+	dimension	time
+	units	mol m-3
+	standard_name			mole_concentration_of_bromoform_in_air
+	long_name	Mole Concentration of Bromoform in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CHBr3
+
+mass_concentration_of_bromoform_in_air
+	type	float32
+	dimension	time
+	units	kg m-3
+	standard_name			mass_concentration_of_bromoform_in_air
+	long_name	Mass Concentration of Bromoform in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	CHBr3
 
 mole_fraction_of_diiodomethane_in_air
 	type	float32
 	dimension	time
-	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
-	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
-	standard_name		mole_fraction_of_diiodomethane_in_air
-	long_name	Mole Fraction of Diiodomethane in air
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
+	standard_name			mole_fraction_of_diiodomethane_in_air
+	long_name	Mole Fraction of  Diiodomethane in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2I2
+
+mass_fraction_of_diiodomethane_in_air
+	type	float32
+	dimension	time
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			ppm|ppb|ppt	Practical_units must be given and must match units multiplier
+	standard_name			mass_fraction_of_diiodomethane_in_air
+	long_name	Mass Fraction of  Diiodomethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2I2
+
+mole_concentration_of_diiodomethane_in_air
+	type	float32
+	dimension	time
+	units	mol m-3
+	standard_name			mole_concentration_of_diiodomethane_in_air
+	long_name	Mole Concentration of Diiodomethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2I2
+
+mass_concentration_of_diiodomethane_in_air
+	type	float32
+	dimension	time
+	units	kg m-3
+	standard_name			mass_concentration_ofdiiodomethane_in_air
+	long_name	Mass Concentration of  Diiodomethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	CH2I2
 
 mole_fraction_of_chloroiodomethane_in_air
 	type	float32
 	dimension	time
-	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
-	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
-	standard_name		mole_fraction_of_chloroiodomethane_in_air
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
+	standard_name			mole_fraction_of_chloroiodomethane_in_air
 	long_name	Mole Fraction of Chloroiodomethane in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2ICl
+
+mass_fraction_of_chloroiodomethane_in_air
+	type	float32
+	dimension	time
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			ppm|ppb|ppt	Practical_units must be given and must match units multiplier
+	standard_name			mass_fraction_of_chloroiodomethane_in_air
+	long_name	Mass Fraction of Chloroiodomethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2ICl
+
+mole_concentration_of_chloroiodomethane_in_air
+	type	float32
+	dimension	time
+	units	mol m-3
+	standard_name			mole_concentration_of_chloroiodomethane_in_air
+	long_name	Mole Concentration of Chloroiodomethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2ICl
+
+mass_concentration_of_chloroiodomethane_in_air
+	type	float32
+	dimension	time
+	units	kg m-3
+	standard_name			mass_concentration_of_chloroiodomethane_in_air
+	long_name	Mass Concentration of Chloroiodomethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	CH2ICl
 
 mole_fraction_of_bromodichloromethane_in_air
 	type	float32
 	dimension	time
-	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
-	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
-	standard_name		mole_fraction_of_bromodichloromethane_in_air
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
+	standard_name			mole_fraction_of_bromodichloromethane_in_air
 	long_name	Mole Fraction of Bromodichloromethane in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CHBrCl2
+
+mass_fraction_of_bromodichloromethane_in_air
+	type	float32
+	dimension	time
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			ppm|ppb|ppt	Practical_units must be given and must match units multiplier
+	standard_name			mass_fraction_of_bromodichloromethane_in_air
+	long_name	Mass Fraction of Bromodichloromethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CHBrCl2
+
+mole_concentration_of_bromodichloromethane_in_air
+	type	float32
+	dimension	time
+	units	mol m-3
+	standard_name			mole_concentration_of_bromodichloromethane_in_air
+	long_name	Mole Concentration of Bromodichloromethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CHBrCl2
+
+mass_concentration_of_bromodichloromethane_in_air
+	type	float32
+	dimension	time
+	units	kg m-3
+	standard_name			mass_concentration_of_bromodichloromethane_in_air
+	long_name	Mass Concentration ofBromodichloromethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	CHBrCl2
 
 mole_fraction_of_dibromomethane_in_air
 	type	float32
 	dimension	time
-	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
-	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
-	standard_name		mole_fraction_of_dibromomethane_in_air
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
+	standard_name			mole_fraction_of_dibromomethane_in_air
 	long_name	Mole Fraction of Dibromomethane in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2Br2
+
+mass_fraction_of_dibromomethane_in_air
+	type	float32
+	dimension	time
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			ppm|ppb|ppt	Practical_units must be given and must match units multiplier
+	standard_name			mass_fraction_of_dibromomethane_in_air
+	long_name	Mass Fraction of Dibromomethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2Br2
+
+mole_concentration_of_dibromomethane_in_air
+	type	float32
+	dimension	time
+	units	mol m-3
+	standard_name			mole_concentration_of_dibromomethane_in_air
+	long_name	Mole Concentration of Dibromomethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2Br2
+
+mass_concentration_of_dibromomethane_in_air
+	type	float32
+	dimension	time
+	units	kg m-3
+	standard_name			mass_concentration_of_dibromomethane_in_air
+	long_name	Mass Concentration of Dibromomethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	CH2Br2
 
 mole_fraction_of_chloroform_in_air
 	type	float32
 	dimension	time
-	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
-	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
-	standard_name		mole_fraction_of_chloroform_in_air
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
+	standard_name			mole_fraction_of_chloroform_in_air
 	long_name	Mole Fraction of Chloroform in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CHCl3
+
+mass_fraction_of_chloroform_in_air
+	type	float32
+	dimension	time
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			ppm|ppb|ppt	Practical_units must be given and must match units multiplier
+	standard_name			mass_fraction_of_chloroform_in_air
+	long_name	Mass Fraction of Chloroform in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CHCl3
+
+mole_concentration_of_chloroform_in_air
+	type	float32
+	dimension	time
+	units	mol m-3
+	standard_name			mole_concentration_of_chloroform_in_air
+	long_name	Mole Concentration of Chloroform in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CHCl3
+
+mass_concentration_of_chloroform_in_air
+	type	float32
+	dimension	time
+	units	kg m-3
+	standard_name			mass_concentration_of_chloroform_in_air
+	long_name	Mass Concentration of Chloroform in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	CHCl3
 
 mole_fraction_of_methyl_iodide_in_air
 	type	float32
 	dimension	time
-	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
-	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
-	standard_name		mole_fraction_of_methyl_iodide_in_air
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
+	standard_name			mole_fraction_of_methyl_iodide_in_air
 	long_name	Mole Fraction of Methyl Iodide in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH3I
+
+mass_fraction_of_methyl_iodide_in_air
+	type	float32
+	dimension	time
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			ppm|ppb|ppt	Practical_units must be given and must match units multiplier
+	standard_name			mass_fraction_of_methyl_iodide_in_air
+	long_name	Mass Fraction of Methyl Iodide in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH3I
+
+mole_concentration_of_methyl_iodide_in_air
+	type	float32
+	dimension	time
+	units	mol m-3
+	standard_name			mole_concentration_of_methyl_iodide_in_air
+	long_name	Mole Concentration of Methyl Iodide in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH3I
+
+mass_concentration_of_methyl_iodide_in_air
+	type	float32
+	dimension	time
+	units	kg m-3
+	standard_name			mass_concentration_of_methyl_iodide_in_air
+	long_name	Mass Concentration of Methyl Iodide in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	CH3I
 
 mole_fraction_of_bromochloromethane_in_air
 	type	float32
 	dimension	time
-	units	?		1|1e-3|1e-6|1e-9|1e-12	Units must be given
-	practical_units	?		ppm|ppb|ppt|mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
-	standard_name		mole_fraction_of_bromochloromethane_in_air
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
+	standard_name			mole_fraction_of_bromochloromethane_in_air
 	long_name	Mole Fraction of Bromochloromethane in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ????		mean or point
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2BrCl
+
+mass_fraction_of_bromochloromethane_in_air
+	type	float32
+	dimension	time
+	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
+	practical_units			ppm|ppb|ppt	Practical_units must be given and must match units multiplier
+	standard_name			mass_fraction_of_bromochloromethane_in_air
+	long_name	Mass Fraction of Bromochloromethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2BrCl
+
+mole_concentration_of_bromochloromethane_in_air
+	type	float32
+	dimension	time
+	units	mol m-3
+	standard_name			mole_concentration_of_bromochloromethane_in_air
+	long_name	Mole Concentration of Bromochloromethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
+	coordinates	latitude longitude
+	chemical_species	CH2BrCl
+
+mass_concentration_of_bromochloromethane_in_air
+	type	float32
+	dimension	time
+	units	kg m-3
+	standard_name			mass_concentration_of_bromochloromethane_in_air
+	long_name	Mass Concentration ofBromochloromethane in air
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	CH2BrCl
 

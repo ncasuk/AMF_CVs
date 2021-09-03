@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "upward-balloon-velocity",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: point",
+        "coordinates": "latitude longitude altitude",
+        "dimension": "time",
+        "long_name": "Balloon Ascent Rate",
+        "type": "float32",
+        "units": "m s-1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "upward_balloon_velocity",
+    "namespace": "ncas:amf:product-sonde-variable:upward-balloon-velocity",
+    "raw_name": "upward_balloon_velocity",
+    "status": "pending"
+}

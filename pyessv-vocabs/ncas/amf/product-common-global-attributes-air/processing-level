@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "processing-level",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Integer",
+        "convention_providence": "ACDD1.3",
+        "description": "Data product level. Possible values: 0: native, 1: basic QC, 2: high-level QC, 3: product derived from levels 1 and 2 data",
+        "fixed_value": "",
+        "global_attribute_id": "processing_level"
+    },
+    "label": "processing_level",
+    "namespace": "ncas:amf:product-common-global-attributes-air:processing-level",
+    "raw_name": "processing_level",
+    "status": "pending"
+}

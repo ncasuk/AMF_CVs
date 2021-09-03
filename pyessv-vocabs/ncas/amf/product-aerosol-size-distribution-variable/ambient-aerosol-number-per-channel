@@ -1,0 +1,18 @@
+{
+    "_type": "term",
+    "canonical_name": "ambient-aerosol-number-per-channel",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "coordinates": "latitude longitude",
+        "dimension": "time, index",
+        "long_name": "Ambient Aerosol Number per Channel (dN)",
+        "type": "float32",
+        "units": "cm-3",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "ambient_aerosol_number_per_channel",
+    "namespace": "ncas:amf:product-aerosol-size-distribution-variable:ambient-aerosol-number-per-channel",
+    "raw_name": "ambient_aerosol_number_per_channel",
+    "status": "pending"
+}

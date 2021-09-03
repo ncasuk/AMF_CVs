@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "featuretype",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Exact match in vocabulary",
+        "convention_providence": "CF",
+        "description": "Feature Type of measurements (set for each instrument type).",
+        "fixed_value": "",
+        "global_attribute_id": "featureType"
+    },
+    "label": "featureType",
+    "namespace": "ncas:amf:product-common-global-attributes-trajectory:featuretype",
+    "raw_name": "featureType",
+    "status": "pending"
+}

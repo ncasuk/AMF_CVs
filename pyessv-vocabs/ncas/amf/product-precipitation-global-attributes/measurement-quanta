@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "measurement-quanta",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "amount, drop size or amount needed to tip the bucket",
+        "fixed_value": "",
+        "global_attribute_id": "measurement_quanta"
+    },
+    "label": "measurement_quanta",
+    "namespace": "ncas:amf:product-precipitation-global-attributes:measurement-quanta",
+    "raw_name": "measurement_quanta",
+    "status": "pending"
+}

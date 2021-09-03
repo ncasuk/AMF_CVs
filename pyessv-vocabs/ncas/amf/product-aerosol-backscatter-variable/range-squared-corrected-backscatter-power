@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "range-squared-corrected-backscatter-power",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time, altitude",
+        "long_name": "Range Squared Corrected Backscatter Power (ln(arbitrary raw data unit))",
+        "type": "float32",
+        "units": "1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "range_squared_corrected_backscatter_power",
+    "namespace": "ncas:amf:product-aerosol-backscatter-variable:range-squared-corrected-backscatter-power",
+    "raw_name": "range_squared_corrected_backscatter_power",
+    "status": "pending"
+}

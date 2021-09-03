@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-rain-gauge-6",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Tipping Bucket Rain Gauge unit 6",
+        "instrument_id": "ncas-rain-gauge-6",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-rain-gauge-6",
+    "status": "pending"
+}

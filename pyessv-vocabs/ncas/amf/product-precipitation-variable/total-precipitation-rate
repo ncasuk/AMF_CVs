@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "total-precipitation-rate",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Total Precipitation Rate",
+        "type": "float32",
+        "units": "mm hr-1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "total_precipitation_rate",
+    "namespace": "ncas:amf:product-precipitation-variable:total-precipitation-rate",
+    "raw_name": "total_precipitation_rate",
+    "status": "pending"
+}
