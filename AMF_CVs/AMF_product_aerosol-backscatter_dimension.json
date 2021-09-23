@@ -1,8 +1,8 @@
 {
     "product_aerosol-backscatter_dimension": {
         "altitude": {
-            "units": "m", 
-            "length": "<i>"
+            "length": "<i>",
+            "units": "m"
         }
     }
 }

@@ -1,0 +1,19 @@
+{
+    "_type": "term",
+    "canonical_name": "mass-fraction-of-dibromomethane-in-air",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "chemical_species": "CH2Br2",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Mass Fraction of Dibromomethane in air",
+        "type": "float32",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "mass_fraction_of_dibromomethane_in_air",
+    "namespace": "ncas:amf:product-halocarbon-concentration-variable:mass-fraction-of-dibromomethane-in-air",
+    "raw_name": "mass_fraction_of_dibromomethane_in_air",
+    "status": "pending"
+}

@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "mass-fraction-of-ammonia-in-air",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "chemical_species": "NH3",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Mass Fraction of ammonia in air",
+        "standard_name": "mass_fraction_of_ammonia_in_air",
+        "type": "float32",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "mass_fraction_of_ammonia_in_air",
+    "namespace": "ncas:amf:product-nh3-concentration-variable:mass-fraction-of-ammonia-in-air",
+    "raw_name": "mass_fraction_of_ammonia_in_air",
+    "status": "pending"
+}

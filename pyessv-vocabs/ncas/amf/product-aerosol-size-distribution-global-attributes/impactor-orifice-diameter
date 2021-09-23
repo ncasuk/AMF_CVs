@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "impactor-orifice-diameter",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "Diameter of Imapctor nozzle",
+        "fixed_value": "",
+        "global_attribute_id": "impactor_orifice_diameter"
+    },
+    "label": "impactor_orifice_diameter",
+    "namespace": "ncas:amf:product-aerosol-size-distribution-global-attributes:impactor-orifice-diameter",
+    "raw_name": "impactor_orifice_diameter",
+    "status": "pending"
+}

@@ -1,0 +1,6 @@
+Name	Description	Example	Fixed Value	Compliance checking rules	Convention Providence
+measurement_technique	optical, peizoelectric, tipping_bucket, drop_counting, weighing, collecting, droplet_impact	drop_counting		One of: optical, peizoelectric, tipping_bucket, drop_counting, weighing, collecting, droplet_impact
+measurement_quanta	amount, drop size or amount needed to tip the bucket	0.1 mm		String: min 3 characters
+collection_area	collection area	20 cm2		String: min 3 characters
+laser_wavelength	laser wavelength	785 nm		String: min 3 characters
+laser_sample_area	sample area for laser based instruments	40 - 47 cm2		String: min 3 characters

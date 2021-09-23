@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "dma-length",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "Physical lengty of coulm",
+        "fixed_value": "",
+        "global_attribute_id": "dma_length"
+    },
+    "label": "dma_length",
+    "namespace": "ncas:amf:product-aerosol-size-distribution-global-attributes:dma-length",
+    "raw_name": "dma_length",
+    "status": "pending"
+}

@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "stability-parameter",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: point",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Stability Parameter (Z/L)",
+        "type": "float32",
+        "units": "1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "stability_parameter",
+    "namespace": "ncas:amf:product-flux-components-variable:stability-parameter",
+    "raw_name": "stability_parameter",
+    "status": "pending"
+}

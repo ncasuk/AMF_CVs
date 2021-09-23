@@ -1,0 +1,21 @@
+{
+    "_type": "term",
+    "canonical_name": "cloud-base-altitude",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time, layer_index",
+        "long_name": "Cloud Base Altitude (Geometric height above geoid WGS84)",
+        "standard_name": "cloud_base_altitude",
+        "type": "float32",
+        "units": "m",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "cloud_base_altitude",
+    "namespace": "ncas:amf:product-cloud-coverage-variable:cloud-base-altitude",
+    "raw_name": "cloud_base_altitude",
+    "status": "pending"
+}

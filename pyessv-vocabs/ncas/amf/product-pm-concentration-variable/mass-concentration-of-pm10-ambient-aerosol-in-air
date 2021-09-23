@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "mass-concentration-of-pm10-ambient-aerosol-in-air",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Mass Concentration of PM10 Ambient Aerosol in Air",
+        "standard_name": "mass_concentration_of_pm10_ambient_aerosol_in_air",
+        "type": "float32",
+        "units": "ug m-3",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "mass_concentration_of_pm10_ambient_aerosol_in_air",
+    "namespace": "ncas:amf:product-pm-concentration-variable:mass-concentration-of-pm10-ambient-aerosol-in-air",
+    "raw_name": "mass_concentration_of_pm10_ambient_aerosol_in_air",
+    "status": "pending"
+}

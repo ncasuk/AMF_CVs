@@ -1,0 +1,11 @@
+{
+    "_type": "term",
+    "canonical_name": "index",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "length": "<m>",
+        "units": "1"
+    },
+    "namespace": "ncas:amf:product-particle-size-distribution-dimension:index",
+    "status": "pending"
+}

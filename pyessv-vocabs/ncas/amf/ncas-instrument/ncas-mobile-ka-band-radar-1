@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-mobile-ka-band-radar-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Ka-Band Mobile Cloud Radar unit 1",
+        "instrument_id": "ncas-mobile-ka-band-radar-1",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-mobile-ka-band-radar-1",
+    "status": "pending"
+}

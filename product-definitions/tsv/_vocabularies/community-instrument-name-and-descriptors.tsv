@@ -1,0 +1,10 @@
+Instrument	Manufacturer	Model No.	Serial Number	Old Instrument Name	New Instrument Name	Data Product(s)	Mobile/Fixed (loc)	Host	Scientist	Category	Descriptor	Owner
+Met - Pre ICOS	Campbell Scientific				uea-aws-1	surface-met	fixed - WAO	UEA	Grant Forster	surface met	UEA Automatic Weather Station unit 1	UEA
+Met - ICOS	Gill	MetPak			uea-aws-2	surface-met	fixed - WAO	UEA	Grant Forster	surface met	UEA Automatic Weather Station unit 2	UEA
+NO2	Teledyne	T500U	187		uea-caps-1	no2-concentration	fixed - WAO	UEA	Grant Forster	gas phase	UEA Cavity Attenuated Phase Shift Spectroscopy unit 1	UEA
+NOx	ThermoScientific	42i			uea-42i-nox-1	nox-noxy-concentration	fixed - WAO	UEA	Grant Forster	gas phase	UEA Thermo 42i NOX Monitor unit 1	UEA
+O3	ThermoScientific	49i			uea-49i-o3-1	o3-concentration	fixed - WAO	UEA	Grant Forster	gas phase	UEA Thermo 49i O3 Monitor unit 1	UEA
+PM	Palas	Fidas 200E	9342		uea-fidas200E-1	pm-concentration	fixed - WAO	UEA	Grant Forster	aerosol	UEA PM Mass Concentration Counter unit 1	UEA
+Radon	ANDTO				uea-radon-1	radon-concentration	fixed - WAO	UEA	Grant Forster	gas phase	UEA Radon Monitor unit 1	UEA
+SO2	ThermoScientific	43i			uea-43i-so2-1	so2-concentration	fixed - WAO	UEA	Grant Forster	gas phase	UEA Thermo 43i SO2 Monitor unit 1	UEA
+SODAR	METEK	PCS.2000 RASS			uea-sodar-rass-1	acoustic-backscatter-winds, |boundary-layer-temperature	fixed - WAO	UEA	Grant Forster	profiler	UEA Sodar Rass unit 1	UEA

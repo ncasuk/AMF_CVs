@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "upper-channel-cut-off",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "Theoretical upper size limit",
+        "fixed_value": "",
+        "global_attribute_id": "upper_channel_cut_off"
+    },
+    "label": "upper_channel_cut_off",
+    "namespace": "ncas:amf:product-aerosol-size-distribution-global-attributes:upper-channel-cut-off",
+    "raw_name": "upper_channel_cut_off",
+    "status": "pending"
+}

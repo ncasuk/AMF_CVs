@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "title",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 10 characters",
+        "convention_providence": "CF",
+        "description": "Name and general description of the data set",
+        "fixed_value": "",
+        "global_attribute_id": "title"
+    },
+    "namespace": "ncas:amf:product-common-global-attributes-air:title",
+    "status": "pending"
+}

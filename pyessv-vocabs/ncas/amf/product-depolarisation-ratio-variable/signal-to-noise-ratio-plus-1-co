@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "signal-to-noise-ratio-plus-1-co",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time, index_of_range, index_of_angle",
+        "long_name": "Signal to Noise Ratio: SNR+1 (Planar Polarised)",
+        "type": "float32",
+        "units": "1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "signal_to_noise_ratio_plus_1_co",
+    "namespace": "ncas:amf:product-depolarisation-ratio-variable:signal-to-noise-ratio-plus-1-co",
+    "raw_name": "signal_to_noise_ratio_plus_1_co",
+    "status": "pending"
+}

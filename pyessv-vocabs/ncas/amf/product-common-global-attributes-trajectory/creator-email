@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "creator-email",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Valid email",
+        "convention_providence": "ACDD1.3",
+        "description": "E-mail address of the person who made the file",
+        "fixed_value": "",
+        "global_attribute_id": "creator_email"
+    },
+    "label": "creator_email",
+    "namespace": "ncas:amf:product-common-global-attributes-trajectory:creator-email",
+    "raw_name": "creator_email",
+    "status": "pending"
+}

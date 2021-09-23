@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "precipitation-visibility",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Visibility Reduction Caused by Precipitation.",
+        "type": "float32",
+        "units": "m",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "precipitation_visibility",
+    "namespace": "ncas:amf:product-precipitation-variable:precipitation-visibility",
+    "raw_name": "precipitation_visibility",
+    "status": "pending"
+}

@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "number-of-gates",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Integer",
+        "convention_providence": null,
+        "description": "number of gates",
+        "fixed_value": "",
+        "global_attribute_id": "number_of_gates"
+    },
+    "label": "number_of_gates",
+    "namespace": "ncas:amf:product-depolarisation-ratio-global-attributes:number-of-gates",
+    "raw_name": "number_of_gates",
+    "status": "pending"
+}

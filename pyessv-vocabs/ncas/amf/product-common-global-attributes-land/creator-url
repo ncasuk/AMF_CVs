@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "creator-url",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Valid URL",
+        "convention_providence": "ACDD1.3",
+        "description": "ORCID URL of the person who made the file",
+        "fixed_value": "",
+        "global_attribute_id": "creator_url"
+    },
+    "label": "creator_url",
+    "namespace": "ncas:amf:product-common-global-attributes-land:creator-url",
+    "raw_name": "creator_url",
+    "status": "pending"
+}

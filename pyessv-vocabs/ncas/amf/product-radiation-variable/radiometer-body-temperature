@@ -1,0 +1,19 @@
+{
+    "_type": "term",
+    "canonical_name": "radiometer-body-temperature",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "long_name": "Radiometer Body Temperature",
+        "type": "float32",
+        "units": "K",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "radiometer_body_temperature",
+    "namespace": "ncas:amf:product-radiation-variable:radiometer-body-temperature",
+    "raw_name": "radiometer_body_temperature",
+    "status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+    "_type": "term",
+    "canonical_name": "sound-intensity-level-in-air",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time, altitude",
+        "long_name": "Sound Intensity Level in Air",
+        "standard_name": "sound_intensity_level_in_air",
+        "type": "float32",
+        "units": "dB",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "sound_intensity_level_in_air",
+    "namespace": "ncas:amf:product-acoustic-backscatter-winds-variable:sound-intensity-level-in-air",
+    "raw_name": "sound_intensity_level_in_air",
+    "status": "pending"
+}

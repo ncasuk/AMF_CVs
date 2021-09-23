@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-sodar-2",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Sodar unit 2",
+        "instrument_id": "ncas-sodar-2",
+        "previous_instrument_ids": [
+            "leeds-sodar-unit2"
+        ]
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-sodar-2",
+    "status": "pending"
+}

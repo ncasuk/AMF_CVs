@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "geospatial-bounds",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 8 characters",
+        "convention_providence": "ACDD1.3",
+        "description": "For a point deployment: (latitude longitude) - signed decimal|For a bounding box: SW corner, NE corner: (latitude longitude, latitude longitude) - signed decimal",
+        "fixed_value": "",
+        "global_attribute_id": "geospatial_bounds"
+    },
+    "label": "geospatial_bounds",
+    "namespace": "ncas:amf:product-common-global-attributes-land:geospatial-bounds",
+    "raw_name": "geospatial_bounds",
+    "status": "pending"
+}

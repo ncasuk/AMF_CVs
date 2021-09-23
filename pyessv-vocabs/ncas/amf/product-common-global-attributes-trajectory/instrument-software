@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "instrument-software",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": "AMF",
+        "description": "Name of the native software running the measurement",
+        "fixed_value": "",
+        "global_attribute_id": "instrument_software"
+    },
+    "label": "instrument_software",
+    "namespace": "ncas:amf:product-common-global-attributes-trajectory:instrument-software",
+    "raw_name": "instrument_software",
+    "status": "pending"
+}

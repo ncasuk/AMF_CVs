@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-rain-gauge-3",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Drop Counting Rain Gauge unit 3",
+        "instrument_id": "ncas-rain-gauge-3",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-rain-gauge-3",
+    "status": "pending"
+}

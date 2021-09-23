@@ -1,0 +1,17 @@
+{
+    "_type": "term",
+    "canonical_name": "qc-flag",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "dimension": "time",
+        "flag_meanings": "not_used|good_data |instrument_error|bad_data_precipitation_rate_<_0_mm_hr-1|suspect_data_precipitation_rate_>_300_mm_hr-1|suspect_data_solid_precipitation_rate_>_300_mm_hr-1",
+        "flag_values": "0b,1b, 2b, 3b, 4b, 5b",
+        "long_name": "Data Quality flag",
+        "type": "byte",
+        "units": "1"
+    },
+    "label": "qc_flag",
+    "namespace": "ncas:amf:product-precipitation-variable:qc-flag",
+    "raw_name": "qc_flag",
+    "status": "pending"
+}

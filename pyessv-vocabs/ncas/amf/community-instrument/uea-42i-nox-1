@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "uea-42i-nox-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "UEA Thermo 42i NOX Monitor unit 1",
+        "instrument_id": "uea-42i-nox-1",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:community-instrument:uea-42i-nox-1",
+    "status": "pending"
+}

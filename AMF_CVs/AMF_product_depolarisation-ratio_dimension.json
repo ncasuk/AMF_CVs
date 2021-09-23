@@ -1,8 +1,12 @@
 {
     "product_depolarisation-ratio_dimension": {
+        "index_of_angle": {
+            "length": "<i>",
+            "units": "1"
+        },
         "index_of_range": {
-            "units": "1", 
-            "length": "<r>"
+            "length": "<r>",
+            "units": "1"
         }
     }
 }

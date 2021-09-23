@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "profile-scaling",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: point",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Scaling of range profile (default = 100%)",
+        "type": "float32",
+        "units": "%",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "profile_scaling",
+    "namespace": "ncas:amf:product-cloud-base-variable:profile-scaling",
+    "raw_name": "profile_scaling",
+    "status": "pending"
+}

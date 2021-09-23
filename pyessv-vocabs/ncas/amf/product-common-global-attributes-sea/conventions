@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "conventions",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Exact match",
+        "convention_providence": "CF",
+        "description": "NetCDF Conventions being followed",
+        "fixed_value": "CF-1.6, NCAS-AMF-2.0.0",
+        "global_attribute_id": "Conventions"
+    },
+    "label": "Conventions",
+    "namespace": "ncas:amf:product-common-global-attributes-sea:conventions",
+    "raw_name": "Conventions",
+    "status": "pending"
+}

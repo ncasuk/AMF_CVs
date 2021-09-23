@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-cam-3",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Camera unit 3",
+        "instrument_id": "ncas-cam-3",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-cam-3",
+    "status": "pending"
+}

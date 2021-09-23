@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "longitude",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "dimension": "longitude",
+        "long_name": "Longitude",
+        "standard_name": "longitude",
+        "type": "float32",
+        "units": "degrees_east"
+    },
+    "namespace": "ncas:amf:product-common-variable-land:longitude",
+    "status": "pending"
+}

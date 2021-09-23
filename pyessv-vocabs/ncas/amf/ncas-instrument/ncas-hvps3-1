@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-hvps3-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS High Volume Precipitation Spectrometer unit 1",
+        "instrument_id": "ncas-hvps3-1",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-hvps3-1",
+    "status": "pending"
+}

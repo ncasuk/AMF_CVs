@@ -1,14 +1,14 @@
-Variable	Attribute	Value	Proposed name	example vale	notes
+Variable	Attribute	Value	Proposed name	example vale
 mass_concentration_of_nitrate_in_ambient_aerosol_particles_in_air
 	type	float32
 	dimension	time
 	units	ug cm-3
 	standard_name		mass_concentration_of_nitrate_in_ambient_aerosol_particles_in_air
-	long_name	Mass concentration of NO3 component of ambient aerosol particles in air
+	long_name	Mass concentration of the NO3 component of ambient aerosol particles in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ?		mean or point
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	NO3
 
@@ -17,24 +17,24 @@ mass_concentration_of_sulfate_in_ambient_aerosol_particles_in_air
 	dimension	time
 	units	ug cm-3
 	standard_name		mass_concentration_of_sulfate_in_ambient_aerosol_particles_in_air
-	long_name	Mass concentration of SO4 component of ambient aerosol particles in air
+	long_name	Mass concentration of the SO4 component of ambient aerosol particles in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ?		mean or point
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	SO4
 
-mass_concentration_of_ammonium_in_ ambient_aerosol_particles_in_air
+mass_concentration_of_ammonia_in_ ambient_aerosol_particles_in_air
 	type	float32
 	dimension	time
 	units	ug cm-3
-	standard_name		mass_concentration_of_ammonium_in_ ambient_aerosol_particles_in_air
-	long_name	Mass concentration of NH3 component of ambient aerosol particles in air
+	standard_name		mass_concentration_of_ammonia_in_ ambient_aerosol_particles_in_air
+	long_name	Mass concentration of the NH3 component of ambient aerosol particles in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ?		mean or point
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	NH3
 
@@ -43,11 +43,11 @@ mass_concentration_of_organics_in_ ambient_aerosol_particles_in_air
 	dimension	time
 	units	ug cm-3
 	standard_name		mass_concentration_of_organics_in_ ambient_aerosol_particles_in_air
-	long_name	Mass concentration of organic component of ambient aerosol particles in air
+	long_name	Mass concentration of the organic component of ambient aerosol particles in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: ?		mean or point
+	cell_methods			time: mean or time: point
 	coordinates	latitude longitude
 	chemical_species	organic
 

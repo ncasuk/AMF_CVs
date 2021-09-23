@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "fft-length",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Integer",
+        "convention_providence": null,
+        "description": "doppler FFT length",
+        "fixed_value": "",
+        "global_attribute_id": "fft_length"
+    },
+    "label": "fft_length",
+    "namespace": "ncas:amf:product-aerosol-backscatter-radial-winds-global-attributes:fft-length",
+    "raw_name": "fft_length",
+    "status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+    "_type": "term",
+    "canonical_name": "platform-pitch-angle",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Pitch Angle",
+        "standard_name": "platform_pitch_angle",
+        "type": "float32",
+        "units": "degree",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "platform_pitch_angle",
+    "namespace": "ncas:amf:product-common-variable-air:platform-pitch-angle",
+    "raw_name": "platform_pitch_angle",
+    "status": "pending"
+}

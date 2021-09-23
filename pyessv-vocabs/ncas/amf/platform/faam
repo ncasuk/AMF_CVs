@@ -1,0 +1,11 @@
+{
+    "_type": "term",
+    "canonical_name": "faam",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": null,
+        "platform_id": "faam"
+    },
+    "namespace": "ncas:amf:platform:faam",
+    "status": "pending"
+}

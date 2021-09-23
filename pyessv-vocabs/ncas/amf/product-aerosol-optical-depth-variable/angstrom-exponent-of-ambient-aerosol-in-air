@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "angstrom-exponent-of-ambient-aerosol-in-air",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "time, index",
+        "long_name": "Angstrom Exponent of Ambient Aerosol in air",
+        "standard_name": "angstrom_exponent_of_ambient_aerosol_in_air",
+        "type": "float32",
+        "units": "1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "angstrom_exponent_of_ambient_aerosol_in_air",
+    "namespace": "ncas:amf:product-aerosol-optical-depth-variable:angstrom-exponent-of-ambient-aerosol-in-air",
+    "raw_name": "angstrom_exponent_of_ambient_aerosol_in_air",
+    "status": "pending"
+}

@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "uea-fidas200e-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "UEA PM Mass Concentration Counter unit 1",
+        "instrument_id": "uea-fidas200E-1",
+        "previous_instrument_ids": []
+    },
+    "label": "uea-fidas200E-1",
+    "namespace": "ncas:amf:community-instrument:uea-fidas200e-1",
+    "raw_name": "uea-fidas200E-1",
+    "status": "pending"
+}

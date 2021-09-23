@@ -1,0 +1,11 @@
+{
+    "_type": "term",
+    "canonical_name": "cao-sparsholt",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "chilbolton atmospheric observatory - sparsholt sub site",
+        "platform_id": "cao-sparsholt"
+    },
+    "namespace": "ncas:amf:platform:cao-sparsholt",
+    "status": "pending"
+}

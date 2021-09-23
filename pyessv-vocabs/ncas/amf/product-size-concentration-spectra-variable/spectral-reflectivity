@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "spectral-reflectivity",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time, altitude, index_bin",
+        "long_name": "Spectral Reflectivity",
+        "type": "float32",
+        "units": "dB",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "spectral_reflectivity",
+    "namespace": "ncas:amf:product-size-concentration-spectra-variable:spectral-reflectivity",
+    "raw_name": "spectral_reflectivity",
+    "status": "pending"
+}

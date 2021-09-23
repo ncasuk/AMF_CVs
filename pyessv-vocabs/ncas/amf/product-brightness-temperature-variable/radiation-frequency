@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "radiation-frequency",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "radiation_frequency",
+        "long_name": "Receiver Channel Centre Frequency",
+        "standard_name": "radiation_frequency",
+        "type": "float32",
+        "units": "s-1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "radiation_frequency",
+    "namespace": "ncas:amf:product-brightness-temperature-variable:radiation-frequency",
+    "raw_name": "radiation_frequency",
+    "status": "pending"
+}

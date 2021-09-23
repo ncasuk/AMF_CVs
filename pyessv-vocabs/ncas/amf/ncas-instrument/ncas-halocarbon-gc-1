@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-halocarbon-gc-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Halocarbon Gas Chromatograph unit 1",
+        "instrument_id": "ncas-halocarbon-gc-1",
+        "previous_instrument_ids": [
+            "cv-gc-ms"
+        ]
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-halocarbon-gc-1",
+    "status": "pending"
+}

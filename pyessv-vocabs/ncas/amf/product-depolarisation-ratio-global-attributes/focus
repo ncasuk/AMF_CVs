@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "focus",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "focus (300m, 500m, 800m, 1000m, 1250m, 1500m, 1750m, 2000m or Inf)",
+        "fixed_value": "",
+        "global_attribute_id": "focus"
+    },
+    "namespace": "ncas:amf:product-depolarisation-ratio-global-attributes:focus",
+    "status": "pending"
+}

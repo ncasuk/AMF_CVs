@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "comment",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 4 characters",
+        "convention_providence": "CF",
+        "description": "Any other text that might be useful. Use \"None\" if no comment needed.",
+        "fixed_value": "",
+        "global_attribute_id": "comment"
+    },
+    "namespace": "ncas:amf:product-common-global-attributes-sea:comment",
+    "status": "pending"
+}

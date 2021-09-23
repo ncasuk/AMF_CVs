@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "mass-fraction-of-nitrogen-dioxide-in-air",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "chemical_species": "NO2",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Mass Fraction of Nitrogen Dioxide in air",
+        "standard_name": "mass_fraction_of_nitrogen_dioxide_in_air",
+        "type": "float32",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "mass_fraction_of_nitrogen_dioxide_in_air",
+    "namespace": "ncas:amf:product-no2-concentration-variable:mass-fraction-of-nitrogen-dioxide-in-air",
+    "raw_name": "mass_fraction_of_nitrogen_dioxide_in_air",
+    "status": "pending"
+}

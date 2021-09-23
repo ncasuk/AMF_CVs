@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "instrument-roll-minimum",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: minimum",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Instrument Roll Angle Minimum",
+        "type": "float32",
+        "units": "degree",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "instrument_roll_minimum",
+    "namespace": "ncas:amf:product-common-variable-sea:instrument-roll-minimum",
+    "raw_name": "instrument_roll_minimum",
+    "status": "pending"
+}

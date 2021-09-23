@@ -1,0 +1,11 @@
+{
+    "_type": "term",
+    "canonical_name": "bt-tower-t35",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "british telecoms tower observatory",
+        "platform_id": "bt-tower-t35"
+    },
+    "namespace": "ncas:amf:platform:bt-tower-t35",
+    "status": "pending"
+}

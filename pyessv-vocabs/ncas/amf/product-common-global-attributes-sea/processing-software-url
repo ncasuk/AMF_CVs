@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "processing-software-url",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Valid URL",
+        "convention_providence": "AMF",
+        "description": "A public URL for the processing software used to process/QC the data. NOTE: this excludes proprietary software.",
+        "fixed_value": "",
+        "global_attribute_id": "processing_software_url"
+    },
+    "label": "processing_software_url",
+    "namespace": "ncas:amf:product-common-global-attributes-sea:processing-software-url",
+    "raw_name": "processing_software_url",
+    "status": "pending"
+}

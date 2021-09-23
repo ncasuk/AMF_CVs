@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "institution",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Exact match in vocabulary",
+        "convention_providence": "CF",
+        "description": "Institution the maker affliated to",
+        "fixed_value": "",
+        "global_attribute_id": "institution"
+    },
+    "namespace": "ncas:amf:product-common-global-attributes-sea:institution",
+    "status": "pending"
+}

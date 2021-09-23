@@ -1,0 +1,19 @@
+{
+    "_type": "term",
+    "canonical_name": "photolysis-frequencies-jhcho",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Photolysis Frequencies (j(HCHO))",
+        "type": "float32",
+        "units": "s-1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "photolysis_frequencies_jhcho",
+    "namespace": "ncas:amf:product-solar-actinic-flux-variable:photolysis-frequencies-jhcho",
+    "raw_name": "photolysis_frequencies_jhcho",
+    "status": "pending"
+}

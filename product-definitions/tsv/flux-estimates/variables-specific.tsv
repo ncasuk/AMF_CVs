@@ -37,7 +37,7 @@ buoyancy_flux
 	dimension	time
 	units	J m-2 s-1
 	standard_name		buoyancy_flux
-	long_name	Buoyancy Flux (rho.cp.<w'Ts'>)
+	long_name	Buoyancy Flux (<w'Ts'>)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>

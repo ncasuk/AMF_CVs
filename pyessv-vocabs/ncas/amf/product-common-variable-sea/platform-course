@@ -1,0 +1,21 @@
+{
+    "_type": "term",
+    "canonical_name": "platform-course",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Direction in which the platform is travelling",
+        "standard_name": "platform_course",
+        "type": "float32",
+        "units": "degree",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "platform_course",
+    "namespace": "ncas:amf:product-common-variable-sea:platform-course",
+    "raw_name": "platform_course",
+    "status": "pending"
+}

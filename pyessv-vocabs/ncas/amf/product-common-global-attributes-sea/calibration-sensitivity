@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "calibration-sensitivity",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 5 characters",
+        "convention_providence": "AMF",
+        "description": "Calibrated sensitivity/measurement range",
+        "fixed_value": "",
+        "global_attribute_id": "calibration_sensitivity"
+    },
+    "label": "calibration_sensitivity",
+    "namespace": "ncas:amf:product-common-global-attributes-sea:calibration-sensitivity",
+    "raw_name": "calibration_sensitivity",
+    "status": "pending"
+}

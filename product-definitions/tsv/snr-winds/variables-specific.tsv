@@ -10,7 +10,7 @@ time_minutes_since_start_of_day
 
 altitude
 	type	float32
-	dimension	time, index
+	dimension	altitude
 	units	m
 	standard_name	altitude
 	long_name	Geometric height above geoid (WGS84).
@@ -34,7 +34,7 @@ size_of_gate
 
 wind_speed
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name	wind_speed
 	long_name	Wind Speed
@@ -46,7 +46,7 @@ wind_speed
 
 wind_from_direction
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	degree
 	standard_name	wind_from_direction
 	long_name	Wind From Direction
@@ -58,7 +58,7 @@ wind_from_direction
 
 eastward_wind
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name	eastward_wind
 	long_name	Eastward Wind Component (U)
@@ -70,7 +70,7 @@ eastward_wind
 
 northward_wind
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name	northward_wind
 	long_name	Northward Wind Component (V)
@@ -82,7 +82,7 @@ northward_wind
 
 upward_air_velocity
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name	upward_air_velocity
 	long_name	Upward Air Velocity Component (W)
@@ -94,7 +94,7 @@ upward_air_velocity
 
 signal_to_noise_ratio_of_beam_1
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	dB
 	standard_name		signal_to_noise_ratio_of_beam_1
 	long_name	Signal to Noise Ratio of beam 1 (back panel)
@@ -106,7 +106,7 @@ signal_to_noise_ratio_of_beam_1
 
 signal_to_noise_ratio_of_beam_2
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	dB
 	standard_name		signal_to_noise_ratio_of_beam_2
 	long_name	Signal to Noise Ratio of beam 2 (side panel)
@@ -118,7 +118,7 @@ signal_to_noise_ratio_of_beam_2
 
 signal_to_noise_ratio_of_beam_3
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	dB
 	standard_name		signal_to_noise_ratio_of_beam_3
 	long_name	Signal to Noise Ratio of beam 3 (vertical beam from centre panel)
@@ -130,7 +130,7 @@ signal_to_noise_ratio_of_beam_3
 
 signal_to_noise_ratio_minimum
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	dB
 	standard_name		signal_to_noise_ratio_minimum
 	long_name	Minimum Signal to Noise Ratio of the three beams
@@ -142,43 +142,43 @@ signal_to_noise_ratio_minimum
 
 spectral_width_of_beam_1
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name		spectral_width_of_beam_1
 	long_name	Spectral Width of beam 1 (back panel)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: mean
+	cell_methods	time: standard_deviation
 	coordinates	latitude longitude
 
 spectral_width_of_beam_2
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name		spectral_width_of_beam_2
 	long_name	Spectral Width of beam 2 (side panel)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: mean
+	cell_methods	time: standard_deviation
 	coordinates	latitude longitude
 
 spectral_width_of_beam_3
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name		spectral_width_of_beam_3
 	long_name	Spectral Width of beam 3 (vertical beam from centre panel)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: mean
+	cell_methods	time: standard_deviation
 	coordinates	latitude longitude
 
 skew_of_beam_1
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name		skew_of_beam_1
 	long_name	Skew of beam 1 (back panel)
@@ -190,7 +190,7 @@ skew_of_beam_1
 
 skew_of_beam_2
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name		skew_of_beam_2
 	long_name	Skew of beam 2 (side panel)
@@ -202,7 +202,7 @@ skew_of_beam_2
 
 skew_of_beam_3
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name		skew_of_beam_3
 	long_name	Skew of beam 3 (vertical beam from centre panel)
@@ -214,7 +214,7 @@ skew_of_beam_3
 
 qc_flag_wind
 	type	byte
-	dimension	time, index
+	dimension	time, altitude
 	units	1
 	standard_name
 	long_name	Data Quality flag: Mean Winds
@@ -223,7 +223,7 @@ qc_flag_wind
 
 qc_flag_beam_1
 	type	byte
-	dimension	time, index
+	dimension	time, altitude
 	units	1
 	standard_name
 	long_name	Data Quality flag: SNR Beam 1 (back panel)
@@ -232,7 +232,7 @@ qc_flag_beam_1
 
 qc_flag_beam_2
 	type	byte
-	dimension	time, index
+	dimension	time, altitude
 	units	1
 	standard_name
 	long_name	Data Quality flag: SNR Beam 2 (side panel)
@@ -241,7 +241,7 @@ qc_flag_beam_2
 
 qc_flag_beam_3
 	type	byte
-	dimension	time, index
+	dimension	time, altitude
 	units	1
 	standard_name
 	long_name	Data Quality flag: SNR Beam 3 (vertical beam from centre panel)

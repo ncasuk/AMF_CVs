@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "qc-flag-quality-wv",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "dimension": "time",
+        "type": "byte",
+        "units": "1"
+    },
+    "label": "qc_flag_quality_wv",
+    "namespace": "ncas:amf:product-flux-components-variable:qc-flag-quality-wv",
+    "raw_name": "qc_flag_quality_wv",
+    "status": "pending"
+}

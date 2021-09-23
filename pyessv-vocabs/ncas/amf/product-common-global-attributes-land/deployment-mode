@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "deployment-mode",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "One of: land, sea, air, trajectory",
+        "convention_providence": null,
+        "description": "Is the instrument deployed on land, sea, or in the air",
+        "fixed_value": "",
+        "global_attribute_id": "deployment_mode"
+    },
+    "label": "deployment_mode",
+    "namespace": "ncas:amf:product-common-global-attributes-land:deployment-mode",
+    "raw_name": "deployment_mode",
+    "status": "pending"
+}

@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "acknowledgement",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Exact match of text to the left",
+        "convention_providence": "ACDD1.3",
+        "description": "How should use of these data should be acknowledged",
+        "fixed_value": "Acknowledgement of NCAS as the data provider is required whenever and wherever these data are used",
+        "global_attribute_id": "acknowledgement"
+    },
+    "namespace": "ncas:amf:product-common-global-attributes-sea:acknowledgement",
+    "status": "pending"
+}

@@ -1,0 +1,14 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-ghg-gc-fid-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Gas Chromatograph with Flame Ionisation Detector unit 1",
+        "instrument_id": "ncas-ghg-gc-fid-1",
+        "previous_instrument_ids": [
+            "wao-ghg-gc-fid"
+        ]
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-ghg-gc-fid-1",
+    "status": "pending"
+}

@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "calibration-certification-url",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Valid URL _or_ N/A",
+        "convention_providence": "AMF",
+        "description": "URL to calibration file or certificate",
+        "fixed_value": "",
+        "global_attribute_id": "calibration_certification_url"
+    },
+    "label": "calibration_certification_url",
+    "namespace": "ncas:amf:product-common-global-attributes-land:calibration-certification-url",
+    "raw_name": "calibration_certification_url",
+    "status": "pending"
+}

@@ -1,7 +1,7 @@
 Variable	Attribute	Value	Proposed name	example value	notes
 altitude
 	type	float32
-	dimension	time, index
+	dimension	altitude
 	units	m
 	standard_name	altitude
 	long_name	Geometric height above geoid (WGS84).
@@ -13,7 +13,7 @@ altitude
 
 rainfall_rate
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	mm hr-1
 	standard_name	rainfall_rate
 	long_name	Rainfall Rate
@@ -25,7 +25,7 @@ rainfall_rate
 
 rain_liquid_water_content
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	g m-3
 	standard_name		rain_liquid_water_content
 	long_name	Rain Liquid Water Content
@@ -37,7 +37,7 @@ rain_liquid_water_content
 
 rainfall_velocity
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name		rainfall_velocity
 	long_name	Rainfall Velocity
@@ -49,7 +49,7 @@ rainfall_velocity
 
 radar_reflectivity
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	dBZ
 	standard_name		radar_reflectivity
 	long_name	Radar Reflectivity (Z)
@@ -61,7 +61,7 @@ radar_reflectivity
 
 attenuated_radar_reflectivity
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	dBZ
 	standard_name		attenuated_radar_reflectivity
 	long_name	Attenuated Radar Reflectivity (z)
@@ -73,7 +73,7 @@ attenuated_radar_reflectivity
 
 path_integrated_attenuation
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	dB
 	standard_name		path_integrated_attenuation
 	long_name	Path Integrated Attenuation
@@ -85,7 +85,7 @@ path_integrated_attenuation
 
 qc_flag
 	type	byte
-	dimension	time, index
+	dimension	time, altitude
 	units	1
 	standard_name
 	long_name	Data Quality flag

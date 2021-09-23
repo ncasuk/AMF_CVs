@@ -1,5 +1,10 @@
 Platform ID	Platform Description	CEDA Platform Record URL	used presently in files	catalogue record holding abbrev
-wao	weybourne atmospheric observatory	http://catalogue.ceda.ac.uk/uuid/1c1c59696701483d90ea04c428c67c09	weybourne	Collection record http://catalogue.ceda.ac.uk/uuid/36517548500e1e4e85c97d99457e268a
-cvao	cape verde atmospheric observatory	http://catalogue.ceda.ac.uk/uuid/07ca4fd3a5464fe6bf860dfe8a09e5ea	capeverde	Project record: http://catalogue.ceda.ac.uk/uuid/d5422d54d519ed056cc17e97037732b8
-iao	icelandic atmospheric observatory	none?
-bt-tower-t35	british telecoms tower observatory	http://catalogue.ceda.ac.uk/uuid/9ab5ed791dd94a87a776d9beff19a379
+wao	weybourne atmospheric observatory	http://catalogue.ceda.ac.uk/uuid/1c1c59696701483d90ea04c428c67c09	weybourne	Collection record	http://catalogue.ceda.ac.uk/uuid/36517548500e1e4e85c97d99457e268a	transfered to Platform page
+cvao	cape verde atmospheric observatory	http://catalogue.ceda.ac.uk/uuid/07ca4fd3a5464fe6bf860dfe8a09e5ea	capeverde	Project record:	http://catalogue.ceda.ac.uk/uuid/d5422d54d519ed056cc17e97037732b8	transfered to Platform page
+iao	icelandic atmospheric observatory	https://catalogue.ceda.ac.uk/uuid/7632df05b2c345af850287a57c4231c5	iao	platform record
+bt-tower-t35	british telecoms tower observatory	http://catalogue.ceda.ac.uk/uuid/9ab5ed791dd94a87a776d9beff19a379	bt-tower-t35	platform record
+cdao	capel dewi atmospheric observatory	https://catalogue.ceda.ac.uk/uuid/8b723580e0e5426d888b273e42f76c1b	capel-dewi	platform record
+cdao-frongoch	capel dewi atmospheric observatory - frongoch sub site	https://catalogue.ceda.ac.uk/uuid/a71656b1e28a4f6ab332b955c22d77a7	frongoch	platform record
+cao	chilbolton atmospheric observatory	https://catalogue.ceda.ac.uk/uuid/0d60dd064b6449b09f5c7fd4c41bd693	chilbolton	platform record
+cao-sparsholt	chilbolton atmospheric observatory - sparsholt sub site	https://catalogue.ceda.ac.uk/uuid/2207d24bb6ab4bb8a4f07d7996cf9bd7	sparsholt	platform record
+faam

@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "nominal-laser-pulse-energy",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": null,
+        "description": "nominal laser pulse energy",
+        "fixed_value": "",
+        "global_attribute_id": "nominal_laser_pulse_energy"
+    },
+    "label": "nominal_laser_pulse_energy",
+    "namespace": "ncas:amf:product-cloud-coverage-global-attributes:nominal-laser-pulse-energy",
+    "raw_name": "nominal_laser_pulse_energy",
+    "status": "pending"
+}

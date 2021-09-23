@@ -36,8 +36,8 @@ air_temperature
 	type	float32
 	dimension	time, index
 	units	K
-	standard_name		licor_temperature
-	long_name	Licor Air Temperature (T)
+	standard_name	air_temperature
+	long_name	Air Temperature (T)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -49,7 +49,7 @@ air_pressure
 	dimension	time, index
 	units	hPa
 	standard_name	air_pressure
-	long_name	Licor  Pressure (P)
+	long_name	Air  Pressure (P)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -61,7 +61,7 @@ mole_concentration_of_carbon_dioxide_in_air
 	dimension	time, index
 	units	mmol m-3
 	standard_name	mole_concentration_of_carbon_dioxide_in_air
-	long_name	CO2 number concentration
+	long_name	CO2 mole concentration
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -73,7 +73,7 @@ mole_concentration_of_water_vapor_in_air
 	dimension	time, index
 	units	mmol m-3
 	standard_name	mole_concentration_of_water_vapor_in_air
-	long_name	Water Vapour number concentration
+	long_name	Water Vapour mole concentration
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -116,7 +116,7 @@ humidity_mixing_ratio
 	cell_methods	time: point
 	coordinates	latitude longitude
 
-sonic_temperature_theta
+sonic_air_temperature_theta
 	type	float32
 	dimension	time, index
 	units	K
@@ -221,7 +221,7 @@ skew_eastward_wind
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: point
+	cell_methods	time: skew
 	coordinates	latitude longitude
 
 skew_northward_wind
@@ -233,7 +233,7 @@ skew_northward_wind
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: point
+	cell_methods	time: skew
 	coordinates	latitude longitude
 
 skew_upward_air_velocity
@@ -245,7 +245,7 @@ skew_upward_air_velocity
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: point
+	cell_methods	time: skew
 	coordinates	latitude longitude
 
 skew_sonic_air_temperature
@@ -380,12 +380,12 @@ stability_parameter
 	cell_methods	time: point
 	coordinates	latitude longitude
 
-standard_deviation_upward_air_velocity
+divergence_of_upward_air_velocity
 	type	float32
 	dimension	time
 	units	m s-1
 	standard_name
-	long_name	Standard Deviation Upward Air Velocity (sigma W)
+	long_name	Divergence  of Upward Air Velocity (sigma W)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -443,7 +443,7 @@ wbar
 tsbar
 	type	float32
 	dimension	time
-	units	m s-1
+	units	K
 	standard_name
 	long_name	<Ts>
 	_FillValue	-1.00E+20

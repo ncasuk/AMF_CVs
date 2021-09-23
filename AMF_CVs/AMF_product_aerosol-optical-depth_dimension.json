@@ -1,8 +1,8 @@
 {
     "product_aerosol-optical-depth_dimension": {
         "index": {
-            "units": "1", 
-            "length": "<i>"
+            "length": "<i>",
+            "units": "1"
         }
     }
 }

@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "number-of-hydrometeor-per-size-channel",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -10000000000.0,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time, diameter",
+        "long_name": "Number of Hydrometeors per Instrument Channel",
+        "type": "float32",
+        "units": "1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "number_of_hydrometeor_per_size_channel",
+    "namespace": "ncas:amf:product-precipitation-variable:number-of-hydrometeor-per-size-channel",
+    "raw_name": "number_of_hydrometeor_per_size_channel",
+    "status": "pending"
+}

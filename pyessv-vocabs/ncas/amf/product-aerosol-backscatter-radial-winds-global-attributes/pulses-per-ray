@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "pulses-per-ray",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Integer",
+        "convention_providence": null,
+        "description": "no pulses averged to give a ray (500 - 1500)",
+        "fixed_value": "",
+        "global_attribute_id": "pulses_per_ray"
+    },
+    "label": "pulses_per_ray",
+    "namespace": "ncas:amf:product-aerosol-backscatter-radial-winds-global-attributes:pulses-per-ray",
+    "raw_name": "pulses_per_ray",
+    "status": "pending"
+}

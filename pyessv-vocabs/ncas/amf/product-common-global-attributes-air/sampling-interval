@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "sampling-interval",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 2 characters",
+        "convention_providence": "AMF",
+        "description": "Time interval between data values in the file",
+        "fixed_value": "",
+        "global_attribute_id": "sampling_interval"
+    },
+    "label": "sampling_interval",
+    "namespace": "ncas:amf:product-common-global-attributes-air:sampling-interval",
+    "raw_name": "sampling_interval",
+    "status": "pending"
+}

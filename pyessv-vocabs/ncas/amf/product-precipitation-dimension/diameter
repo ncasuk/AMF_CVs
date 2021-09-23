@@ -1,0 +1,11 @@
+{
+    "_type": "term",
+    "canonical_name": "diameter",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "length": "22",
+        "units": "mm"
+    },
+    "namespace": "ncas:amf:product-precipitation-dimension:diameter",
+    "status": "pending"
+}

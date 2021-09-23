@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "last-revised-date",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Match: YYYY-MM-DDThh:mm:ss\\.\\d+",
+        "convention_providence": "AMF",
+        "description": "Date file was produced",
+        "fixed_value": "",
+        "global_attribute_id": "last_revised_date"
+    },
+    "label": "last_revised_date",
+    "namespace": "ncas:amf:product-common-global-attributes-trajectory:last-revised-date",
+    "raw_name": "last_revised_date",
+    "status": "pending"
+}

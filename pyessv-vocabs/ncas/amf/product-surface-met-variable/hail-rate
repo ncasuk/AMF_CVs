@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "hail-rate",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Hail Rate",
+        "type": "float32",
+        "units": "hits cm-2 hr-1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "hail_rate",
+    "namespace": "ncas:amf:product-surface-met-variable:hail-rate",
+    "raw_name": "hail_rate",
+    "status": "pending"
+}

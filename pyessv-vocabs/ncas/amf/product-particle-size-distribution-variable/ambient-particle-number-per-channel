@@ -1,0 +1,19 @@
+{
+    "_type": "term",
+    "canonical_name": "ambient-particle-number-per-channel",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "time, index",
+        "long_name": "ambient particle number per channel (dN)",
+        "type": "float32",
+        "units": "cm-3",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "ambient_particle_number_per_channel",
+    "namespace": "ncas:amf:product-particle-size-distribution-variable:ambient-particle-number-per-channel",
+    "raw_name": "ambient_particle_number_per_channel",
+    "status": "pending"
+}

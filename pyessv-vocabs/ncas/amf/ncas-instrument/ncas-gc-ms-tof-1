@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-gc-ms-tof-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Dual Gas Chromatograph with Time of Flight Mass Spectrometer unit 1",
+        "instrument_id": "ncas-gc-ms-tof-1",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-gc-ms-tof-1",
+    "status": "pending"
+}

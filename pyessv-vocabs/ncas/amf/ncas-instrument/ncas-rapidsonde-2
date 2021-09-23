@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-rapidsonde-2",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Windsond Sounding Station unit 2",
+        "instrument_id": "ncas-rapidsonde-2",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-rapidsonde-2",
+    "status": "pending"
+}

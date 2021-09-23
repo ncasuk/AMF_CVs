@@ -1,7 +1,7 @@
 Variable	Attribute	Value	Proposed name	example value	notes
 altitude
 	type	float32
-	dimension	time, index
+	dimension	altitude
 	units	m
 	standard_name	altitude
 	long_name	Geometric height above geoid (WGS84).
@@ -13,31 +13,152 @@ altitude
 
 wind_speed
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	m s-1
 	standard_name	wind_speed
-	long_name	Wind speed
+	long_name	Mean Wind Speed
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
 	cell_methods	time: mean
+	coordinates	latitude longitude
+
+wind_speed_of_gust
+	type	float32
+	dimension	time, altitude
+	units	m s-1
+	standard_name	wind_speed_of_gust
+	long_name	Maximum Wind Speed Observed in Averaging Period
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: maximum
 	coordinates	latitude longitude
 
 wind_from_direction
 	type	float32
-	dimension	time, index
+	dimension	time, altitude
 	units	degree
 	standard_name	wind_from_direction
-	long_name	Wind Direction
+	long_name	Wind From Direction
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
+wind_speed_of_gust_from_direction
+	type	float32
+	dimension	time, altitude
+	units	degree
+	standard_name		wind_speed_of_gust_from_direction
+	long_name	Direction of Maximum Wind Speed Observed in Averaging Period
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: maximum
+	coordinates	latitude longitude
+
+eastward_wind
+	type	float32
+	dimension	time, altitude
+	units	m s-1
+	standard_name	eastward_wind
+	long_name	Eastward Wind Component (U)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+northward_wind
+	type	float32
+	dimension	time, altitude
+	units	m s-1
+	standard_name	northward_wind
+	long_name	Northward Wind Component (V)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+upward_air_velocity
+	type	float32
+	dimension	time, altitude
+	units	m s-1
+	standard_name	upward_air_velocity
+	long_name	Upward Air Velocity Component (W)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+divergence_of_wind
+	type	float32
+	dimension	time, altitude
+	units	m s-1
+	standard_name	divergence_of_wind
+	long_name	Divergence of Horizontal Winds Speed
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: standard_deviation
+	coordinates	latitude longitude
+
+divergence_of_wind_from_direction
+	type	float32
+	dimension	time, altitude
+	units	degree
+	standard_name		divergence_of_wind_from_direction
+	long_name	Divergence of Wind from Direction
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: standard_deviation
+	coordinates	latitude longitude
+
+
+divergence_of_eastward_wind
+	type	float32
+	dimension	time, altitude
+	units	m s-1
+	standard_name		divergence_of_eastward_wind
+	long_name	Divergence of Eastward Wind Component (Sigma U)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: standard_deviation
+	coordinates	latitude longitude
+
+divergence_of_northward_wind
+	type	float32
+	dimension	time, altitude
+	units	m s-1
+	standard_name		divergence_of_northward_wind
+	long_name	Divergence of Northward Wind Component (Sigma V)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: standard_deviation
+	coordinates	latitude longitude
+
+divergence_of_upward_air_velocity
+	type	float32
+	dimension	time, altitude
+	units	m s-1
+	standard_name		divergence_of_upward_air_velocity
+	long_name	Divergence of Upward Air Velocity (Sigma W)
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: standard_deviation
+	coordinates	latitude longitude
+
 qc_flag
 	type	byte
-	dimension	time, index
+	dimension	time, altitude
 	units	1
 	standard_name
 	long_name	Data Quality flag

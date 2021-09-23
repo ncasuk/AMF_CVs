@@ -1,0 +1,18 @@
+{
+    "_type": "term",
+    "canonical_name": "ambient-particle-diameter",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "coordinates": "latitude longitude",
+        "dimension": "index",
+        "long_name": "Ambient Particle Diameter",
+        "type": "float32",
+        "units": "um",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "ambient_particle_diameter",
+    "namespace": "ncas:amf:product-particle-size-distribution-variable:ambient-particle-diameter",
+    "raw_name": "ambient_particle_diameter",
+    "status": "pending"
+}

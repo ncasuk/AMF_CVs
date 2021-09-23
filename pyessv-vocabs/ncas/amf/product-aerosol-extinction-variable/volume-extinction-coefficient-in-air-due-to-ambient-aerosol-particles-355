@@ -1,0 +1,19 @@
+{
+    "_type": "term",
+    "canonical_name": "volume-extinction-coefficient-in-air-due-to-ambient-aerosol-particles-355",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "coordinates": "latitude longitude",
+        "dimension": "time, altitude",
+        "long_name": "Volume Extinction Coefficient in air due to Ambient Aerosol Particles (Wavelength = 355 nm)",
+        "type": "float32",
+        "units": "m-1 sr-1",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles_355",
+    "namespace": "ncas:amf:product-aerosol-extinction-variable:volume-extinction-coefficient-in-air-due-to-ambient-aerosol-particles-355",
+    "raw_name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles_355",
+    "status": "pending"
+}

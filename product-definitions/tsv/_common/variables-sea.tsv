@@ -16,9 +16,11 @@ latitude
 	units	degrees_north
 	standard_name	latitude
 	long_name	Latitude
+	_FillValue	-1.00E+20
 	axis	Y
 	valid_min	<derived from file>	Check against array values
 	valid_max	<derived from file>	Check against array values
+	cell_methods	time: mean
 
 longitude			Detect longitudes < -180 OR > 180: WARN: we recommend setting longitudes from -180 to 180
 	type	float32
@@ -26,9 +28,11 @@ longitude			Detect longitudes < -180 OR > 180: WARN: we recommend setting longit
 	units	degrees_east
 	standard_name	longitude
 	long_name	Longitude
+	_FillValue	-1.00E+20
 	axis	X
 	valid_min	<derived from file>	Check against array values
 	valid_max	<derived from file>	Check against array values
+	cell_methods	time: mean
 
 platform_course
 	type	float32

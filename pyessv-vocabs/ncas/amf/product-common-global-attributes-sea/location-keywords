@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "location-keywords",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": "AMF",
+        "description": "Comma-separated words to help locate the geographical positon of the deployment site",
+        "fixed_value": "",
+        "global_attribute_id": "location_keywords"
+    },
+    "label": "location_keywords",
+    "namespace": "ncas:amf:product-common-global-attributes-sea:location-keywords",
+    "raw_name": "location_keywords",
+    "status": "pending"
+}

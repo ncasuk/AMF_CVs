@@ -1,0 +1,21 @@
+{
+    "_type": "term",
+    "canonical_name": "platform-roll-angle",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "cell_methods": "time: mean",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Roll Angle",
+        "standard_name": "platform_roll_angle",
+        "type": "float32",
+        "units": "degree",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "platform_roll_angle",
+    "namespace": "ncas:amf:product-common-variable-air:platform-roll-angle",
+    "raw_name": "platform_roll_angle",
+    "status": "pending"
+}

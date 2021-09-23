@@ -1,0 +1,20 @@
+{
+    "_type": "term",
+    "canonical_name": "mole-fraction-of-nox-expressed-as-nitrogen-in-air",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "_FillValue": -1e+20,
+        "chemical_species": "NOx",
+        "coordinates": "latitude longitude",
+        "dimension": "time",
+        "long_name": "Mole Fraction of NOx expressed as nitrogen in air",
+        "standard_name": "mole_fraction_of_nox_expressed_as_nitrogen_in_air",
+        "type": "float32",
+        "valid_max": "<derived from file>",
+        "valid_min": "<derived from file>"
+    },
+    "label": "mole_fraction_of_nox_expressed_as_nitrogen_in_air",
+    "namespace": "ncas:amf:product-nox-noxy-concentration-variable:mole-fraction-of-nox-expressed-as-nitrogen-in-air",
+    "raw_name": "mole_fraction_of_nox_expressed_as_nitrogen_in_air",
+    "status": "pending"
+}

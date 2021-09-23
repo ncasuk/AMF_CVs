@@ -1,0 +1,12 @@
+{
+    "_type": "term",
+    "canonical_name": "ncas-pressure-1",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "NCAS Pressure Sensor unit 1",
+        "instrument_id": "ncas-pressure-1",
+        "previous_instrument_ids": []
+    },
+    "namespace": "ncas:amf:ncas-instrument:ncas-pressure-1",
+    "status": "pending"
+}

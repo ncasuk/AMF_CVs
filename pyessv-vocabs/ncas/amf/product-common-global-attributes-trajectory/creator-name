@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "creator-name",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "String: min 3 characters",
+        "convention_providence": "ACDD1.3",
+        "description": "Full name of the the person who made the file",
+        "fixed_value": "",
+        "global_attribute_id": "creator_name"
+    },
+    "label": "creator_name",
+    "namespace": "ncas:amf:product-common-global-attributes-trajectory:creator-name",
+    "raw_name": "creator_name",
+    "status": "pending"
+}

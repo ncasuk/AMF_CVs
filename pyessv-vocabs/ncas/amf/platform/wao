@@ -1,0 +1,11 @@
+{
+    "_type": "term",
+    "canonical_name": "wao",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "description": "weybourne atmospheric observatory",
+        "platform_id": "wao"
+    },
+    "namespace": "ncas:amf:platform:wao",
+    "status": "pending"
+}

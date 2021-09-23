@@ -1,0 +1,16 @@
+{
+    "_type": "term",
+    "canonical_name": "time-coverage-end",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "compliance_checking_rules": "Match: YYYY-MM-DDThh:mm:ss\\.\\d+",
+        "convention_providence": "ACDD1.3",
+        "description": "Time stamp of the last data point in the file",
+        "fixed_value": "",
+        "global_attribute_id": "time_coverage_end"
+    },
+    "label": "time_coverage_end",
+    "namespace": "ncas:amf:product-common-global-attributes-air:time-coverage-end",
+    "raw_name": "time_coverage_end",
+    "status": "pending"
+}

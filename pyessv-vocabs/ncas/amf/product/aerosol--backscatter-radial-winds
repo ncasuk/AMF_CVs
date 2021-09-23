@@ -1,0 +1,9 @@
+{
+    "_type": "term",
+    "canonical_name": "aerosol--backscatter-radial-winds",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "label": "aerosol- backscatter-radial-winds",
+    "namespace": "ncas:amf:product:aerosol--backscatter-radial-winds",
+    "raw_name": "aerosol- backscatter-radial-winds",
+    "status": "pending"
+}

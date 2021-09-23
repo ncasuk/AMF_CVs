@@ -1,0 +1,11 @@
+{
+    "_type": "term",
+    "canonical_name": "altitude",
+    "create_date": "2018-07-09 13:09:00+00:00",
+    "data": {
+        "length": "<i>",
+        "units": "m"
+    },
+    "namespace": "ncas:amf:product-boundary-layer-temperature-profiles-dimension:altitude",
+    "status": "pending"
+}
