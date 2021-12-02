@@ -1,5 +1,6 @@
 include README.md
 include LICENSE
+include test_setup hello.world
 
 recursive-include AMF_CVs *
 recursive-include product-definitions *
