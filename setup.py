@@ -25,7 +25,7 @@ setup(
     version=VERSION,
     description="AMF controlled vocabularies",
     packages=["test_setup"],
-    package_data={'test_setup': ['hello.world']},
+    package_data={'': ['test_setup/hello.world']},
 #    data_files={'test_setup': ['test_setup/hello.world']},
 #    data_files=[
 #        ('AMF_CVs', collect_files('AMF_CVs', 'product-definitions', 'pyessv-vocabs'))
