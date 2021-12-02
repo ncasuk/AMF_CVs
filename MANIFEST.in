@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+
+recursive-include AMF_CVs *
+recursive-include product-definitions *
+recursive-include pyessv-vocabs *
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
