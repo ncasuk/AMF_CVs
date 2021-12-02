@@ -27,10 +27,6 @@ setup(
     version=VERSION,
     description="AMF controlled vocabularies",
     packages=data_dirs,
-#    package_data={"test_setup": ["test_setup/hello.world"]},
-#    data_files=[("", collect_files("test_setup", "AMF_CVs"))],
-    data_files=[
-        ("", collect_files(*data_dirs))
-    ],
+    data_files=[("", collect_files(*data_dirs))],
     include_package_data=True
 )
