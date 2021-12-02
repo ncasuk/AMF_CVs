@@ -1,6 +1,21 @@
 from setuptools import setup
+import os
 
 VERSION = "2.0.0"
+
+
+def collect_files(*dirs):
+    "Walks file tree to return a list of all file paths under each dir in dirs."
+    file_paths = []
+
+    for dr in dirs:
+        for d, _2, paths in os.walk(dr):
+            for fname in paths:
+                fpath = os.path.join(d, fname)
+                file_paths.append(fpath)
+
+    return file_paths
+
 
 setup(
     name="AMF_CVs",
@@ -10,7 +25,7 @@ setup(
     version=VERSION,
     description="AMF controlled vocabularies",
     data_files=[
-        ('', ['AMF_CVs/*', 'product-definitions/*', 'pyessv-vocabs/*'])
+        ('', collect_files('AMF_CVs', 'product-definitions', 'pyessv-vocabs'))
     ],
     include_package_data=True
 )
