@@ -9,6 +9,8 @@ setup(
     url="https://github.com/ncasuk/AMF_CVs",
     version=VERSION,
     description="AMF controlled vocabularies",
-    package_data={'': ['AMF_CVs/*', 'product-definitions/*', 'pyessv-vocabs/*']},
+    data_files=[
+        ('': ['AMF_CVs/*', 'product-definitions/*', 'pyessv-vocabs/*'])
+    ],
     include_package_data=True
 )
