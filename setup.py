@@ -25,7 +25,7 @@ setup(
     version=VERSION,
     description="AMF controlled vocabularies",
     data_files=[
-        ('', collect_files('AMF_CVs', 'product-definitions', 'pyessv-vocabs'))
+        ('AMF_CVs', collect_files('AMF_CVs', 'product-definitions', 'pyessv-vocabs'))
     ],
     include_package_data=True
 )
