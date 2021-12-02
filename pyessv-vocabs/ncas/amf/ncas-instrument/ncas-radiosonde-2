@@ -1,7 +1,7 @@
 {
     "_type": "term",
     "canonical_name": "ncas-radiosonde-2",
-    "create_date": "2018-07-09 13:09:0+00:00",
+    "create_date": "2018-07-09 13:09:00+00:00",
     "data": {
         "description": "NCAS Vaisala Sounding Station unit 2",
         "instrument_id": "ncas-radiosonde-2",
