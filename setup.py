@@ -17,6 +17,8 @@ def collect_files(*dirs):
     return file_paths
 
 
+data_dirs = ["AMF_CVs", "product-definitions", "pyessv-vocabs"]
+
 setup(
     name="AMF_CVs",
     author="Ag Stephens",
@@ -24,11 +26,11 @@ setup(
     url="https://github.com/ncasuk/AMF_CVs",
     version=VERSION,
     description="AMF controlled vocabularies",
-    packages=["test_setup", "AMF_CVs"],
-#    package_data={'test_setup': ['test_setup/hello.world']},
-    data_files=[('', collect_files('test_setup', 'AMF_CVs'))],
-#    data_files=[
-#        ('AMF_CVs', collect_files('AMF_CVs', 'product-definitions', 'pyessv-vocabs'))
-#    ],
+    packages=data_dirs,
+#    package_data={"test_setup": ["test_setup/hello.world"]},
+#    data_files=[("", collect_files("test_setup", "AMF_CVs"))],
+    data_files=[
+        ("", collect_files(*data_dirs))
+    ],
     include_package_data=True
 )
