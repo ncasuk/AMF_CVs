@@ -26,7 +26,7 @@ setup(
     url="https://github.com/ncasuk/AMF_CVs",
     version=VERSION,
     description="AMF controlled vocabularies",
-    packages=data_dirs,
+#    packages=data_dirs,
 #    package_data={"test_setup": ["test_setup/hello.world"]},
 #    data_files=[("", collect_files("test_setup", "AMF_CVs"))],
     data_files=[
