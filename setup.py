@@ -24,9 +24,9 @@ setup(
     url="https://github.com/ncasuk/AMF_CVs",
     version=VERSION,
     description="AMF controlled vocabularies",
-    packages=["test_setup"],
+    packages=["test_setup", "AMF_CVs"],
 #    package_data={'test_setup': ['test_setup/hello.world']},
-    data_files=[('', collect_files('test_setup'))],
+    data_files=[('', collect_files('test_setup', 'AMF_CVs'))],
 #    data_files=[
 #        ('AMF_CVs', collect_files('AMF_CVs', 'product-definitions', 'pyessv-vocabs'))
 #    ],
