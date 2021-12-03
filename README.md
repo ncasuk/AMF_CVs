@@ -13,9 +13,18 @@ Directories and files are structured as follows:
  - `AMF_CVs/<vocabulary>.json` - JSON version of each vocubulary - for use with `pyessv` library.
  - `product-definitions/spreadsheet/<spreadsheet_name>.xlsx` - directly converted from google spreadsheets used to develop the product definitions.
  - `product-definitions/tsv/<spreadsheet_name>/*.tsv` - each worksheet with the product definition google spreadsheets is converted to a *tab-delimited variables* file.
- - `pyessv-vocabs/*` - the vocabularies translated into a form used by the PYESSV package in the checks.
+ - `amf-pyessv-vocabs/*` - the vocabularies translated into a form used by the PYESSV package in the checks.
 
 ## Instruction on creating new releases of the CVs
 
 See the [instructions docs](./docs/create-release.md).
+
+## Installation via Pip
+
+You can install the `amf-pyessv-vocabs` directory as a pseudo Python package. This is useful when
+packaging up an installation with other compliance checking packages. It can be done with:
+
+```
+pip install git+https://github.com/ncasuk/AMF_CVs
+```
 

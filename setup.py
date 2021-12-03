@@ -17,7 +17,7 @@ def collect_files(*dirs):
     return file_paths
 
 
-data_dirs = ["AMF_CVs", "product-definitions", "pyessv-vocabs"]
+data_dirs = ["amf-pyessv-vocabs"]
 
 setup(
     name="AMF_CVs",
