@@ -16,8 +16,8 @@ ncas-lidar-dop-n	aerosol- backscatter-radial-winds	fixed	co or cr	standard or ad
 
 ncas-lidar-dop-n	depolarisation-ratio	standard or advanced
 
-ncas-radar-wind-profiler-1	snr-winds	high-range-mode	indication of averageing time - can have the same days file averaged over different scales
-		low-range-mode	indication of averageing time - can have the same days file averaged over different scales
+ncas-radar-wind-profiler-1	snr-winds	high-range-mode	indication of averaging time - can have the same days file averaged over different scales
+		low-range-mode	indication of averaging time - can have the same days file averaged over different scales
 
 ncas-aws-7	surface-met	30m
 ncas-aws-8	surface-met	10m

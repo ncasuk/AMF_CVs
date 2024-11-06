@@ -134,8 +134,8 @@ qc_flag_skew_u
 	units	1
 	standard_name
 	long_name	Quality flag: Skew U
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_skew_v
 	type	byte
@@ -143,8 +143,8 @@ qc_flag_skew_v
 	units	1
 	standard_name
 	long_name	Quality flag: Skew V
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_skew_w
 	type	byte
@@ -152,8 +152,8 @@ qc_flag_skew_w
 	units	1
 	standard_name
 	long_name	Quality flag: Skew W
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_skew_ts
 	type	byte
@@ -161,8 +161,8 @@ qc_flag_skew_ts
 	units	1
 	standard_name
 	long_name	Quality flag: Skew Ts
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_kurtosis_u
 	type	byte
@@ -170,8 +170,8 @@ qc_flag_kurtosis_u
 	units	1
 	standard_name
 	long_name	Quality flag: Kurtosis U
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_kurtosis_v
 	type	byte
@@ -179,8 +179,8 @@ qc_flag_kurtosis_v
 	units	1
 	standard_name
 	long_name	Quality flag: Kurtosis V
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_kurtosis_w
 	type	byte
@@ -188,8 +188,8 @@ qc_flag_kurtosis_w
 	units	1
 	standard_name
 	long_name	Quality flag: Kurtosis W
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_kurtosis_ts
 	type	byte
@@ -197,8 +197,8 @@ qc_flag_kurtosis_ts
 	units	1
 	standard_name
 	long_name	Quality flag: Kurtosis Ts
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_sstclass_wu
 	type	byte
@@ -233,8 +233,8 @@ qc_flag_quality_wu
 	units	1
 	standard_name
 	long_name	Quality flag: WU
-	flag_values	0b,1b, 2b, 3b
-	flag_meanings	bad_data|good_data _good_for_reasearch|suspect_data_good_for_general_use|suspect_data_requires_further_checking_but_may_be_ok_for_general_use
+	flag_values	0b,1b,2b,3b,4b
+	flag_meanings	not_used|good_data_good_for_reasearch|suspect_data_good_for_general_use|suspect_data_requires_further_checking_but_may_be_ok_for_general_use|bad_data
 
 qc_flag_quality_wv
 	type	byte
@@ -242,8 +242,8 @@ qc_flag_quality_wv
 	units	1
 	standard_name
 	long_name	Quality flag: WV
-	flag_values	0b,1b, 2b, 3b
-	flag_meanings	bad_data|good_data _good_for_reasearch|suspect_data_good_for_general_use|suspect_data_requires_further_checking_but_may_be_ok_for_general_use
+	flag_values	0b,1b,2b,3b,4b
+	flag_meanings	not_used|good_data_good_for_reasearch|suspect_data_good_for_general_use|suspect_data_requires_further_checking_but_may_be_ok_for_general_use|bad_data
 
 qc_flag_quality_wts
 	type	byte
@@ -251,8 +251,8 @@ qc_flag_quality_wts
 	units	1
 	standard_name
 	long_name	Quality flag: WTs
-	flag_values	0b,1b, 2b, 3b
-	flag_meanings	bad_data|good_data _good_for_reasearch|suspect_data_good_for_general_use|suspect_data_requires_further_checking_but_may_be_ok_for_general_use
+	flag_values	0b,1b,2b,3b,4b
+	flag_meanings	not_used|good_data_good_for_reasearch|suspect_data_good_for_general_use|suspect_data_requires_further_checking_but_may_be_ok_for_general_use|bad_data
 
 qc_flag_quality_itc_class
 	type	byte
@@ -260,5 +260,5 @@ qc_flag_quality_itc_class
 	units	1
 	standard_name
 	long_name	Quality flag: General Turbulent Characteristic of W Class
-	flag_values	0b,1b, 2b, 3b
-	flag_meanings	bad_data|good_data _good_for_reasearch|suspect_data_good_for_general_use|suspect_data_requires_further_checking_but_may_be_ok_for_general_use
+	flag_values	0b,1b,2b,3b,4b
+	flag_meanings	not_used|good_data_good_for_reasearch|suspect_data_good_for_general_use|suspect_data_requires_further_checking_but_may_be_ok_for_general_use|bad_data

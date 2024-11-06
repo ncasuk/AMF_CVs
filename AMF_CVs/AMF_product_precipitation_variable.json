@@ -24,19 +24,19 @@
             "type": "float32",
             "dimension": "time, fallspeed, diameter",
             "units": "1",
-            "long_name": "Number of Hydrometeors per Instrument Channel",
-            "_FillValue": -10000000000.0,
+            "long_name": "Number of Hydrometeors per Fallspeed Channel per Instrument Channel",
+            "_FillValue": -1e+20,
             "valid_min": "<derived from file>",
             "valid_max": "<derived from file>",
             "cell_methods": "time: mean",
             "coordinates": "latitude longitude"
         },
-        "number_of_hydrometeor_per_size_channel": {
+        "number_of_hydrometeors_per_size_channel": {
             "type": "float32",
             "dimension": "time, diameter",
             "units": "1",
             "long_name": "Number of Hydrometeors per Instrument Channel",
-            "_FillValue": -10000000000.0,
+            "_FillValue": -1e+20,
             "valid_min": "<derived from file>",
             "valid_max": "<derived from file>",
             "cell_methods": "time: mean",
@@ -122,11 +122,11 @@
             "coordinates": "latitude longitude"
         },
         "number_of_drops": {
-            "type": "float32",
+            "type": "int32",
             "dimension": "time",
             "units": "1",
             "long_name": "Number of Pulses\\Drops Counted in Integration Period",
-            "_FillValue": -1e+20,
+            "_FillValue": -1000000000.0,
             "valid_min": "<derived from file>",
             "valid_max": "<derived from file>",
             "cell_methods": "time: sum",
@@ -161,7 +161,7 @@
             "units": "1",
             "long_name": "Data Quality flag",
             "flag_values": "0b,1b, 2b, 3b, 4b, 5b",
-            "flag_meanings": "not_used|good_data |instrument_error|bad_data_precipitation_rate_<_0_mm_hr-1|suspect_data_precipitation_rate_>_300_mm_hr-1|suspect_data_solid_precipitation_rate_>_300_mm_hr-1"
+            "flag_meanings": "not_used|good_data |instrument_error|bad_data_precipitation_rate_less_than_0_mm_hr-1|suspect_data_precipitation_rate_greater_than_300_mm_hr-1|suspect_data_solid_precipitation_rate_greater_than_300_mm_hr-1"
         }
     }
 }

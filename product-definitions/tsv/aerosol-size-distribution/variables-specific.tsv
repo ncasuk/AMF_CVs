@@ -42,7 +42,7 @@ ambient_aerosol_number_per_channel
 ambient_aerosol_size_distribution
 	type	float32
 	dimension	time, index
-	units	cm3-1 um-1
+	units	cm-3 um-1
 	standard_name		ambient_aerosol_size_distribution
 	long_name	Ambient Aerosol Size Distribution (dN\dD)
 	_FillValue	-1.00E+20
@@ -68,7 +68,7 @@ total_number_concentration_of_ambient_aerosol_particles_in_air
 	dimension	time
 	units	cm-3
 	standard_name		total number_concentration_of_ambient_aerosol_particles_in_air
-	long_name	Number Concentration of Ambient Aerosol Particles in air (N)
+	long_name	Total Number Concentration of Ambient Aerosol Particles in air (N)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>

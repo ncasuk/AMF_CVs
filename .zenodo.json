@@ -1,0 +1,45 @@
+{
+    "upload_type": "dataset",
+    "title": "NCAS General Data Standard Controlled Vocabularies",
+    "creators": [
+        {
+            "name": "National Centre for Atmospheric Science"
+        }
+    ],
+    "contributors": [
+        {
+            "affiliation": "National Centre for Atmospheric Science",
+            "name": "Brooks, Barbara J.",
+            "orcid": "0000-0001-8932-9256",
+            "type": "DataManager"
+        },
+        {
+            "affiliation": "National Centre for Atmospheric Science",
+            "name": "Garland, Wendy E.",
+            "orcid": "0000-0001-8108-8267",
+            "type": "DataManager"
+        },
+        {
+            "affiliation": "National Centre for Atmospheric Science",
+            "name": "Hampton, Joshua M.",
+            "orcid": "0000-0001-7430-8655",
+            "type": "DataManager"
+        },        
+        {
+            "affiliation": "National Centre for Atmospheric Science",
+            "name": "Parton, Graham A.",
+            "orcid": "0000-0003-4157-0352",
+            "type": "DataManager"
+        },
+        {
+            "affiliation": "National Centre for Atmospheric Science",
+            "name": "Stephens, Ag",
+            "orcid": "0000-0002-1038-7988",
+            "type": "DataManager"
+        }
+    ],
+    "description": "Controlled Vocabularies for the NCAS General Data Standard",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "communities": [{"identifier":"ceda-document-repository"}]
+}

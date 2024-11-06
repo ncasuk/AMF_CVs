@@ -5,7 +5,7 @@ mole_fraction_of_ethane_in_air
 	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
 	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name	mole_fraction_of_ethane_in_air
-	long_name	Mole Fraction of Ehane in air
+	long_name	Mole Fraction of Ethane in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -59,7 +59,7 @@ mole_fraction_of_ethene_in_air
 	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
 	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name	mole_fraction_of_ethene_in_air
-	long_name	Mole Fraction of Ehene in air
+	long_name	Mole Fraction of Ethene in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -869,7 +869,7 @@ mole_fraction_of_ethanol_in_air
 	units			1|1e-3|1e-6|1e-9|1e-12	Units must be given
 	practical_units			mmol mol-1|micro mol mol-1|nmol mol-1|pmol mol-1	Practical_units must be given and must match units multiplier
 	standard_name	mole_fraction_of_ethanol_in_air
-	long_name	Mole Fraction of Ehanol in air
+	long_name	Mole Fraction of Ethanol in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>

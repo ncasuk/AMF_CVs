@@ -182,15 +182,15 @@
             "units": "1",
             "long_name": "Data Quality flag: Wind Speed",
             "flag_values": "0b,1b, 2b, 3b, 4b",
-            "flag_meanings": "not_used|good_data |suspect_data_measured_wind_speed_==_0_m_s-1|bad_data_wind_speed_outside_sensor_operational_range|suspect_data_time_stamp_error"
+            "flag_meanings": "not_used|good_data |suspect_data_measured_wind_speed_equals_0_m_s-1|bad_data_wind_speed_outside_sensor_operational_range|suspect_data_time_stamp_error"
         },
         "qc_flag_wind_from_direction": {
             "type": "byte",
             "dimension": "time",
             "units": "1",
             "long_name": "Data Quality flag: Wind From Direction",
-            "flag_values": "0b,1b, 2b, 3b, 4b,",
-            "flag_meanings": "not_used|good_data |suspect_data_measured_wind_speed_==_0_m_s-1|bad_data_wind_direction_outside_sensor_operational_range|suspect_data_time_stamp_error"
+            "flag_values": "0b,1b, 2b, 3b, 4b",
+            "flag_meanings": "not_used|good_data |suspect_data_measured_wind_speed_equals_0_m_s-1|bad_data_wind_direction_outside_sensor_operational_range|suspect_data_time_stamp_error"
         },
         "qc_flag_radiation": {
             "type": "byte",
@@ -212,7 +212,7 @@
             "type": "byte",
             "dimension": "time",
             "units": "1",
-            "long_name": "Data Quality Flag: Downwelling Total Irradiance",
+            "long_name": "Data Quality flag: Downwelling Total Irradiance",
             "flag_values": "0b,1b, 2b, 3b, 4b",
             "flag_meanings": "not_used|good_data |bad_data_longwave_radiation_outside_sensor_operational_range|bad_data_shortwave_radiation_outside_sensor_operational_range|suspect_data_time_stamp_error"
         },
@@ -220,7 +220,7 @@
             "type": "byte",
             "dimension": "time",
             "units": "1",
-            "long_name": "Data Quality Flag: Net Total Irradiance",
+            "long_name": "Data Quality flag: Net Total Irradiance",
             "flag_values": "0b,1b, 2b, 3b, 4b",
             "flag_meanings": "not_used|good_data |bad_data_longwave_radiation_outside_sensor_operational_range|bad_data_shortwave_radiation_outside_sensor_operational_range|suspect_data_time_stamp_error"
         }

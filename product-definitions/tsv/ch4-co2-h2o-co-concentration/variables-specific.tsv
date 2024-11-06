@@ -114,7 +114,7 @@ mole_fraction_of_water_vapor_in_air
 	units			1|1e-2|1e-3|1e-6|1e-9|1e-12|1e-15	Units must be given
 	practical_units			%|‰|ppm(mol)|ppb(mol)|ppt(mol)|ppq(mol)	Practical_units must be given and must match units multiplier
 	standard_name	mole_fraction_of_water_vapor_in_air
-	long_name	Mole Fraction of Water Vapour in air
+	long_name	Mole Fraction of Water Vapor in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>

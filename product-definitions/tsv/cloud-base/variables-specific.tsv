@@ -95,7 +95,7 @@ window_contamination
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
-window_transmttance
+window_transmittance
 	type	float32
 	dimension	time
 	units	%

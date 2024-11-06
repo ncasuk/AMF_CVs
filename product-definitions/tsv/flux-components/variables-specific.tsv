@@ -4,7 +4,7 @@ start_of_run
 	dimension	time
 	units	seconds since 1970-01-01 00:00:00
 	standard_name		start_of_run
-	long_name	Start of run (seconds since 1970-01-01)
+	long_name	Start of run (seconds since 1970-01-01 00:00:00)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -49,7 +49,7 @@ air_pressure
 	dimension	time, index
 	units	hPa
 	standard_name	air_pressure
-	long_name	Air  Pressure (P)
+	long_name	Air Pressure (P)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -73,7 +73,7 @@ mole_concentration_of_water_vapor_in_air
 	dimension	time, index
 	units	mmol m-3
 	standard_name	mole_concentration_of_water_vapor_in_air
-	long_name	Water Vapour mole concentration
+	long_name	Water Vapor mole concentration
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -85,19 +85,19 @@ specific_humidity
 	dimension	time, index
 	units	kg kg-1
 	standard_name	specific_humidity
-	long_name	Specific_humidity (Q)
+	long_name	Specific Humidity (Q)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
 	cell_methods	time: point
 	coordinates	latitude longitude
 
-water_vapour_partial_pressure_in_air
+water_vapur_partial_pressure_in_air
 	type	float32
 	dimension	time, index
 	units	Pa
 	standard_name	water_vapor_partial_pressure_in_air
-	long_name	Water Vapour Partial Pressure in air
+	long_name	Water Vapor Partial Pressure in air
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -109,7 +109,7 @@ humidity_mixing_ratio
 	dimension	time, index
 	units	1
 	standard_name	humidity_mixing_ratio
-	long_name	Water Vapour Mass Mixing Ratio (WVMMR)
+	long_name	Water Vapor Mass Mixing Ratio (WVMMR)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -133,7 +133,7 @@ sonic_air_temperature
 	dimension	time, index
 	units	K
 	standard_name
-	long_name	Sonic temperature (Ts) corrected for sidewind
+	long_name	Sonic Temperature (Ts) corrected for sidewind
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -253,11 +253,11 @@ skew_sonic_air_temperature
 	dimension	time
 	units	1
 	standard_name
-	long_name	Skew Sonic AirTemperature (Ts)
+	long_name	Skew Sonic Air Temperature (Ts)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: point
+	cell_methods	time: skew
 	coordinates	latitude longitude
 
 kurtosis_eastward_wind
@@ -269,7 +269,7 @@ kurtosis_eastward_wind
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: point
+	cell_methods	time: kurtosis
 	coordinates	latitude longitude
 
 kurtosis_northward_wind
@@ -281,7 +281,7 @@ kurtosis_northward_wind
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: point
+	cell_methods	time: kurtosis
 	coordinates	latitude longitude
 
 kurtosis_upward_air_velocity
@@ -293,7 +293,7 @@ kurtosis_upward_air_velocity
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: point
+	cell_methods	time: kurtosis
 	coordinates	latitude longitude
 
 kurtosis_sonic_air_temperature
@@ -305,7 +305,7 @@ kurtosis_sonic_air_temperature
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
-	cell_methods	time: point
+	cell_methods	time: kurtosis
 	coordinates	latitude longitude
 
 sst_wu
@@ -385,7 +385,7 @@ divergence_of_upward_air_velocity
 	dimension	time
 	units	m s-1
 	standard_name
-	long_name	Divergence  of Upward Air Velocity (sigma W)
+	long_name	Divergence of Upward Air Velocity (sigma W)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -890,8 +890,8 @@ qc_flag_skew_u
 	units	1
 	standard_name
 	long_name	Quality flag: Skew U
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_skew_v
 	type	byte
@@ -899,8 +899,8 @@ qc_flag_skew_v
 	units	1
 	standard_name
 	long_name	Quality flag: Skew V
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_skew_w
 	type	byte
@@ -908,8 +908,8 @@ qc_flag_skew_w
 	units	1
 	standard_name
 	long_name	Quality flag: Skew W
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_skew_ts
 	type	byte
@@ -917,8 +917,8 @@ qc_flag_skew_ts
 	units	1
 	standard_name
 	long_name	Quality flag: Skew Ts
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_kurtosis_u
 	type	byte
@@ -926,8 +926,8 @@ qc_flag_kurtosis_u
 	units	1
 	standard_name
 	long_name	Quality flag: Kurtosis U
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_kurtosis_v
 	type	byte
@@ -935,8 +935,8 @@ qc_flag_kurtosis_v
 	units	1
 	standard_name
 	long_name	Quality flag: Kurtosis V
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_kurtosis_w
 	type	byte
@@ -944,8 +944,8 @@ qc_flag_kurtosis_w
 	units	1
 	standard_name
 	long_name	Quality flag: Kurtosis W
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_kurtosis_ts
 	type	byte
@@ -953,8 +953,8 @@ qc_flag_kurtosis_ts
 	units	1
 	standard_name
 	long_name	Quality flag: Kurtosis Ts
-	flag_values	0b,1b, 2b
-	flag_meanings	bad_data|good_data |suspect_data
+	flag_values	0b,1b,2b,3b
+	flag_meanings	not_used|good_data |suspect_data|bad_data
 
 qc_flag_sstclass_wu
 	type	byte
@@ -989,8 +989,8 @@ qc_flag_quality_wu
 	units	1
 	standard_name
 	long_name	Quality flag: WU
-	flag_values	0b,1b, 2b, 3b
-	flag_meanings	bad_data|good_data _good_for_reasearch|suspect_data_good_for_general_use|suspect_data_requires_further_checking_but_may_be_ok_for_general_use
+	flag_values	0b,1b,2b,3b,4b
+	flag_meanings	not_used|good_data_good_for_reasearch|suspect_data_good_for_general_use|suspect_data_requires_further_checking_but_may_be_ok_for_general_use|bad_data
 
 qc_flag_quality_wv
 	type	byte

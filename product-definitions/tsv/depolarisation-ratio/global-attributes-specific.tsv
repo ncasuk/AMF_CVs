@@ -1,7 +1,7 @@
 Name	Description	Example	Fixed Value	Compliance checking rules	Convention Providence
 laser_wavelength	laser wavelength	1550 nm	1550 nm	String: min 3 characters
 laser_pulse_energy	laser energy	1.0e-05 J	1.0e-05 J	String: min 3 characters
-pulse_repetition_frequency	pulse repetion frequency	15000 s-1	15000 s-1	String: min 3 characters
+pulse_repetition_frequency	pulse repetition frequency	15000 s-1	15000 s-1	String: min 3 characters
 pulses_per_ray	no pulses averaged to give a ray (500 - 15000)	15000		Integer
 rays_per_point	number of ray averaged to give a measurement	2		Integer
 lens_diameter	lens diameter	0.08 m	0.08 m	String: min 3 characters

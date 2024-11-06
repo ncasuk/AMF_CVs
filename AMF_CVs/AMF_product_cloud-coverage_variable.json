@@ -102,7 +102,7 @@
             "cell_methods": "time: mean",
             "coordinates": "latitude longitude"
         },
-        "window_transmttance": {
+        "window_transmittance": {
             "type": "float32",
             "dimension": "time",
             "units": "%",
@@ -137,7 +137,7 @@
         },
         "qc_flag": {
             "type": "byte",
-            "dimension": "time. layer_index",
+            "dimension": "time, layer_index",
             "units": "1",
             "long_name": "Data Quality flag",
             "flag_values": "0b,1b, 2b, 3b, 4b, 5b, 6b",

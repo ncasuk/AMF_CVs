@@ -52,7 +52,7 @@ air_temperature
 	dimension	time
 	units	K
 	standard_name	air_temperature
-	long_name	AirTemperature
+	long_name	Air Temperature
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -124,4 +124,4 @@ qc_flag
 	standard_name
 	long_name	Data Quality flag
 	flag_values	0b,1b,2b,3b
-	flag_meanings	not_used|good_data |suspect_data_no_measurable_ascent_rate|suspect_data_horizontal_wind_speed_==_0_m_s-1
+	flag_meanings	not_used|good_data |suspect_data_no_measurable_ascent_rate|suspect_data_horizontal_wind_speed_equals_0_m_s-1

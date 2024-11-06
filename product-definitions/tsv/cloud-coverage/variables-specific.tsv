@@ -107,7 +107,7 @@ window_contamination
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
-window_transmttance
+window_transmittance
 	type	float32
 	dimension	time
 	units	%
@@ -145,7 +145,7 @@ backscatter_sum
 
 qc_flag
 	type	byte
-	dimension	time. layer_index
+	dimension	time, layer_index
 	units	1
 	standard_name
 	long_name	Data Quality flag

@@ -16,14 +16,14 @@
         },
         "pulse_repetition_frequency": {
             "global_attribute_id": "pulse_repetition_frequency",
-            "description": "pulse repetion frequency",
+            "description": "pulse repetition frequency",
             "fixed_value": "15000 s-1",
             "compliance_checking_rules": "String: min 3 characters",
             "convention_providence": null
         },
         "pulses_per_ray": {
             "global_attribute_id": "pulses_per_ray",
-            "description": "no pulses averged to give a ray (500 - 1500)",
+            "description": "no pulses averaged to give a ray (500 - 1500)",
             "fixed_value": "",
             "compliance_checking_rules": "Integer",
             "convention_providence": null
