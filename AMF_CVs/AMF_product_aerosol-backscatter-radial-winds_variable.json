@@ -14,7 +14,7 @@
             "type": "float32",
             "dimension": "time, index_of_angle",
             "units": "degree",
-            "long_name": "Scanning head azimuth angle in the instrument fram of reference",
+            "long_name": "Scanning head azimuth angle in the instrument frame of reference",
             "_FillValue": -1e+20,
             "valid_min": "<derived from file>",
             "valid_max": "<derived from file>",
@@ -44,7 +44,7 @@
             "type": "float32",
             "dimension": "time, index_of_angle",
             "units": "degree",
-            "long_name": "Scanning head elevation angle in the Earth frame of refeence",
+            "long_name": "Scanning head elevation angle in the Earth frame of reference",
             "_FillValue": -1e+20,
             "valid_min": "<derived from file>",
             "valid_max": "<derived from file>",
@@ -86,6 +86,7 @@
         },
         "qc_flag_radial_velocity_of_scatterers_away_from_instrument": {
             "type": "byte",
+            "dimension": "time, index_of_range, index_of_angle",
             "units": "1",
             "long_name": "Data Quality flag: Radial Velocity of Scatterers Away From Instrument",
             "flag_values": "0b,1b, 2b, 3b, 4b, 5b, 6b, 7b, 8b, 9b",
@@ -93,6 +94,7 @@
         },
         "qc_flag_backscatter": {
             "type": "byte",
+            "dimension": "time, index_of_range, index_of_angle",
             "units": "1",
             "long_name": "Data Quality flag: Backscatter",
             "flag_values": "0b,1b, 2b, 3b, 4b, 5b, 6b, 7b, 8b, 9b",

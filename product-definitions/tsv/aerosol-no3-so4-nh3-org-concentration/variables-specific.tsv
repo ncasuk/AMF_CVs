@@ -25,7 +25,7 @@ mass_concentration_of_sulfate_in_ambient_aerosol_particles_in_air
 	coordinates	latitude longitude
 	chemical_species	SO4
 
-mass_concentration_of_ammonia_in_ ambient_aerosol_particles_in_air
+mass_concentration_of_ammonia_in_ambient_aerosol_particles_in_air
 	type	float32
 	dimension	time
 	units	ug cm-3
@@ -38,7 +38,7 @@ mass_concentration_of_ammonia_in_ ambient_aerosol_particles_in_air
 	coordinates	latitude longitude
 	chemical_species	NH3
 
-mass_concentration_of_organics_in_ ambient_aerosol_particles_in_air
+mass_concentration_of_organics_in_ambient_aerosol_particles_in_air
 	type	float32
 	dimension	time
 	units	ug cm-3

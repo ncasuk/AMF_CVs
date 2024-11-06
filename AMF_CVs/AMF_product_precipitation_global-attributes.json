@@ -2,9 +2,9 @@
     "product_precipitation_global-attributes": {
         "measurement_technique": {
             "global_attribute_id": "measurement_technique",
-            "description": "optical, peizoelectric, tipping_bucket, drop_counting, weighing, collecting, droplet_impact",
+            "description": "optical, piezoelectric, tipping_bucket, drop_counting, weighing, collecting, droplet_impact",
             "fixed_value": "",
-            "compliance_checking_rules": "One of: optical, peizoelectric, tipping_bucket, drop_counting, weighing, collecting, droplet_impact",
+            "compliance_checking_rules": "One of: optical, piezoelectric, tipping_bucket, drop_counting, weighing, collecting, droplet_impact",
             "convention_providence": null
         },
         "measurement_quanta": {

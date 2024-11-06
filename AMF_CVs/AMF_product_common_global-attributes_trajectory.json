@@ -3,7 +3,7 @@
         "Conventions": {
             "global_attribute_id": "Conventions",
             "description": "NetCDF Conventions being followed",
-            "fixed_value": "CF-1.6, NCAS-AMF-2.0.0",
+            "fixed_value": "CF-1.6 NCAS-GENERAL-2.1.0",
             "compliance_checking_rules": "Exact match",
             "convention_providence": "CF"
         },
@@ -72,9 +72,9 @@
         },
         "institution": {
             "global_attribute_id": "institution",
-            "description": "Institution the maker affliated to",
-            "fixed_value": "",
-            "compliance_checking_rules": "Exact match in vocabulary",
+            "description": "Institution the maker affiliated to",
+            "fixed_value": "National Centre for Atmospheric Science (NCAS)",
+            "compliance_checking_rules": "Exact match",
             "convention_providence": "CF"
         },
         "processing_software_url": {
@@ -179,14 +179,14 @@
             "global_attribute_id": "licence",
             "description": "Under what licence the data are being made available",
             "fixed_value": "Data usage licence - UK Government Open Licence agreement: http://www.nationalarchives.gov.uk/doc/open-government-licence",
-            "compliance_checking_rules": "Exact match of text to the left",
+            "compliance_checking_rules": "Exact match",
             "convention_providence": "AMF"
         },
         "acknowledgement": {
             "global_attribute_id": "acknowledgement",
             "description": "How should use of these data should be acknowledged",
             "fixed_value": "Acknowledgement of NCAS as the data provider is required whenever and wherever these data are used",
-            "compliance_checking_rules": "Exact match of text to the left",
+            "compliance_checking_rules": "Exact match",
             "convention_providence": "ACDD1.3"
         },
         "platform": {
@@ -200,7 +200,7 @@
             "global_attribute_id": "platform_type",
             "description": "Type of platform on which the instrument was deployed",
             "fixed_value": "",
-            "compliance_checking_rules": "Exact match in vocabulary",
+            "compliance_checking_rules": "One of: stationary_platform, moving_platform",
             "convention_providence": "AMF"
         },
         "deployment_mode": {
@@ -221,7 +221,7 @@
             "global_attribute_id": "featureType",
             "description": "Feature Type of measurements (set for each instrument type).",
             "fixed_value": "",
-            "compliance_checking_rules": "Exact match in vocabulary",
+            "compliance_checking_rules": "One of: timeSeries, timeSeriesProfile, trajectory",
             "convention_providence": "CF"
         },
         "time_coverage_start": {
@@ -254,7 +254,7 @@
         },
         "location_keywords": {
             "global_attribute_id": "location_keywords",
-            "description": "Comma-separated words to help locate the geographical positon of the deployment site",
+            "description": "Comma-separated words to help locate the geographical position of the deployment site",
             "fixed_value": "",
             "compliance_checking_rules": "String: min 3 characters",
             "convention_providence": "AMF"

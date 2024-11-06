@@ -52,7 +52,7 @@ qc_flag_channel_1_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 1 failed
+	long_name	Data Quality flag: Receiver channel 1 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
@@ -61,7 +61,7 @@ qc_flag_channel_2_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 2 failed
+	long_name	Data Quality flag: Receiver channel 2 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
@@ -70,7 +70,7 @@ qc_flag_channel_3_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 3 failed
+	long_name	Data Quality flag: Receiver channel 3 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
@@ -79,7 +79,7 @@ qc_flag_channel_4_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 4 failed
+	long_name	Data Quality flag: Receiver channel 4 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
@@ -88,7 +88,7 @@ qc_flag_channel_5_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 5 failed
+	long_name	Data Quality flag: Receiver channel 5 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
@@ -97,16 +97,16 @@ qc_flag_channel_6_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 6 failed
+	long_name	Data Quality flag: Receiver channel 6 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
 qc_flag_channel_7_failure
-	type	int32
+	type	byte
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 7 failed
+	long_name	Data Quality flag: Receiver channel 7 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
@@ -115,7 +115,7 @@ qc_flag_channel_8_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 8 failed
+	long_name	Data Quality flag: Receiver channel 8 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
@@ -124,7 +124,7 @@ qc_flag_channel_9_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 9 failed
+	long_name	Data Quality flag: Receiver channel 9 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
@@ -133,7 +133,7 @@ qc_flag_channel_10_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 10 failed
+	long_name	Data Quality flag: Receiver channel 10 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
@@ -142,7 +142,7 @@ qc_flag_channel_11_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 11 failed
+	long_name	Data Quality flag: Receiver channel 11 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
@@ -151,16 +151,16 @@ qc_flag_channel_12_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 12 failed
+	long_name	Data Quality flag: Receiver channel 12 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
 qc_flag_channel_13_failure
-	type	int32
+	type	byte
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 13 failed
+	long_name	Data Quality flag: Receiver channel 13 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 
@@ -169,7 +169,7 @@ qc_flag_channel_14_failure
 	dimension	time
 	units	1
 	standard_name
-	long_name	Data Quality flag: Receiver channel 14 failed
+	long_name	Data Quality flag: Receiver channel 14 failure
 	flag_values	0b,1b, 2b, 3b
 	flag_meanings	not_used|good_data |bad_data_channel_failure|suspect_data_time_stamp_error
 

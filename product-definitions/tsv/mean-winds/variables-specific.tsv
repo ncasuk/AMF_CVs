@@ -35,11 +35,11 @@ wind_from_direction
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
-wind_speed_of_gust_from_direction
+wind_gust_from_direction
 	type	float32
 	dimension	time
 	units	degree
-	standard_name		wind_speed_of_gust_from_direction
+	standard_name	wind_gust_from_direction
 	long_name	Direction of Maximum Wind Speed Observed in Averaging Period
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
@@ -174,7 +174,7 @@ qc_flag_sonic_temperature
 	units	1
 	standard_name
 	long_name	Data Quality flag: Sonic Temperature
-	flag_values	0b,1b, 2b, 3b
+	flag_values	0b,1b,2b,3b
 	flag_meanings	not_used|good_data|bad_data_value_outside_operational_range_(-30C_to_50C)|suspect_data_time_stamp_error
 
 qc_flag_wind_speed
@@ -183,8 +183,8 @@ qc_flag_wind_speed
 	units	1
 	standard_name
 	long_name	Data Quality flag: Wind Speed
-	flag_values	0b,1b, 2b, 3b, 4b
-	flag_meanings	not_used|good_data|bad_data_value_outside_operational_range_(0_to_50m_s-1)|suspect_data_measured_wind_speed_==_0|suspect_data_time_stamp_error
+	flag_values	0b,1b,2b,3b,4b
+	flag_meanings	not_used|good_data|bad_data_value_outside_operational_range_(0_to_50m_s-1)|suspect_data_measured_wind_speed_equals_0|suspect_data_time_stamp_error
 
 qc_flag_wind_direction
 	type	byte
@@ -192,8 +192,8 @@ qc_flag_wind_direction
 	units	1
 	standard_name
 	long_name	Data Quality flag: Wind Direction
-	flag_values	0b,1b, 2b, 3b, 4b
-	flag_meanings	not_used|good_data|bad_data_value_outside_operational_range_(0_to_360_degrees)|suspect_data_measured_wind_speed_==_0|suspect_data_time_stamp_error
+	flag_values	0b,1b,2b,3b,4b
+	flag_meanings	not_used|good_data|bad_data_value_outside_operational_range_(0_to_360_degrees)|suspect_data_measured_wind_speed_equals_0|suspect_data_time_stamp_error
 
 qc_flag_wind_component_eastward
 	type	byte
@@ -201,7 +201,7 @@ qc_flag_wind_component_eastward
 	units	1
 	standard_name
 	long_name	Data Quality flag: Eastward Wind Component (U)
-	flag_values	0b,1b, 2b, 3b
+	flag_values	0b,1b,2b,3b
 	flag_meanings	not_used|good_data|bad_data_value_outside_operational_range_(-50m_s-1_to_50m_s-1)|suspect_data_time_stamp_error
 
 qc_flag_wind_component_northward
@@ -210,7 +210,7 @@ qc_flag_wind_component_northward
 	units	1
 	standard_name
 	long_name	Data Quality flag: Northward Wind Component (V)
-	flag_values	0b,1b, 2b, 3b
+	flag_values	0b,1b,2b,3b
 	flag_meanings	not_used|good_data|bad_data_value_outside_operational_range_(-50m_s-1_to_50m_s-1)|suspect_data_time_stamp_error
 
 qc_flag_wind_component_upward_air_velocity
@@ -219,5 +219,5 @@ qc_flag_wind_component_upward_air_velocity
 	units	1
 	standard_name
 	long_name	Data Quality flag: Upward Air Velocity Component (W)
-	flag_values	0b,1b, 2b, 3b
+	flag_values	0b,1b,2b,3b
 	flag_meanings	not_used|good_data|bad_data_value_outside_operational_range_(-50m_s-1_to_50m_s-1)|suspect_data_time_stamp_error

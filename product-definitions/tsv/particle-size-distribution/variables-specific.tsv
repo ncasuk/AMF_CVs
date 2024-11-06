@@ -1,4 +1,4 @@
-Variable	Attribute	Value	Proposed name	example vale
+Variable	Attribute	Value	Proposed name	example value
 ambient_particle_diameter
 	type	float32
 	dimension	index
@@ -34,7 +34,7 @@ ambient_particle_number_per_channel
 	dimension	time, index
 	units	cm-3
 	standard_name		ambient_particle_number_per_channel
-	long_name	ambient particle number per channel (dN)
+	long_name	Ambient particle number per channel (dN)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>

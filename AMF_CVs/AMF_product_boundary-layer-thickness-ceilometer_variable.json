@@ -91,7 +91,7 @@
             "cell_methods": "time: mean",
             "coordinates": "latitude longitude"
         },
-        "window_transmttance": {
+        "window_transmittance": {
             "type": "float32",
             "dimension": "time",
             "units": "%",
@@ -126,9 +126,9 @@
         },
         "qc_flag": {
             "type": "byte",
-            "dimension": "time, layer_index",
+            "dimension": "time",
             "units": "1",
-            "long_name": "Data Quality flag: Cloud Base",
+            "long_name": "Data Quality flag",
             "flag_values": "0b,1b, 2b, 3b, 4b, 5b, 6b",
             "flag_meanings": "not_used|good_data |suspect_data_no_signifcant_backscatter|suspect_data_full_obscuration_determined_but_no_cloud_base_detected|suspect_data_some_obscuration_detected_but_determined_to_be_transparent|bad_data_raw_data_missing|suspect_data_time_stamp_error"
         }

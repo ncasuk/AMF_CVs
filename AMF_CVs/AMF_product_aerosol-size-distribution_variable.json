@@ -40,7 +40,7 @@
         "ambient_aerosol_size_distribution": {
             "type": "float32",
             "dimension": "time, index",
-            "units": "cm3-1 um-1",
+            "units": "cm-3 um-1",
             "long_name": "Ambient Aerosol Size Distribution (dN\\dD)",
             "_FillValue": -1e+20,
             "valid_min": "<derived from file>",
@@ -61,7 +61,7 @@
             "type": "float32",
             "dimension": "time",
             "units": "cm-3",
-            "long_name": "Number Concentration of Ambient Aerosol Particles in air (N)",
+            "long_name": "Total Number Concentration of Ambient Aerosol Particles in air (N)",
             "_FillValue": -1e+20,
             "valid_min": "<derived from file>",
             "valid_max": "<derived from file>",

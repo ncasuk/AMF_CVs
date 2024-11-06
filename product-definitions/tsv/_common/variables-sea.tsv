@@ -4,7 +4,7 @@ time
 	dimension	time
 	units	seconds since 1970-01-01 00:00:00
 	standard_name	time
-	long_name	Time (seconds since 1970-01-01)
+	long_name	Time (seconds since 1970-01-01 00:00:00)
 	axis	T
 	valid_min	<derived from file>	Check against array values
 	valid_max	<derived from file>	Check against array values
@@ -305,7 +305,7 @@ minute
 	valid_max	<derived from file>	Check against array values
 
 second
-	type	float64
+	type	float32
 	dimension	time
 	units	1
 	standard_name		No standard_name: this is intentional
