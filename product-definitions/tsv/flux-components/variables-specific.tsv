@@ -92,7 +92,7 @@ specific_humidity
 	cell_methods	time: point
 	coordinates	latitude longitude
 
-water_vapur_partial_pressure_in_air
+water_vapor_partial_pressure_in_air
 	type	float32
 	dimension	time, index
 	units	Pa
@@ -181,7 +181,7 @@ eastward_wind_rotated_to_run
 	dimension	time, index
 	units	m s-1
 	standard_name
-	long_name	Eastward Wind Component (U rotated to run)
+	long_name	U Wind Component (U rotated to run)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -193,7 +193,7 @@ northward_wind_rotated_to_run
 	dimension	time, index
 	units	m s-1
 	standard_name
-	long_name	Northward Wind Component (V rotated to run)
+	long_name	V Wind Component (V rotated to run)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -205,7 +205,7 @@ upward_air_velocity_rotated_to_run
 	dimension	time, index
 	units	m s-1
 	standard_name
-	long_name	Upward Air Velocity Component (W rotated to run)
+	long_name	W Air Velocity Component (W rotated to run)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -217,7 +217,7 @@ skew_eastward_wind
 	dimension	time
 	units	1
 	standard_name
-	long_name	Skew of Eastward Wind Component (U rotated to run)
+	long_name	Skew of U Wind Component (U rotated to run)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -229,7 +229,7 @@ skew_northward_wind
 	dimension	time
 	units	1
 	standard_name
-	long_name	Skew of Northward Wind Component (V rotated to run)
+	long_name	Skew of V Wind Component (V rotated to run)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>
@@ -241,7 +241,7 @@ skew_upward_air_velocity
 	dimension	time
 	units	1
 	standard_name
-	long_name	Skew of Upward Air Velocity Component (W rotated to run)
+	long_name	Skew of W Air Velocity Component (W rotated to run)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>

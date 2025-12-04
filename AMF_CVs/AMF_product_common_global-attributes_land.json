@@ -3,7 +3,7 @@
         "Conventions": {
             "global_attribute_id": "Conventions",
             "description": "NetCDF Conventions being followed",
-            "fixed_value": "CF-1.6 NCAS-GENERAL-2.1.0",
+            "fixed_value": "CF-1.6 NCAS-GENERAL-2.2.0",
             "compliance_checking_rules": "Exact match",
             "convention_providence": "CF"
         },
