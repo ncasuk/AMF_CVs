@@ -35,9 +35,9 @@ number_of_samples_in_run
 buoyancy_flux
 	type	float32
 	dimension	time
-	units	J m-2 s-1
+	units	W m-2
 	standard_name		buoyancy_flux
-	long_name	Buoyancy Flux (<w'Ts'>)
+	long_name	Buoyancy Flux (<w'Ts'>*rho*cp)
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>

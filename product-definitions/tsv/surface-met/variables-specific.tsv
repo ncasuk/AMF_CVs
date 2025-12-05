@@ -107,6 +107,18 @@ hail_rate
 	cell_methods	time: mean
 	coordinates	latitude longitude
 
+surface_temperature
+	type	float32
+	dimension	time
+	units	K
+	standard_name	surface_temperature
+	long_name	Surface Temperature
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
 downwelling_longwave_flux_in_air
 	type	float32
 	dimension	time
@@ -137,6 +149,66 @@ downwelling_total_irradiance
 	units	W m-2
 	standard_name			downwelling_total_irradiance
 	long_name	Downwelling Total Radiative Flux
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+direct_downwelling_shortwave_flux_in_air
+	type	float32
+	dimension	time
+	units	W m-2
+	standard_name	direct_downwelling_shortwave_flux_in_air
+	long_name	Direct Downwelling Shortwave Radiation
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+diffuse_downwelling_shortwave_flux_in_air
+	type	float32
+	dimension	time
+	units	W m-2
+	standard_name	diffuse_downwelling_shortwave_flux_in_air
+	long_name	Diffuse Downwelling Shortwave Radiation
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+upwelling_longwave_flux_in_air
+	type	float32
+	dimension	time
+	units	W m-2
+	standard_name	upwelling_longwave_flux_in_air
+	long_name	Upwelling Longwave Radiation
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+upwelling_shortwave_flux_in_air
+	type	float32
+	dimension	time
+	units	W m-2
+	standard_name	upwelling_shortwave_flux_in_air
+	long_name	Upwelling Shortwave Radiation
+	_FillValue	-1.00E+20
+	valid_min	<derived from file>
+	valid_max	<derived from file>
+	cell_methods	time: mean
+	coordinates	latitude longitude
+
+upwelling_total_irradiance
+	type	float32
+	dimension	time
+	units	W m-2
+	standard_name
+	long_name	Upwelling Total Radiative Flux
 	_FillValue	-1.00E+20
 	valid_min	<derived from file>
 	valid_max	<derived from file>

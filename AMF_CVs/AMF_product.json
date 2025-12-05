@@ -1,6 +1,7 @@
 {
     "product": [
         "acoustic-backscatter-winds",
+        "aerosol-backscatter-multi-wavelength",
         "aerosol-backscatter-radial-winds",
         "aerosol-backscatter",
         "aerosol-concentration",
@@ -15,7 +16,7 @@
         "ch4-co2-h2o-co-concentration",
         "ch4-co2-h2o-concentration",
         "ch4-concentration",
-        "ch4-n2o-co-concentration",
+        "ch4-n2o-co2-co-concentration",
         "cloud-base",
         "cloud-coverage",
         "co-concentration",
@@ -55,6 +56,7 @@
         "radar",
         "radiation",
         "radon-concentration",
+        "radon-radioactivity",
         "rain-lwc-velocity-reflectivity",
         "sf6-concentration",
         "size-concentration-spectra",
